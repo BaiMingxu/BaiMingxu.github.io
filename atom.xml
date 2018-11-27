@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://nlbsn.com/"/>
-  <updated>2018-11-27T07:05:40.604Z</updated>
+  <updated>2018-11-27T07:13:43.274Z</updated>
   <id>https://nlbsn.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>404 Not Found：该页无法显示</title>
+    <link href="https://nlbsn.com/posts/1d3f328c.html"/>
+    <id>https://nlbsn.com/posts/1d3f328c.html</id>
+    <published>2018-11-27T07:01:59.930Z</published>
+    <updated>2018-11-27T07:13:43.274Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;pre class=&quot;line-numbers language-html&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>汉字Unicode编码表</title>
@@ -66,9 +88,9 @@
       <category term="区块链" scheme="https://nlbsn.com/categories/%E5%8C%BA%E5%9D%97%E9%93%BE/"/>
     
     
-      <category term="比特币" scheme="https://nlbsn.com/tags/%E6%AF%94%E7%89%B9%E5%B8%81/"/>
-    
       <category term="区块链" scheme="https://nlbsn.com/tags/%E5%8C%BA%E5%9D%97%E9%93%BE/"/>
+    
+      <category term="比特币" scheme="https://nlbsn.com/tags/%E6%AF%94%E7%89%B9%E5%B8%81/"/>
     
   </entry>
   
@@ -94,9 +116,9 @@
       <category term="区块链" scheme="https://nlbsn.com/categories/%E5%8C%BA%E5%9D%97%E9%93%BE/"/>
     
     
-      <category term="比特币" scheme="https://nlbsn.com/tags/%E6%AF%94%E7%89%B9%E5%B8%81/"/>
-    
       <category term="区块链" scheme="https://nlbsn.com/tags/%E5%8C%BA%E5%9D%97%E9%93%BE/"/>
+    
+      <category term="比特币" scheme="https://nlbsn.com/tags/%E6%AF%94%E7%89%B9%E5%B8%81/"/>
     
   </entry>
   
