@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://nlbsn.com/"/>
-  <updated>2018-11-27T07:05:27.522Z</updated>
+  <updated>2018-11-27T07:05:40.602Z</updated>
   <id>https://nlbsn.com/</id>
   
   <author>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>404 Not Found：该页无法显示</title>
-    <link href="https://nlbsn.com/tagundefined/1d3f328c.html"/>
-    <id>https://nlbsn.com/tagundefined/1d3f328c.html</id>
+    <link href="https://nlbsn.com/posts/1d3f328c.html"/>
+    <id>https://nlbsn.com/posts/1d3f328c.html</id>
     <published>2018-11-27T07:01:59.930Z</published>
-    <updated>2018-11-27T07:05:27.522Z</updated>
+    <updated>2018-11-27T07:05:40.602Z</updated>
     
     <summary type="html">
     
@@ -41,10 +41,10 @@
   
   <entry>
     <title>汉字Unicode编码表</title>
-    <link href="https://nlbsn.com/tagundefined/c3bd9696.html"/>
-    <id>https://nlbsn.com/tagundefined/c3bd9696.html</id>
+    <link href="https://nlbsn.com/posts/c3bd9696.html"/>
+    <id>https://nlbsn.com/posts/c3bd9696.html</id>
     <published>2018-11-27T05:07:37.000Z</published>
-    <updated>2018-11-27T05:07:37.665Z</updated>
+    <updated>2018-11-27T07:05:40.604Z</updated>
     
     <summary type="html">
     
@@ -55,10 +55,10 @@
   
   <entry>
     <title>字符集和字符编码问题</title>
-    <link href="https://nlbsn.com/tagundefined/ef82378d.html"/>
-    <id>https://nlbsn.com/tagundefined/ef82378d.html</id>
+    <link href="https://nlbsn.com/posts/ef82378d.html"/>
+    <id>https://nlbsn.com/posts/ef82378d.html</id>
     <published>2018-11-27T04:40:49.000Z</published>
-    <updated>2018-11-27T04:40:49.777Z</updated>
+    <updated>2018-11-27T07:05:40.603Z</updated>
     
     <summary type="html">
     
@@ -69,8 +69,8 @@
   
   <entry>
     <title>⽐比特币客户端Bitcoin Core及Bitcoin-cli命令</title>
-    <link href="https://nlbsn.com/tagundefined/f69008c9.html"/>
-    <id>https://nlbsn.com/tagundefined/f69008c9.html</id>
+    <link href="https://nlbsn.com/posts/f69008c9.html"/>
+    <id>https://nlbsn.com/posts/f69008c9.html</id>
     <published>2018-11-02T05:26:38.000Z</published>
     <updated>2018-11-08T17:52:54.003Z</updated>
     
@@ -89,16 +89,16 @@
       <category term="区块链" scheme="https://nlbsn.com/categories/%E5%8C%BA%E5%9D%97%E9%93%BE/"/>
     
     
-      <category term="比特币" scheme="https://nlbsn.com/tags/%E6%AF%94%E7%89%B9%E5%B8%81/"/>
-    
       <category term="区块链" scheme="https://nlbsn.com/tags/%E5%8C%BA%E5%9D%97%E9%93%BE/"/>
+    
+      <category term="比特币" scheme="https://nlbsn.com/tags/%E6%AF%94%E7%89%B9%E5%B8%81/"/>
     
   </entry>
   
   <entry>
     <title>比特币及区块链中常见问题</title>
-    <link href="https://nlbsn.com/tagundefined/6a013406.html"/>
-    <id>https://nlbsn.com/tagundefined/6a013406.html</id>
+    <link href="https://nlbsn.com/posts/6a013406.html"/>
+    <id>https://nlbsn.com/posts/6a013406.html</id>
     <published>2018-10-30T13:41:21.000Z</published>
     <updated>2018-11-08T17:52:54.063Z</updated>
     
@@ -117,16 +117,16 @@
       <category term="区块链" scheme="https://nlbsn.com/categories/%E5%8C%BA%E5%9D%97%E9%93%BE/"/>
     
     
-      <category term="比特币" scheme="https://nlbsn.com/tags/%E6%AF%94%E7%89%B9%E5%B8%81/"/>
-    
       <category term="区块链" scheme="https://nlbsn.com/tags/%E5%8C%BA%E5%9D%97%E9%93%BE/"/>
+    
+      <category term="比特币" scheme="https://nlbsn.com/tags/%E6%AF%94%E7%89%B9%E5%B8%81/"/>
     
   </entry>
   
   <entry>
     <title>初识区块链家族</title>
-    <link href="https://nlbsn.com/tagundefined/24d6384d.html"/>
-    <id>https://nlbsn.com/tagundefined/24d6384d.html</id>
+    <link href="https://nlbsn.com/posts/24d6384d.html"/>
+    <id>https://nlbsn.com/posts/24d6384d.html</id>
     <published>2018-10-29T06:13:45.000Z</published>
     <updated>2018-11-08T17:52:54.060Z</updated>
     
@@ -152,8 +152,8 @@
   
   <entry>
     <title>Go语言发展历史</title>
-    <link href="https://nlbsn.com/tagundefined/d8c1eece.html"/>
-    <id>https://nlbsn.com/tagundefined/d8c1eece.html</id>
+    <link href="https://nlbsn.com/posts/d8c1eece.html"/>
+    <id>https://nlbsn.com/posts/d8c1eece.html</id>
     <published>2018-10-26T08:22:53.000Z</published>
     <updated>2018-11-14T10:45:36.255Z</updated>
     
