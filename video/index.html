@@ -12,10 +12,10 @@ xhr.onreadystatechange = function() {
 			var dp3= document.createElement("div");
 			dp1.classList.add("col","s12","m6",'l6');
 			dp1.setAttribute("data-aos", "fade-up");
+			dp1.style.height="330px";
 			parentDiv.appendChild(dp1);
 			dp3.id ="dplayer"+ob;
-			dp3.style.marginBottom="10px";
-			dp3.style.height="350px";
+			dp3.style.marginBottom="20px";
 			dp1.appendChild(dp3);
 			const dp = new DPlayer({
 				container: document.getElementById('dplayer'+ob),
