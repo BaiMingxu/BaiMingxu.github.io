@@ -10,6 +10,7 @@ xhr.onreadystatechange = function() {
 			var dp1= document.createElement("div"); 
 			var dp2= document.createElement("div"); 
 			var dp3= document.createElement("div");
+			var dp4= document.createElement("div");
 			dp1.classList.add("col","s12","m6",'l6');
 			dp1.setAttribute("data-aos", "fade-up");
 			parentDiv.appendChild(dp1);
@@ -18,6 +19,8 @@ xhr.onreadystatechange = function() {
 			dp1.appendChild(dp2);
 			dp3.id ="dplayer"+ob;
 			dp2.appendChild(dp3);
+			dp4.className = 'date11'; 
+			dp1.insertBefore(dp4,dp2.nextSibling);
 			const dp = new DPlayer({
 				container: document.getElementById('dplayer'+ob),
 				screenshot: false,
