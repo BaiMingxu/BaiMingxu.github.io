@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://nlbsn.com/"/>
-  <updated>2018-11-08T17:52:54.003Z</updated>
+  <updated>2018-11-27T07:05:27.522Z</updated>
   <id>https://nlbsn.com/</id>
   
   <author>
@@ -17,9 +17,60 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>404 Not Found：该页无法显示</title>
+    <link href="https://nlbsn.com/tagundefined/1d3f328c.html"/>
+    <id>https://nlbsn.com/tagundefined/1d3f328c.html</id>
+    <published>2018-11-27T07:01:59.930Z</published>
+    <updated>2018-11-27T07:05:27.522Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;pre class=&quot;line-numbers language-css&quot;&gt;&lt;code class=&quot;language-css&quot;&gt;&lt;span class=&quot;token selector&quot;&gt;&amp;lt;style type=&quot;text/css&quot;&gt;
+&lt;span
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>汉字Unicode编码表</title>
+    <link href="https://nlbsn.com/tagundefined/c3bd9696.html"/>
+    <id>https://nlbsn.com/tagundefined/c3bd9696.html</id>
+    <published>2018-11-27T05:07:37.000Z</published>
+    <updated>2018-11-27T05:07:37.665Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>字符集和字符编码问题</title>
+    <link href="https://nlbsn.com/tagundefined/ef82378d.html"/>
+    <id>https://nlbsn.com/tagundefined/ef82378d.html</id>
+    <published>2018-11-27T04:40:49.000Z</published>
+    <updated>2018-11-27T04:40:49.777Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>⽐比特币客户端Bitcoin Core及Bitcoin-cli命令</title>
-    <link href="https://nlbsn.com/posts/f69008c9.html"/>
-    <id>https://nlbsn.com/posts/f69008c9.html</id>
+    <link href="https://nlbsn.com/tagundefined/f69008c9.html"/>
+    <id>https://nlbsn.com/tagundefined/f69008c9.html</id>
     <published>2018-11-02T05:26:38.000Z</published>
     <updated>2018-11-08T17:52:54.003Z</updated>
     
@@ -46,8 +97,8 @@
   
   <entry>
     <title>比特币及区块链中常见问题</title>
-    <link href="https://nlbsn.com/posts/6a013406.html"/>
-    <id>https://nlbsn.com/posts/6a013406.html</id>
+    <link href="https://nlbsn.com/tagundefined/6a013406.html"/>
+    <id>https://nlbsn.com/tagundefined/6a013406.html</id>
     <published>2018-10-30T13:41:21.000Z</published>
     <updated>2018-11-08T17:52:54.063Z</updated>
     
@@ -74,8 +125,8 @@
   
   <entry>
     <title>初识区块链家族</title>
-    <link href="https://nlbsn.com/posts/24d6384d.html"/>
-    <id>https://nlbsn.com/posts/24d6384d.html</id>
+    <link href="https://nlbsn.com/tagundefined/24d6384d.html"/>
+    <id>https://nlbsn.com/tagundefined/24d6384d.html</id>
     <published>2018-10-29T06:13:45.000Z</published>
     <updated>2018-11-08T17:52:54.060Z</updated>
     
@@ -101,8 +152,8 @@
   
   <entry>
     <title>Go语言发展历史</title>
-    <link href="https://nlbsn.com/posts/d8c1eece.html"/>
-    <id>https://nlbsn.com/posts/d8c1eece.html</id>
+    <link href="https://nlbsn.com/tagundefined/d8c1eece.html"/>
+    <id>https://nlbsn.com/tagundefined/d8c1eece.html</id>
     <published>2018-10-26T08:22:53.000Z</published>
     <updated>2018-11-14T10:45:36.255Z</updated>
     
