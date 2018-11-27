@@ -11,7 +11,6 @@ xhr.onreadystatechange = function() {
 			var dp2= document.createElement("div"); 
 			var dp3= document.createElement("div");
 			var dp4= document.createElement("div");
-			var dp5= document.createElement("div");
 			dp1.classList.add("col","s12","m6",'l6');
 			dp1.setAttribute("data-aos", "fade-up");
 			parentDiv.appendChild(dp1);
@@ -21,12 +20,11 @@ xhr.onreadystatechange = function() {
 			dp3.id ="dplayer"+ob;
 			dp2.appendChild(dp3);
 			dp4.className = 'date11'; 
-			dp5.className = 'info-desc11'; 
 			dp1.insertBefore(dp4,dp2.nextSibling);
-			dp1.insertBefore(dp5,dp4.nextSibling);	
 			const dp = new DPlayer({
 				container: document.getElementById('dplayer'+ob),
 				screenshot: false,
+				loop: true,
 				video: {
 					url: k[ob].url,
 					pic: k[ob].pic,
@@ -40,8 +38,7 @@ xhr.onreadystatechange = function() {
 					api: 'https://api.prprpr.me/dplayer/'
 				}
 			});  
-			dp4.innerHTML = k[ob].title;
-			dp5.innerHTML = k[ob].desc;
+			dp4.innerHTML = k[ob].desc;
 		} 
 	}
 };
