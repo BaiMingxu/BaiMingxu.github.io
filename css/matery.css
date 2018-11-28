@@ -1459,10 +1459,10 @@ table tr:nth-child(2n), thead {
 .my-videos {
     position: relative;
     display: block;
-    width: 360px;
+    width: 100%;
     margin: 10px 10px;
     background: #eee;
-    height: 240px;
+    height: 350px;
     -webkit-transition: 0.4s linear;
     -moz-transition: 0.4s linear;
     -o-transition: 0.4s linear;

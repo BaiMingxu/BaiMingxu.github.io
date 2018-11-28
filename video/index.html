@@ -354,6 +354,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
 </div>
 <script type="text/javascript">
 var xhr = JSON.stringify('video/vdata.json')
+alert(xhr);
 k = JSON.parse(xhr);
 for(var ob in k) {
 	var	parentDiv = document.getElementById('pv')
