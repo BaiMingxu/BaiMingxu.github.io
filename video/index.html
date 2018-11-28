@@ -13,6 +13,8 @@ for(var ob in k) {
 	dp2.className = 'my-videos';
 	dp1.appendChild(dp2);
 	dp3.id ="dplayer"+ob;
+	dp3.style.margin="10px";
+	dp3.style.padding="10px";
 	dp2.appendChild(dp3);
 	const dp = new DPlayer({
 		container: document.getElementById('dplayer'+ob),
