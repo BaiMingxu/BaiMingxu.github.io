@@ -356,34 +356,35 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
 var xhr = JSON.stringify('[object Object]');
 k = JSON.parse(xhr);
 for(var ob in k) {
-	alert(k[ob].id);
-	var	parentDiv = document.getElementById('pv')
-	var dp1= document.createElement("div"); 
-	var dp3= document.createElement("div");
-	dp1.classList.add("col","s12","m6",'l6');
-	dp1.setAttribute("data-aos", "fade-up");
-	parentDiv.appendChild(dp1);
-	dp3.id ="dplayer"+ob;
-	dp3.className = 'my-videos';
-	dp1.appendChild(dp3);
-	const dp = new DPlayer({
-		container: document.getElementById('dplayer'+ob),
-		screenshot: false,
-		loop: true,
-		volume: 1,
-		video: {
-			url: k[ob].url,
-			pic: k[ob].pic,
-			thumbnails: k[ob].thumb
-		},
-		subtitle: {
-			url: 'webvtt.vtt'
-		},
-		danmaku: {
-			id:  k[ob],
-			api: 'https://api.prprpr.me/dplayer/'
-		}
-	});  
+	for(var o in k[ob]) {
+		var	parentDiv = document.getElementById('pv')
+		var dp1= document.createElement("div"); 
+		var dp3= document.createElement("div");
+		dp1.classList.add("col","s12","m6",'l6');
+		dp1.setAttribute("data-aos", "fade-up");
+		parentDiv.appendChild(dp1);
+		dp3.id ="dplayer"+ob;
+		dp3.className = 'my-videos';
+		dp1.appendChild(dp3);
+		const dp = new DPlayer({
+			container: document.getElementById('dplayer'+ob),
+			screenshot: false,
+			loop: true,
+			volume: 1,
+			video: {
+				url: o.url,
+				pic: o.pic,
+				thumbnails: o.thumb
+			},
+			subtitle: {
+				url: 'webvtt.vtt'
+			},
+			danmaku: {
+				id:  o,
+				api: 'https://api.prprpr.me/dplayer/'
+			}
+		});  
+	}
 } 
 
 
