@@ -1460,9 +1460,9 @@ table tr:nth-child(2n), thead {
     position: relative;
     display: block;
     width: 100%;
-    margin: 10px 10px;
+    margin: 10px 0px;
     background: #eee;
-    height: 350px;
+    height: 360px;
     -webkit-transition: 0.4s linear;
     -moz-transition: 0.4s linear;
     -o-transition: 0.4s linear;
