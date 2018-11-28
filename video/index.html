@@ -5,12 +5,9 @@ k = JSON.parse(xhr);
 for(var ob in k) {
 
 	var	parentDiv = document.getElementById('pv')
-	var line = document.createElement("hr");
 	var dp1= document.createElement("div"); 
 	var dp2= document.createElement("div");
 	var dp3= document.createElement("div");
-	line.className = 'video_line'; 
-	parentDiv.appendChild(line);
 	dp1.classList.add("col","s12","m6",'l6');
 	dp1.setAttribute("data-aos", "fade-up");
 	dp1.style.width="100%";
