@@ -9,13 +9,13 @@ for(var ob in k) {
 	var dp3= document.createElement("div");
 	dp1.classList.add("col","s12","m6",'l6');
 	dp1.setAttribute("data-aos", "fade-up");
-	dp1.style.height="292.42px";
+	dp1.style.width="100%";
+	p1.style.width="380px";
+	p1.style.margin="30px";
 	parentDiv.appendChild(dp1);
 	dp2.className = 'my-videos';
 	dp1.appendChild(dp2);
 	dp3.id ="dplayer"+ob;
-	dp3.style.margin="10px";
-	dp3.style.padding="10px";
 	dp2.appendChild(dp3);
 	const dp = new DPlayer({
 		container: document.getElementById('dplayer'+ob),
