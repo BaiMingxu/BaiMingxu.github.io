@@ -354,8 +354,11 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
 </div>
 <script type="text/javascript">
 var xhr = JSON.stringify('[object Object]');
+alert(xhr);
 k = JSON.parse(xhr);
+alert(k);
 for(var ob in k) {
+	alert(ob);
 	var	parentDiv = document.getElementById('pv')
 	var dp1= document.createElement("div"); 
 	var dp3= document.createElement("div");
@@ -371,15 +374,15 @@ for(var ob in k) {
 		loop: true,
 		volume: 1,
 		video: {
-			url: k[ob].url,
-			pic: k[ob].pic,
-			thumbnails: k[ob].thumb
+			url: ob.url,
+			pic: ob.pic,
+			thumbnails: ob.thumb
 		},
 		subtitle: {
 			url: 'webvtt.vtt'
 		},
 		danmaku: {
-			id:  k[ob],
+			id:  ob,
 			api: 'https://api.prprpr.me/dplayer/'
 		}
 	});  
