@@ -336,59 +336,6 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
 			<div class="card-content">
 				<div class="title center-align" data-aos="zoom-in-up">视频</div>
 					
-					  <link rel="stylesheet" href="/css/style.css">
-<link rel="stylesheet" href="/css/matery.css">
-<link rel="stylesheet" href="/libs/materialize/css/materialize.min.css">
-<link rel="stylesheet" type="text/css" href="/css/matery.css">
-<link rel="stylesheet" type="text/css" href="/css/my.css">
-<link href="https://cdn.bootcss.com/dplayer/1.25.0/DPlayer.min.css" rel="stylesheet">
-<script src="https://cdn.bootcss.com/dplayer/1.25.0/DPlayer.min.js"></script>
-<style>
-      
-.dplayer-full-in-icon {
-        display:none!important;
-}
-</style>
-<div class="my-gallery">
-<div class="row" id="pv"></div>
-</div>
-<script type="text/javascript">
-var xhr = JSON.stringify('video/vdata.json')
-alert(xhr);
-k = JSON.parse(xhr);
-for(var ob in k) {
-	var	parentDiv = document.getElementById('pv')
-	var dp1= document.createElement("div"); 
-	var dp3= document.createElement("div");
-	dp1.classList.add("col","s12","m6",'l6');
-	dp1.setAttribute("data-aos", "fade-up");
-	parentDiv.appendChild(dp1);
-	dp3.id ="dplayer"+ob;
-	dp3.className = 'my-videos';
-	dp1.appendChild(dp3);
-	const dp = new DPlayer({
-		container: document.getElementById('dplayer'+ob),
-		screenshot: false,
-		loop: true,
-		volume: 1,
-		video: {
-			url: k[ob].url,
-			pic: k[ob].pic,
-			thumbnails: k[ob].thumb
-		},
-		subtitle: {
-			url: 'webvtt.vtt'
-		},
-		danmaku: {
-			id:  k[ob],
-			api: 'https://api.prprpr.me/dplayer/'
-		}
-	});  
-} 
-
-
-</script>
-					
 
             </div>
         </div>
