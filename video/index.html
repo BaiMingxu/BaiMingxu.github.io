@@ -11,15 +11,18 @@ xhr.onreadystatechange = function() {
 			var dp2= document.createElement("div"); 
 			var dp3= document.createElement("div");
 			var dp4= document.createElement("div");
-			dp1.classList.add("col","s12","m6",'l6');
+			dp1.classList.add("col","s12","m6",'l4');
 			dp1.setAttribute("data-aos", "fade-up");
 			parentDiv.appendChild(dp1);
 			dp2.className = 'vplayer'; 
 			dp2.id = 'dp';
+			dp2.style.minHeight="370px;"
 			dp1.appendChild(dp2);
 			dp3.id ="dplayer"+ob;
+			dp3.style.height="80%";
 			dp2.appendChild(dp3);
-			dp4.className = 'date11'; 
+			dp4.className = 'date11';
+			dp4.style.height="20%";
 			dp2.appendChild(dp4);
 			const dp = new DPlayer({
 				container: document.getElementById('dplayer'+ob),
