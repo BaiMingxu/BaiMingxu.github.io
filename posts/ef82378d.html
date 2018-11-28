@@ -438,7 +438,7 @@
             <div class="post-info">
                 
 				<span class="post-date">
-					<i class="fa fa-file-word-o fa-fw"></i>5.6k
+					<i class="fa fa-file-word-o fa-fw"></i>5.5k
 				<span class="post-date">
 					<i class="fa fa-hourglass-half fa-fw"></i>20分
 				</span>
@@ -502,20 +502,28 @@
  3.  七个晶体管组合在⼀起就可以组合出128种不同的状态(=2的7次⽅)；
  4.  ⼋个晶体管组合在⼀起就可以组合出256种不同的状态(=2的8次⽅)。
 </code></pre><p><img src="https://wx4.sinaimg.cn/large/e64a4785gy1fxnshr4ecpj20pk0kiao3.jpg" alt=""></p>
-<h4 id="⼆、ASCII码"><a href="#⼆、ASCII码" class="headerlink" title="⼆、ASCII码"></a>⼆、ASCII码</h4><h5 id="（⼀）、ASCII码的由来"><a href="#（⼀）、ASCII码的由来" class="headerlink" title="（⼀）、ASCII码的由来"></a>（⼀）、ASCII码的由来</h5><pre><code>   1. ASCII码（American Standard Code for Information Interchange），它是“美国标准信息互换码”；  
-  + ASCII码是由美国国家标准学会(American National Standard Institute , ANSI )制定的，标准的单字节字符编码⽅案，⽤于基于⽂本的数据。起始于50年代后期，在1967年定案。它最初是美国国家标准，供不同计算机在相互通信时⽤作共同遵守的西⽂字符编码标准，它已被国标准化组织（International Organization for Standardization, ISO）定为国标准，称为ISO646标准。适⽤于所有拉丁⽂字⺟。
-  + 美国国家标准学会（American National Standards Institute:ANSI）。美国国家标准学会成⽴于1918年。当时，美国的许多企业和专业技术团体，已开始了标准化⼯作，但因彼此间没有协调，存在不少⽭盾和问题。为了进⼀步提⾼效率，数百个科技学会、协会组织和团体，均认为有必要成⽴⼀个专门的标准化机构，并制订统⼀的通⽤标准。
- 2. 计算机每个晶体管可以存储的两种状态，构成了计算机最⼩的存储单位：位（bit，⽐特）；
- 3. 七个晶体管组合出的128种不同的状态，每种状态保存⼀个字节，这就构 成了“标准的7位ASCII码”；128种状态⾜够保存美国所有的⽂化符号（⼤写26个字⺟、⼩写26个字⺟、0-9阿拉伯数字、所有的英⽂标点符号、数学运算符号、其他特殊符号以及控制码；ASCII码中编号0~31是⾮打印字符，⽤于控制字符的换⾏回⻋删除等。也统称为&quot;控制码&quot;；32~126 是打印字符，可以通过键盘输⼊并且能够显示出来。
-  + 编号48⾄57，保存的是数字0到9；
-  + 编号65⾄90，保存的是⼤写字⺟A到Z；
-  + 编号97⾄122，保存的是⼩写字⺟a到z；
-  + 其它位置保存的是标点符号、数学运算符号及特殊符号。
- 4. ⼋个晶体管可以组合256种不同的状态，这就是“扩展ASCII码”；
-  + 计算机起初是美国⽤于军事⽽发明的产物，后来更多国家开始使⽤计 算机，这些国家的字⺟是ASCII码中没有的；
-  + 后来IBM公司在此基础上进⾏了扩展，⽤8bit来表示⼀个字符，总共可以表示256个字符。当第⼀位是0时仍然表示7位ASCII码的字符，当第⼀位为1时就表示新补充的字符。
-  + 编号128到编号255的字符集被称为“扩展ASCII码”。
-</code></pre><h5 id="（⼆）、ASCII码的编号及对应字符"><a href="#（⼆）、ASCII码的编号及对应字符" class="headerlink" title="（⼆）、ASCII码的编号及对应字符"></a>（⼆）、ASCII码的编号及对应字符</h5><p><img src="https://wx1.sinaimg.cn/large/e64a4785gy1fxnsxc5fo7j21620r8b29.jpg" alt=""></p>
+<h4 id="⼆、ASCII码"><a href="#⼆、ASCII码" class="headerlink" title="⼆、ASCII码"></a>⼆、ASCII码</h4><h5 id="（⼀）、ASCII码的由来"><a href="#（⼀）、ASCII码的由来" class="headerlink" title="（⼀）、ASCII码的由来"></a>（⼀）、ASCII码的由来</h5><ol>
+<li>ASCII码（American Standard Code for Information Interchange），它是“美国标准信息互换码”；  <ul>
+<li>ASCII码是由美国国家标准学会(American National Standard Institute , ANSI )制定的，标准的单字节字符编码⽅案，⽤于基于⽂本的数据。起始于50年代后期，在1967年定案。它最初是美国国家标准，供不同计算机在相互通信时⽤作共同遵守的西⽂字符编码标准，它已被国标准化组织（International Organization for Standardization, ISO）定为国标准，称为ISO646标准。适⽤于所有拉丁⽂字⺟。</li>
+<li>美国国家标准学会（American National Standards Institute:ANSI）。美国国家标准学会成⽴于1918年。当时，美国的许多企业和专业技术团体，已开始了标准化⼯作，但因彼此间没有协调，存在不少⽭盾和问题。为了进⼀步提⾼效率，数百个科技学会、协会组织和团体，均认为有必要成⽴⼀个专门的标准化机构，并制订统⼀的通⽤标准。</li>
+</ul>
+</li>
+<li>计算机每个晶体管可以存储的两种状态，构成了计算机最⼩的存储单位：位（bit，⽐特）；</li>
+<li>七个晶体管组合出的128种不同的状态，每种状态保存⼀个字节，这就构 成了“标准的7位ASCII码”；128种状态⾜够保存美国所有的⽂化符号（⼤写26个字⺟、⼩写26个字⺟、0-9阿拉伯数字、所有的英⽂标点符号、数学运算符号、其他特殊符号以及控制码；ASCII码中编号0~31是⾮打印字符，⽤于控制字符的换⾏回⻋删除等。也统称为”控制码”；32~126 是打印字符，可以通过键盘输⼊并且能够显示出来。<ul>
+<li>编号48⾄57，保存的是数字0到9；</li>
+<li>编号65⾄90，保存的是⼤写字⺟A到Z；</li>
+<li>编号97⾄122，保存的是⼩写字⺟a到z；</li>
+<li>其它位置保存的是标点符号、数学运算符号及特殊符号。</li>
+</ul>
+</li>
+<li>⼋个晶体管可以组合256种不同的状态，这就是“扩展ASCII码”；<ul>
+<li>计算机起初是美国⽤于军事⽽发明的产物，后来更多国家开始使⽤计 算机，这些国家的字⺟是ASCII码中没有的；</li>
+<li>后来IBM公司在此基础上进⾏了扩展，⽤8bit来表示⼀个字符，总共可以表示256个字符。当第⼀位是0时仍然表示7位ASCII码的字符，当第⼀位为1时就表示新补充的字符。</li>
+<li>编号128到编号255的字符集被称为“扩展ASCII码”。</li>
+</ul>
+</li>
+</ol>
+<h5 id="（⼆）、ASCII码的编号及对应字符"><a href="#（⼆）、ASCII码的编号及对应字符" class="headerlink" title="（⼆）、ASCII码的编号及对应字符"></a>（⼆）、ASCII码的编号及对应字符</h5><p><img src="https://wx1.sinaimg.cn/large/e64a4785gy1fxnsxc5fo7j21620r8b29.jpg" alt=""></p>
 <p><img src="https://ws2.sinaimg.cn/large/e64a4785gy1fxnsyoikxlj20r00hlqsg.jpg" alt=""></p>
 <p><img src="https://ws4.sinaimg.cn/large/e64a4785gy1fxnsz6omimj20jf0hs4gx.jpg" alt=""></p>
 <p><img src="https://ws2.sinaimg.cn/large/e64a4785gy1fxnszwn6vej20jv0dkgy6.jpg" alt=""></p>
@@ -550,8 +558,7 @@
 <h5 id="（⼆）、GBK-字符集"><a href="#（⼆）、GBK-字符集" class="headerlink" title="（⼆）、GBK 字符集"></a>（⼆）、GBK 字符集</h5><p>​    中国的汉字太多，GB2312字符集中的6763个汉字不够使⽤，1993年⼜颁布了《汉字编码扩展规范》，也就是GBK 编码，GBK 包括 GB2312 的所有内 容，同时⼜增加了近20000个新的汉字（包括繁体字）和符号。</p>
 <h5 id="（三）、GB18030字符集"><a href="#（三）、GB18030字符集" class="headerlink" title="（三）、GB18030字符集"></a>（三）、GB18030字符集</h5><pre><code> 随着中国各少数⺠民族使⽤电脑，中⽂字符集继续扩展。国家标准GB18030- 2000《信息交换⽤汉字编码字符集基本集的补充》是我国继GB2312-1980和GB13000-1993之后最重要的汉字编码标准，GB18030字符集⼜加了⼏千个新的 少数⺠民族的⽂字。GB18030-2000是GBK的取代版本，它的主要特点是在GBK基 础上增加了CJK（china-japan-korea，中⽇韩）统⼀汉字扩充的汉字。
 </code></pre><h5 id="（四）、DBCS字符集"><a href="#（四）、DBCS字符集" class="headerlink" title="（四）、DBCS字符集"></a>（四）、DBCS字符集</h5><pre><code> GB2312、GBK、GB18030等⼀系列汉字编码，中国程序员通称他们叫做 &quot;DBCS&quot;（Double Byte Charecter Set 双字节字符集）。其最⼤的特点是：除 ASCII码字符外，其它的每个字符都占两个字节⻓长度。
-</code></pre><h4 id="四、Unicode字符集（UCS-，统⼀字符集、万国码、单⼀码）"><a href="#四、Unicode字符集（UCS-，统⼀字符集、万国码、单⼀码）" class="headerlink" title="四、Unicode字符集（UCS ，统⼀字符集、万国码、单⼀码）"></a>四、<strong>Unicode</strong>字符集<code>（UCS ，统⼀字符集、万国码、单⼀码）</code></h4><p>#####（⼀）、出现的原因</p>
-<ol>
+</code></pre><h4 id="四、Unicode字符集（UCS-，统⼀字符集、万国码、单⼀码）"><a href="#四、Unicode字符集（UCS-，统⼀字符集、万国码、单⼀码）" class="headerlink" title="四、Unicode字符集（UCS ，统⼀字符集、万国码、单⼀码）"></a>四、<strong>Unicode</strong>字符集<code>（UCS ，统⼀字符集、万国码、单⼀码）</code></h4><h5 id="（⼀）、出现的原因"><a href="#（⼀）、出现的原因" class="headerlink" title="（⼀）、出现的原因"></a>（⼀）、出现的原因</h5><ol>
 <li><p>当时各个国家都像中国这样搞出⼀套⾃⼰的编码标准，结果相互之间谁也不懂谁的编码，谁也不⽀持别⼈的编码，甚⾄中国⼤陆和中国台湾这样只相隔了150海⾥，使⽤着同⼀种语⾔的兄弟地区，也采⽤了不同的 DBCS 编码⽅案。 在1994年之前，也就是Unicode编码出现之前，⼤陆地区的中国⼈想使⽤台 湾软件，还必须加装⼀套⽀持 BIG5 编码的”倚天汉字系统”才可以⽤，装错了字符系统，显示就会乱码。</p>
 </li>
 <li><p>ISO （国际标准化组织 International Organization for Standardization）组 织着⼿解决编码不统⼀的问题舍弃了所有地区性编码⽅案，重新搞了⼀个包括了地球上所有⽂化、所有字 ⺟和符号的编码！做”Universal Multiple-Octet Coded Character Set”，（字 ⾯意思：全球通⽤的多⼋位字节字符集，中⽂名称为：统⼀字符集）简称UCS， 俗称 “Unicode”。</p>
@@ -559,14 +566,17 @@
 
 </li>
 </ol>
-<p>#####（⼆）、Unicode编码的特点</p>
-<pre><code>   1. Unicode 开始制订时，计算机的存储器容量极⼤地发展，空间再也不成为问 题。
-  + Unicode字符集中，ISO 直接规定必须⽤两个字节（UCS-2⽅案），也就 是16位来统⼀表示所有的字符；
-  + 对于ASCII码中的字符，Unicode 保持其原编码不变，但是将其⻓长度由原 来的8位扩展为16位，⽽其他⽂化和语⾔的字符则全部重新统⼀编码；
-  + 由于&quot;半⻆角&quot;英⽂符号只需要⽤到低8位，所以其⾼8位永远是0来补⻬齐，因 此这种⼤⽓的⽅案在保存英⽂⽂本时会多浪费⼀倍的空间。
- 2. Unicode 是⽤两个字节来表示为⼀个字符，总共可以组合出65536不同的字 符这⼤概已经可以覆盖世界上所有⽂化的符号。但是Unicode对汉字⽀持其实 依然不⾜够好，因为简体和繁体汉字总共有六七万个汉字，⽽UCS-2最多能表示 65536个，所以Unicode只能排除⼀些⼏乎不⽤的汉字，好在常⽤的简体汉字也 不过七千多个。为了能表示所有的汉字，ISO已经准备了UCS-4⽅案，给Unicode增加了UCS-4规范，就是⽤四个字节来表示⼀个字符，这样就可以保存 42亿个不同的字符了！
- 3. Unicode字符集中包含中⽂字符**20902**个。其中第⼀个是汉字“⼀”（位置编号为19968，⼗六进制表示为：\u4E00），最后⼀个是汉字“龥”（位置编号40869，⼗六进制表示为：\u9FA5）。请⼤家牢记：[\u4E00-\u9FA5]。它表示 Unicode字符集中第⼀个中⽂字符到最后⼀个中⽂字符的意思，换句话说它是所 有中⽂字的表达式。这在以后的⼯作中经常⽤到。
-</code></pre><p><code>备注：</code></p>
+<h5 id="（⼆）、Unicode编码的特点"><a href="#（⼆）、Unicode编码的特点" class="headerlink" title="（⼆）、Unicode编码的特点"></a>（⼆）、Unicode编码的特点</h5><ol>
+<li>Unicode 开始制订时，计算机的存储器容量极⼤地发展，空间再也不成为问 题。<ul>
+<li>Unicode字符集中，ISO 直接规定必须⽤两个字节（UCS-2⽅案），也就 是16位来统⼀表示所有的字符；</li>
+<li>对于ASCII码中的字符，Unicode 保持其原编码不变，但是将其⻓长度由原 来的8位扩展为16位，⽽其他⽂化和语⾔的字符则全部重新统⼀编码；</li>
+<li>由于”半⻆角”英⽂符号只需要⽤到低8位，所以其⾼8位永远是0来补⻬齐，因 此这种⼤⽓的⽅案在保存英⽂⽂本时会多浪费⼀倍的空间。</li>
+</ul>
+</li>
+<li>Unicode 是⽤两个字节来表示为⼀个字符，总共可以组合出65536不同的字 符这⼤概已经可以覆盖世界上所有⽂化的符号。但是Unicode对汉字⽀持其实 依然不⾜够好，因为简体和繁体汉字总共有六七万个汉字，⽽UCS-2最多能表示 65536个，所以Unicode只能排除⼀些⼏乎不⽤的汉字，好在常⽤的简体汉字也 不过七千多个。为了能表示所有的汉字，ISO已经准备了UCS-4⽅案，给Unicode增加了UCS-4规范，就是⽤四个字节来表示⼀个字符，这样就可以保存 42亿个不同的字符了！</li>
+<li>Unicode字符集中包含中⽂字符<strong>20902</strong>个。其中第⼀个是汉字“⼀”（位置编号为19968，⼗六进制表示为：\u4E00），最后⼀个是汉字“龥”（位置编号40869，⼗六进制表示为：\u9FA5）。请⼤家牢记：[\u4E00-\u9FA5]。它表示 Unicode字符集中第⼀个中⽂字符到最后⼀个中⽂字符的意思，换句话说它是所 有中⽂字的表达式。这在以后的⼯作中经常⽤到。</li>
+</ol>
+<p><code>备注：</code></p>
 <p>​    <code>“龥”字同【吁】字。</code></p>
 <ul>
 <li><code>⼀拼⾳xu1。</code><ul>
@@ -587,21 +597,18 @@
 <li>Unicode编码虽然与GBK都是双字节编码，但是Unicode编码中每个字符 都是两个字节，即便是原ASCII码中的字符也是两个字节；⽽GBK编码中依 然保留原ASCII码中的字符为单字节，除此之外的字符才是双字节。</li>
 </ul>
 </li>
-<li>5、Unicode 在制订时没有考虑与任何⼀种现有的编码⽅案保持兼容<ul>
+<li>Unicode 在制订时没有考虑与任何⼀种现有的编码⽅案保持兼容<ul>
 <li>因此 GBK 与Unicode 在汉字的内码编排上完全是不⼀样的，没有⼀种简单 的算术⽅法可以把⽂本内容从Unicode编码和另⼀种编码进⾏转换，这种转换必 须通过查表来进⾏。</li>
 </ul>
 </li>
 </ol>
-<h4 id="五、Unicode字符集的字符编码规则"><a href="#五、Unicode字符集的字符编码规则" class="headerlink" title="五、Unicode字符集的字符编码规则"></a>五、<strong>Unicode</strong>字符集的字符编码规则</h4><p>#####（⼀）、UTF编码</p>
-<pre><code> 1. 事实证明，对可以⽤ASCII表示的字符使⽤Unicode并不⾼效，因为Unicode⽐ASCII占⽤⼤⼀倍的空间。⼀个ASCII中的数字和字⺟，明明可以⽤⼋位0和1就表示清楚，Unicode⾮ 要⽤16位来表示。那么多余的那8位（也就是⾼字节）⽤0来补⻬齐，对ASCII码来 说⾼字节的0毫⽆⽤处，⽩⽩浪费了空间。 为了保证在⽹络传输中减少不必要的流量浪费，提升⽂本传输速度，出现了 ⼀些中间格式的字符集，他们被称为统⼀的转换格式，即UTF系列编码（Unicode Transformation Format）。UTF是Unicode字符集的编码⽅式。 常⻅见的UTF格式有：UTF-8、UTF-16以及 UTF-32。⽆论是UTF-16还是 UTF-8都是处理Unicode字符集的，但是它们的编码规则不相同。
-</code></pre><p>#####（⼆）、UTF-16编码</p>
-<pre><code>   1. UTF-16⽐较好理解，就是任何字符都⽤两个字节来保存。
+<h4 id="五、Unicode字符集的字符编码规则"><a href="#五、Unicode字符集的字符编码规则" class="headerlink" title="五、Unicode字符集的字符编码规则"></a>五、<strong>Unicode</strong>字符集的字符编码规则</h4><h5 id="（⼀）、UTF编码"><a href="#（⼀）、UTF编码" class="headerlink" title="（⼀）、UTF编码"></a>（⼀）、UTF编码</h5><pre><code> 1. 事实证明，对可以⽤ASCII表示的字符使⽤Unicode并不⾼效，因为Unicode⽐ASCII占⽤⼤⼀倍的空间。⼀个ASCII中的数字和字⺟，明明可以⽤⼋位0和1就表示清楚，Unicode⾮ 要⽤16位来表示。那么多余的那8位（也就是⾼字节）⽤0来补⻬齐，对ASCII码来 说⾼字节的0毫⽆⽤处，⽩⽩浪费了空间。 为了保证在⽹络传输中减少不必要的流量浪费，提升⽂本传输速度，出现了 ⼀些中间格式的字符集，他们被称为统⼀的转换格式，即UTF系列编码（Unicode Transformation Format）。UTF是Unicode字符集的编码⽅式。 常⻅见的UTF格式有：UTF-8、UTF-16以及 UTF-32。⽆论是UTF-16还是 UTF-8都是处理Unicode字符集的，但是它们的编码规则不相同。
+</code></pre><h5 id="（⼆）、UTF-16编码"><a href="#（⼆）、UTF-16编码" class="headerlink" title="（⼆）、UTF-16编码"></a>（⼆）、UTF-16编码</h5><pre><code>   1. UTF-16⽐较好理解，就是任何字符都⽤两个字节来保存。
   +  Unicode在定义时就是两个字节表示⼀个字符，因此常常将Unicode与 UTF-16等同对待；
   +  UTF-16编码效率最⾼，字符到字节相互转换更简单，进⾏字符串操作也更好。它适合在本地磁盘和内存之间使⽤，可以进⾏字符和字节之间的快速 切换，如Java的内存编码就采⽤UTF-16编码；
   +  UTF-16不够经济，如果⽂档中都是英⽂字⺟，那么这个做就⾮常浪费。明明⽤⼀个字节就能保存的偏⽤两个字节来保存。尤其在现在的⽹络带宽还 有限的今天，使⽤UTF-16编码会增⼤⽹络传输的流量，很没必要；
   +  UTF-16编码不适合在⽹络之间传输，因为⽹络传输容易损坏字节流，⼀ 旦字节流损坏将很难恢复。
-</code></pre><p>#####（三）、UTF-8编码</p>
-<ol>
+</code></pre><h5 id="（三）、UTF-8编码"><a href="#（三）、UTF-8编码" class="headerlink" title="（三）、UTF-8编码"></a>（三）、UTF-8编码</h5><ol>
 <li><p>utf-8编码是Unicode字符集最常⽤的编码⽅式。</p>
 <ul>
 <li>UTF-8⽐UTF-16的解码要复杂。UTF-8编码是可变字节编码；</li>
@@ -622,9 +629,8 @@
 </ul>
 </li>
 </ul>
-<ol start="2">
-<li>UTF-8⽂件的解码过程</li>
-</ol>
+</li>
+<li><p>UTF-8⽂件的解码过程</p>
 <ul>
 <li><p>建议使⽤的软件⼯具：</p>
 <ul>
@@ -692,25 +698,21 @@
 <h5 id="（四）、UTF-8-编码（UTF-8-with-BOM）"><a href="#（四）、UTF-8-编码（UTF-8-with-BOM）" class="headerlink" title="（四）、UTF-8+编码（UTF-8 with BOM）"></a>（四）、UTF-8+编码（UTF-8 with BOM）</h5><ol>
 <li><p>BOM （Byte Order Mark ， 字节序列标记）</p>
 <p>如果⽤记事本把⼀个⽂本⽂件另存为UTF-8编码⽅式的话，⽤ultraEditor打 开这个⽂件，切换到⼗六进制编辑状态就可以看到开头的EF BB BF了。这是个标 识UTF-8编码⽂件的好办法。如果接收者收到以EF BB BF开头的字节流，就知道 这是UTF-8编码的⽂件。所以UTF-8可以⽤BOM来表明编码⽅式。<br>其实EF BB BF的⼆进制编码为：<br> EF 11101111<br> BB 10111011<br> BF 10111111<br> 转成Unicode⼆进制编码为：1111111011111111 ⼗进制编号为：65279<br> 在html⻚页⾯上输出为：空格</p>
-<ol start="2">
-<li>UTF-8编码的⽂件中，BOM占三个字节。</li>
-</ol>
+</li>
+<li><p>UTF-8编码的⽂件中，BOM占三个字节。</p>
 <p><img src="https://wx3.sinaimg.cn/large/e64a4785gy1fxnuyh567kj20hq0gw44m.jpg" alt=""></p>
 </li>
 </ol>
-<p>#####（五）、UTF-16 with BOM编码</p>
-<ol>
+<h5 id="（五）、UTF-16-with-BOM编码"><a href="#（五）、UTF-16-with-BOM编码" class="headerlink" title="（五）、UTF-16 with BOM编码"></a>（五）、UTF-16 with BOM编码</h5><ol>
 <li><p>保存的⽂件类型为UTF-16，那么开头的字节流是：FF FE （表示UTF- 16）。</p>
 <p>FF FE的⼆进制编码为：11111111 11111110 Unicode⼆进制编码同上。</p>
 <p>⼗进制编号为：65534</p>
 <p>在html⻚页⾯上输出为：空格</p>
-<ol start="2">
-<li>UTF-16编码的⽂件中，BOM占两个字节。</li>
-</ol>
+</li>
+<li><p>UTF-16编码的⽂件中，BOM占两个字节。</p>
 </li>
 </ol>
-<h4 id="六、“奇怪的联通现象”"><a href="#六、“奇怪的联通现象”" class="headerlink" title="六、“奇怪的联通现象”"></a>六、“奇怪的联通现象”</h4><p>#####（⼀）、测试步骤:</p>
-<ol>
+<h4 id="六、“奇怪的联通现象”"><a href="#六、“奇怪的联通现象”" class="headerlink" title="六、“奇怪的联通现象”"></a>六、“奇怪的联通现象”</h4><h5 id="（⼀）、测试步骤"><a href="#（⼀）、测试步骤" class="headerlink" title="（⼀）、测试步骤:"></a>（⼀）、测试步骤:</h5><ol>
 <li><p>有个很著名的奇怪现象：当你在 windows 的记 事本⾥新建⼀个⽂件，输⼊”联通”两个字之后，保存，关闭，然后双击⽂件 打开。观察到什么了吗？</p>
 <p>⽂字消失，取⽽代之的是⼏个乱码！</p>
 <p>再试试输⼊“⼒挺联通”，保存后打开会如何呢？莫⾮联通得罪了微软？</p>
