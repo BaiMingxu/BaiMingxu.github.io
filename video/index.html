@@ -356,9 +356,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
 var xhr = JSON.stringify('[object Object]');
 k = JSON.parse(xhr);
 for(var ob in k) {
-	alert(ob);
-	alert(ob.id);
-	alert(ob[id]);
+	alert(k[ob][id]);
 	var	parentDiv = document.getElementById('pv')
 	var dp1= document.createElement("div"); 
 	var dp3= document.createElement("div");
