@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://nlbsn.com/"/>
-  <updated>2018-11-27T07:05:40.604Z</updated>
+  <updated>2018-11-28T05:57:37.997Z</updated>
   <id>https://nlbsn.com/</id>
   
   <author>
@@ -21,34 +21,9 @@
     <link href="https://nlbsn.com/posts/c3bd9696.html"/>
     <id>https://nlbsn.com/posts/c3bd9696.html</id>
     <published>2018-11-27T05:07:37.000Z</published>
-    <updated>2018-11-27T07:05:40.604Z</updated>
+    <updated>2018-11-28T05:57:37.997Z</updated>
     
     <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>字符集和字符编码问题</title>
-    <link href="https://nlbsn.com/posts/ef82378d.html"/>
-    <id>https://nlbsn.com/posts/ef82378d.html</id>
-    <published>2018-11-27T04:40:49.000Z</published>
-    <updated>2018-11-28T05:04:19.845Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;blockquote&gt;
-&lt;p&gt;fafafafBufa fnafn&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;pre class=&quot; language-go&quot;&gt;&lt;code class=&quot;language-go&quot;&gt;&lt;span class=&quot;token
-        
-      
     
     </summary>
     
@@ -161,6 +136,37 @@
     
     
       <category term="GoLang" scheme="https://nlbsn.com/tags/GoLang/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>字符集和字符编码问题</title>
+    <link href="https://nlbsn.com/posts/ef82378d.html"/>
+    <id>https://nlbsn.com/posts/ef82378d.html</id>
+    <published>2018-08-07T04:40:49.000Z</published>
+    <updated>2018-11-28T08:55:19.835Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;font size=&quot;5&quot;&gt;&lt;strong&gt;字符集和字符编码问题&lt;/strong&gt;&lt;/font&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;一、字符集及字符编码概述&quot;&gt;&lt;a href=&quot;#一、字符集及字符编码概述&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="计算机基础" scheme="https://nlbsn.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/"/>
+    
+    
+      <category term="字符集" scheme="https://nlbsn.com/tags/%E5%AD%97%E7%AC%A6%E9%9B%86/"/>
+    
+      <category term="字符编码" scheme="https://nlbsn.com/tags/%E5%AD%97%E7%AC%A6%E7%BC%96%E7%A0%81/"/>
     
   </entry>
   
