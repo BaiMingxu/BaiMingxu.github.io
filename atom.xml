@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://nlbsn.com/"/>
-  <updated>2018-11-28T09:53:16.190Z</updated>
+  <updated>2018-11-29T01:42:33.140Z</updated>
   <id>https://nlbsn.com/</id>
   
   <author>
@@ -17,16 +17,31 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>汉字Unicode编码表</title>
-    <link href="https://nlbsn.com/posts/c3bd9696.html"/>
-    <id>https://nlbsn.com/posts/c3bd9696.html</id>
-    <published>2018-11-27T05:07:37.000Z</published>
-    <updated>2018-11-28T09:53:16.190Z</updated>
+    <title>Golang安装和配置</title>
+    <link href="https://nlbsn.com/posts/883f59cd.html"/>
+    <id>https://nlbsn.com/posts/883f59cd.html</id>
+    <published>2018-10-29T01:21:23.000Z</published>
+    <updated>2018-11-29T01:42:33.140Z</updated>
     
     <summary type="html">
     
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;###&lt;strong&gt;Golang&lt;/strong&gt;安装和配置&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;⼀、Golang安装&quot;&gt;&lt;a href=&quot;#⼀、Golang安装&quot; class=&quot;headerlink&quot;
+        
+      
+    
     </summary>
     
+      <category term="golang" scheme="https://nlbsn.com/categories/golang/"/>
+    
+    
+      <category term="环境安装" scheme="https://nlbsn.com/tags/%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85/"/>
     
   </entry>
   
@@ -34,8 +49,8 @@
     <title>⽐比特币客户端Bitcoin Core及Bitcoin-cli命令</title>
     <link href="https://nlbsn.com/posts/f69008c9.html"/>
     <id>https://nlbsn.com/posts/f69008c9.html</id>
-    <published>2018-11-02T05:26:38.000Z</published>
-    <updated>2018-11-28T09:01:36.852Z</updated>
+    <published>2017-11-02T05:26:38.000Z</published>
+    <updated>2018-11-29T00:29:34.160Z</updated>
     
     <summary type="html">
     
@@ -62,8 +77,8 @@
     <title>比特币及区块链中常见问题</title>
     <link href="https://nlbsn.com/posts/6a013406.html"/>
     <id>https://nlbsn.com/posts/6a013406.html</id>
-    <published>2018-10-30T13:41:21.000Z</published>
-    <updated>2018-11-28T09:01:05.043Z</updated>
+    <published>2017-10-30T13:41:21.000Z</published>
+    <updated>2018-11-29T00:29:44.555Z</updated>
     
     <summary type="html">
     
@@ -90,8 +105,8 @@
     <title>初识区块链家族</title>
     <link href="https://nlbsn.com/posts/24d6384d.html"/>
     <id>https://nlbsn.com/posts/24d6384d.html</id>
-    <published>2018-10-29T06:13:45.000Z</published>
-    <updated>2018-11-28T09:00:47.976Z</updated>
+    <published>2017-10-29T06:13:45.000Z</published>
+    <updated>2018-11-29T00:28:44.897Z</updated>
     
     <summary type="html">
     
@@ -117,8 +132,8 @@
     <title>Go语言发展历史</title>
     <link href="https://nlbsn.com/posts/d8c1eece.html"/>
     <id>https://nlbsn.com/posts/d8c1eece.html</id>
-    <published>2018-10-26T08:22:53.000Z</published>
-    <updated>2018-11-14T10:45:36.255Z</updated>
+    <published>2017-10-26T08:22:53.000Z</published>
+    <updated>2018-11-29T00:30:07.148Z</updated>
     
     <summary type="html">
     
@@ -143,8 +158,8 @@
     <title>字符集和字符编码问题</title>
     <link href="https://nlbsn.com/posts/ef82378d.html"/>
     <id>https://nlbsn.com/posts/ef82378d.html</id>
-    <published>2018-08-07T04:40:49.000Z</published>
-    <updated>2018-11-28T10:48:02.003Z</updated>
+    <published>2016-08-07T04:40:49.000Z</published>
+    <updated>2018-11-29T00:27:09.569Z</updated>
     
     <summary type="html">
     
