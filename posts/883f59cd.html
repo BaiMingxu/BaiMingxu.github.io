@@ -30,7 +30,7 @@ Golang安装和配置
     <link rel="stylesheet" type="text/css" href="/css/my.css">
 
     <script src="/libs/jquery/jquery-2.2.0.min.js"></script>
-</head>
+<link rel="stylesheet" href="/css/prism-base16-ateliersulphurpool.light.css" type="text/css"></head>
 
 </head>
 
@@ -390,12 +390,12 @@ Golang安装和配置
 </ul>
 <p><img src="https://ws3.sinaimg.cn/large/e64a4785gy1fxoolu8m1fj20bf0bxtbc.jpg" alt="">  </p>
 <p>修改：</p>
-<pre><code>* Path：在path中增加：C:\Go\bin;%GOPATH%\bin;
+<pre><code> * Path：在path中增加：C:\Go\bin;%GOPATH%\bin;
 
- 需要把GOPATH中的可执⾏⽬录也配置到环境变量中, 否则你⾃⾏下载的第 三⽅go⼯具就⽆法使⽤了
+  需要把GOPATH中的可执⾏⽬录也配置到环境变量中, 否则你⾃⾏下载的第 三⽅go⼯具就⽆法使⽤了
 </code></pre><p><img src="https://ws3.sinaimg.cn/large/e64a4785gy1fxoon98qwsj20cf0ctn0l.jpg" alt="">  </p>
-<pre><code>* ⼯作⽬录就是我们⽤来存放开发的源代码的地⽅，对应的也是Go⾥的GOPATH这个环境变量。这个环境变量指定之后，我们编译源代码等⽣成的 ⽂件都会放到这个⽬录下，GOPATH环境变量的配置参考上⾯的安装Go，配 置到Windows下的系统变量⾥。
-* GOPATH之下主要包含三个⽬录: bin、pkg、src。bin⽬录主要存放可执⾏⽂件; pkg⽬录存放编译好的库⽂件, 主要是*.a⽂件; src⽬录下主要存放go 的源⽂件
+<pre><code> * ⼯作⽬录就是我们⽤来存放开发的源代码的地⽅，对应的也是Go⾥的GOPATH这个环境变量。这个环境变量指定之后，我们编译源代码等⽣成的 ⽂件都会放到这个⽬录下，GOPATH环境变量的配置参考上⾯的安装Go，配 置到Windows下的系统变量⾥。
+ * GOPATH之下主要包含三个⽬录: bin、pkg、src。bin⽬录主要存放可执⾏⽂件; pkg⽬录存放编译好的库⽂件, 主要是*.a⽂件; src⽬录下主要存放go 的源⽂件
 </code></pre><ol start="2">
 <li><p>查看是否安装配置成功</p>
 <p>使⽤快捷键win+R键，输⼊cmd，打开命令⾏提示符，在命令⾏中输⼊ go env # 查看得到go的配置信息</p>
@@ -403,18 +403,18 @@ Golang安装和配置
 </li>
 </ol>
 <h4 id="三、mac系统安装并配置"><a href="#三、mac系统安装并配置" class="headerlink" title="三、mac系统安装并配置"></a>三、<strong>mac</strong>系统安装并配置</h4><h5 id="（⼀）、安装"><a href="#（⼀）、安装" class="headerlink" title="（⼀）、安装"></a>（⼀）、安装</h5><p>​    双击pkg包，顺着指引，即可安装成功。 在命令⾏输⼊ go version，获取到go的 版本号，则代表安装成功。</p>
-<h5 id="（⼆）、配置环境变量-1"><a href="#（⼆）、配置环境变量-1" class="headerlink" title="（⼆）、配置环境变量"></a>（⼆）、配置环境变量</h5><pre><code>1. 打开终端输⼊cd ~进⼊⽤户主⽬录;
-2. 输⼊ls -all命令查看是否存在.bash_profile
-3. 存在既使⽤vim .bash_profile 打开⽂件;
-4. 输⼊ i 进⼊vim编辑模式；
-5. 输⼊下⾯代码， 其中 GOPATH: ⽇常开发的根⽬录。GOBIN:是GOPATH下的 bin⽬录。
-    * export GOPATH=/Users/steven/Documents/go_projec
-    * export GOROOT= /Usr/local/go
-    * export GOBIN=$GOROOT/bin
-    * export PATH=$PATH:$GOBIN
-6. 点击ESC，并输⼊ :wq 保存并退出编辑。可输⼊vim .bash_profile 查看是否 保存成功。
-7. 输⼊source ~/.bash_profile 完成对golang环境变量的配置，配置成功没有提 示。
-8. 输⼊go env 查看配置结果
+<h5 id="（⼆）、配置环境变量-1"><a href="#（⼆）、配置环境变量-1" class="headerlink" title="（⼆）、配置环境变量"></a>（⼆）、配置环境变量</h5><pre><code> 1. 打开终端输⼊cd ~进⼊⽤户主⽬录;
+ 2. 输⼊ls -all命令查看是否存在.bash_profile
+ 3. 存在既使⽤vim .bash_profile 打开⽂件;
+ 4. 输⼊ i 进⼊vim编辑模式；
+ 5. 输⼊下⾯代码， 其中 GOPATH: ⽇常开发的根⽬录。GOBIN:是GOPATH下的 bin⽬录。
+     * export GOPATH=/Users/steven/Documents/go_projec
+     * export GOROOT= /Usr/local/go
+     * export GOBIN=$GOROOT/bin
+     * export PATH=$PATH:$GOBIN
+ 6. 点击ESC，并输⼊ :wq 保存并退出编辑。可输⼊vim .bash_profile 查看是否 保存成功。
+ 7. 输⼊source ~/.bash_profile 完成对golang环境变量的配置，配置成功没有提 示。
+ 8. 输⼊go env 查看配置结果
 </code></pre>
             </div>
             <hr>
@@ -567,12 +567,9 @@ Golang安装和配置
 	<div class="comment"></div>
 	<script>
         new Valine({
-			av: AV,
             el: '.comment',
             notify: false,
             verify: false,
-			emoticon_url: 'https://cloud.panjunwen.com/alu',
-			emoticon_list: ["吐.png","喷血.png","狂汗.png","不说话.png","汗.png","坐等.png","献花.png","不高兴.png","中刀.png","害羞.png","皱眉.png","小眼睛.png","中指.png","尴尬.png","瞅你.png","想一想.png","中枪.png","得意.png","肿包.png","扇耳光.png","亲亲.png","惊喜.png","脸红.png","无所谓.png","便便.png","愤怒.png","蜡烛.png","献黄瓜.png","内伤.png","投降.png","观察.png","看不见.png","击掌.png","抠鼻.png","邪恶.png","看热闹.png","口水.png","抽烟.png","锁眉.png","装大款.png","吐舌.png","无奈.png","长草.png","赞一个.png","呲牙.png","无语.png","阴暗.png","不出所料.png","咽气.png","期待.png","高兴.png","吐血倒地.png","哭泣.png","欢呼.png","黑线.png","喜极而泣.png","喷水.png","深思.png","鼓掌.png","暗地观察.png"],
             app_id: 'B8rpy4srnRGi45Bf5LnjHijX-9Nh9j0Va',
             app_key: 'cMaKM9IAt2UR3hQDD6ot7Bag',
 			avatar: '',
