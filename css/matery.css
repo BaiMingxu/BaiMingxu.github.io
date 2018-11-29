@@ -99,8 +99,11 @@ pre {
     overflow: auto;
     border-radius: 0.35rem;
     tab-size: 4;
-    white-space: normal;
-    word-break: break-all;
+    white-space: pre-wrap; /*css-3*/ 
+    white-space: -moz-pre-wrap; /*Mozilla,since1999*/ 
+    white-space: -pre-wrap; /*Opera4-6*/ 
+    white-space: -o-pre-wrap; /*Opera7*/ 
+    word-wrap: break-word; /*InternetExplorer5.5+*/ 
     
 }
 
@@ -875,6 +878,10 @@ article .article-tags .chip {
     font-size: 1.05rem;
     color: #42b983;
     font-weight: 500;
+}
+
+#articleContent {
+    white-space: normal; 
 }
 
 #articleContent p {

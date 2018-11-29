@@ -433,7 +433,7 @@ Golang安装和配置
             <div class="post-info">
                 
 				<span class="post-date">
-					<i class="fa fa-file-word-o fa-fw"></i>796
+					<i class="fa fa-file-word-o fa-fw"></i>790
 				<span class="post-date">
 					<i class="fa fa-hourglass-half fa-fw"></i>3分
 				</span>
@@ -481,7 +481,7 @@ Golang安装和配置
 
   需要把GOPATH中的可执⾏⽬录也配置到环境变量中, 否则你⾃⾏下载的第 三⽅go⼯具就⽆法使⽤了
 </code></pre><p><img src="https://ws3.sinaimg.cn/large/e64a4785gy1fxoon98qwsj20cf0ctn0l.jpg" alt="">  </p>
-<p>⼯作⽬录就是我们⽤来存放开发的源代码的地⽅，对应的也是Go⾥的GOPATH这个环境变量。这个环境变量指定之后，我们编译源代码等⽣成的 ⽂件都会放到这个⽬录下，GOPATH环境变量的配置参考上⾯的安装Go，配 置到Windows下的系统变量⾥。<br>      GOPATH之下主要包含三个⽬录: bin、pkg、src。bin⽬录主要存放可执⾏⽂件; pkg⽬录存放编译好的库⽂件, 主要是*.a⽂件; src⽬录下主要存放go 的源⽂件</p>
+<p>⼯作⽬录就是我们⽤来存放开发的源代码的地⽅，对应的也是Go⾥的GOPATH这个环境变量。这个环境变量指定之后，我们编译源代码等⽣成的 ⽂件都会放到这个⽬录下，GOPATH环境变量的配置参考上⾯的安装Go，配 置到Windows下的系统变量⾥。<br>​      GOPATH之下主要包含三个⽬录: bin、pkg、src。bin⽬录主要存放可执⾏⽂件; pkg⽬录存放编译好的库⽂件, 主要是*.a⽂件; src⽬录下主要存放go 的源⽂件</p>
 <ol start="2">
 <li><p>查看是否安装配置成功</p>
 <p>使⽤快捷键win+R键，输⼊cmd，打开命令⾏提示符，在命令⾏中输⼊ go env # 查看得到go的配置信息</p>
@@ -489,18 +489,18 @@ Golang安装和配置
 </li>
 </ol>
 <h4 id="三、mac系统安装并配置"><a href="#三、mac系统安装并配置" class="headerlink" title="三、mac系统安装并配置"></a>三、<strong>mac</strong>系统安装并配置</h4><h5 id="（⼀）、安装"><a href="#（⼀）、安装" class="headerlink" title="（⼀）、安装"></a>（⼀）、安装</h5><p>​    双击pkg包，顺着指引，即可安装成功。 在命令⾏输⼊ go version，获取到go的 版本号，则代表安装成功。</p>
-<h5 id="（⼆）、配置环境变量-1"><a href="#（⼆）、配置环境变量-1" class="headerlink" title="（⼆）、配置环境变量"></a>（⼆）、配置环境变量</h5><pre><code> 1. 打开终端输⼊cd ~进⼊⽤户主⽬录;&lt;br&gt;
- 2. 输⼊ls -all命令查看是否存在.bash_profile&lt;br&gt;
- 3. 存在既使⽤vim .bash_profile 打开⽂件;&lt;br&gt;
- 4. 输⼊ i 进⼊vim编辑模式；&lt;br&gt;
- 5. 输⼊下⾯代码， 其中 GOPATH: ⽇常开发的根⽬录。GOBIN:是GOPATH下的 bin⽬录。&lt;br&gt;
-    export GOPATH=/Users/steven/Documents/go_projec&lt;br&gt;
-    export GOROOT= /Usr/local/go&lt;br&gt;
-    export GOBIN=$GOROOT/bin&lt;br&gt;
-    export PATH=$PATH:$GOBIN&lt;br&gt;
-6. 点击ESC，并输⼊ :wq 保存并退出编辑。可输⼊vim .bash_profile 查看是否 保存成功。&lt;br&gt;
-7. 输⼊source ~/.bash_profile 完成对golang环境变量的配置，配置成功没有提 示。&lt;br&gt;
-8. 输⼊go env 查看配置结果&lt;br&gt;
+<h5 id="（⼆）、配置环境变量-1"><a href="#（⼆）、配置环境变量-1" class="headerlink" title="（⼆）、配置环境变量"></a>（⼆）、配置环境变量</h5><pre><code>   1. 打开终端输⼊cd ~进⼊⽤户主⽬录;  
+   2. 输⼊ls -all命令查看是否存在.bash_profile 
+   3. 存在既使⽤vim .bash_profile 打开⽂件; &lt;/br&gt;
+   4. 输⼊ i 进⼊vim编辑模式；&lt;/br&gt;
+   5. 输⼊下⾯代码， 其中 GOPATH: ⽇常开发的根⽬录。GOBIN:是GOPATH下的 bin⽬录。&lt;/br&gt;
+    export GOPATH=/Users/steven/Documents/go_projec &lt;/br&gt;
+    export GOROOT= /Usr/local/go &lt;/br&gt;
+    export GOBIN=$GOROOT/bin &lt;/br&gt;
+    export PATH=$PATH:$GOBIN &lt;/br&gt;
+    6. 点击ESC，并输⼊ :wq 保存并退出编辑。可输⼊vim .bash_profile 查看是否 保存成功。 &lt;/br&gt;
+    7. 输⼊source ~/.bash_profile 完成对golang环境变量的配置，配置成功没有提 示。 &lt;/br&gt;
+    8. 输⼊go env 查看配置结果 &lt;/br&gt;
 </code></pre>
             </div>
             <hr>
