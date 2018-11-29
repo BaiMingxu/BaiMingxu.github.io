@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://nlbsn.com/"/>
-  <updated>2018-11-29T04:57:22.509Z</updated>
+  <updated>2018-11-29T06:03:43.329Z</updated>
   <id>https://nlbsn.com/</id>
   
   <author>
@@ -20,13 +20,28 @@
     <title>初识Go</title>
     <link href="https://nlbsn.com/posts/3e321210.html"/>
     <id>https://nlbsn.com/posts/3e321210.html</id>
-    <published>2018-11-29T04:45:41.000Z</published>
-    <updated>2018-11-29T04:57:22.509Z</updated>
+    <published>2018-08-05T04:45:41.000Z</published>
+    <updated>2018-11-29T06:03:43.329Z</updated>
     
     <summary type="html">
     
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;  &lt;strong&gt;HelloWorld&lt;/strong&gt;程序解释及&lt;strong&gt;Go&lt;/strong&gt;编码规范&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;⼀、HelloWorld程序解释&quot;&gt;&lt;a
+        
+      
+    
     </summary>
     
+      <category term="golang基础" scheme="https://nlbsn.com/categories/golang%E5%9F%BA%E7%A1%80/"/>
+    
+    
+      <category term="Golang" scheme="https://nlbsn.com/tags/Golang/"/>
     
   </entry>
   
@@ -144,7 +159,7 @@
     <link href="https://nlbsn.com/posts/883f59cd.html"/>
     <id>https://nlbsn.com/posts/883f59cd.html</id>
     <published>2017-08-04T01:21:23.000Z</published>
-    <updated>2018-11-29T05:20:30.470Z</updated>
+    <updated>2018-11-29T05:45:19.672Z</updated>
     
     <summary type="html">
     
@@ -165,6 +180,8 @@
     
     
       <category term="环境安装" scheme="https://nlbsn.com/tags/%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85/"/>
+    
+      <category term="Golang" scheme="https://nlbsn.com/tags/Golang/"/>
     
   </entry>
   
