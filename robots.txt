@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Allow: /archives/
+
+Disallow: /js/
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /vendors/
+Disallow: /lib/
+Sitemap: https://www.nlbsn.com/sitemap.xml
+Sitemap: https://nlbsn.com/baidusitemap.xml  
