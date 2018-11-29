@@ -5,8 +5,8 @@
 
 <head><meta name="generator" content="Hexo 3.8.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="分类: 计算机基础, 区块链 Python Java golang Android H5 michel">
-    <meta name="description" content="分类: 计算机基础 | michel的梦想">
+    <meta name="keywords" content="Go——变量量及常量量, 区块链 Python Java golang Android H5 michel">
+    <meta name="description" content="Go——变量量及常量量 | michel的梦想">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -14,7 +14,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>分类: 计算机基础 | michel的梦想</title>
+    <title>Go——变量量及常量量 | michel的梦想</title>
     <link rel="icon" type="image/png" href="/img/favicon.ico">
 
 	<link href="https://cdn.bootcss.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
@@ -302,149 +302,316 @@
     </nav>
 </header>
 
-<div class="bg-cover  about-cover" style="background-image: url('/medias/cover.jpg')">
+
+
+<div class="bg-cover post-cover" style="background-image: url('/medias/featureimages/4.jpg')">
     <div class="container">
         <div class="row">
-            <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
+            <div class="col s12 m12 l12">
                 <div class="brand">
-                    <div class="title center-align">
-                    
-                        寻梦空间
-                    
-                    </div>
-
-                    <div class="description center-align">
-                    
-                        快乐的人没有过去，不快乐的人除了过去一无所有。
-                    
+                    <div class="description center-align post-title">
+                        Go——变量量及常量量
                     </div>
                 </div>
             </div>
         </div>
-        
+    </div>
+</div>
+
+
+
+<main class="container content">
+
+    
+    <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            
+            <div class="post-info">
+                
+
+                <span class="post-date">
+                    <i class="fa fa-clock-o fa-fw"></i>2018-11-29
+                </span>
+            </div>
+        </div>
+        <hr>
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                
+            </div>
+            <hr>
+
+            
+            <style>
+    #reward {
+        margin: 40px 0;
+        text-align: center;
+    }
+
+    #reward .reward-link {
+        font-size: 1.88rem;
+    }
+
+    #reward .btn-floating:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    #rewardModal {
+        width: 320px;
+        height: 350px;
+    }
+
+    #rewardModal .reward-title {
+        margin: 15px auto;
+        padding-bottom: 5px;
+    }
+
+    #rewardModal .modal-content {
+        padding: 10px;
+    }
+
+    #rewardModal .close {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 1.3rem;
+        line-height: 20px;
+        cursor: pointer;
+    }
+
+    #rewardModal .reward-tabs {
+        margin: 0 auto;
+        width: 210px;
+    }
+
+    .reward-tabs .tabs {
+        height: 38px;
+        margin: 10px auto;
+        padding-left: 0;
+    }
+
+    .reward-tabs .tabs .tab {
+        height: 38px;
+        line-height: 38px;
+    }
+
+    .reward-tabs .tab a {
+        color: #fff;
+        background-color: #ccc;
+    }
+
+    .reward-tabs .tab a:hover {
+        color: #fff;
+    }
+
+    .reward-tabs .wechat-tab .active {
+        color: #fff;
+        background-color: #22AB38;
+    }
+
+    .reward-tabs .alipay-tab .active {
+        color: #fff;
+        background-color: #019FE8;
+    }
+
+    .reward-tabs .reward-img {
+        width: 210px;
+        height: 210px;
+    }
+</style>
+
+<div id="reward">
+    <a class="reward-link btn-floating btn-large waves-effect waves-light red">赏</a>
+
+    <!-- Modal Structure -->
+    <div id="rewardModal" class="modal">
+        <div class="modal-content">
+            <a class="close"><i class="fa fa-close"></i></a>
+            <h4 class="reward-title">你的赏识是我前进的动力</h4>
+            <div class="reward-content">
+                <div class="reward-tabs">
+                    <ul class="tabs">
+                        <li class="tab wechat-tab waves-effect waves-light"><a class="active" href="#wechat">微信</a></li>
+                        <li class="tab alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
+                    </ul>
+                    <div id="wechat">
+                        <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
+                    </div>
+                    <div id="alipay">
+                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
 <script>
-// Dynamically switch banner pictures every day.
-$('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay() + '.jpg)');
+    $(function () {
+        $('#reward .reward-link').on('click', function () {
+            $('#rewardModal').openModal();
+        });
+
+        $('#rewardModal .close').on('click', function () {
+            $('#rewardModal').closeModal();
+        });
+    });
 </script>
+            
 
-<main class="content">
+            <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
 
+<div id="article-share">
     
+    <div class="social-share" data-disabled="qzone" data-wechat-qrcode-helper="<p>微信里点“发现”->“扫一扫”二维码便可查看分享。</p>"></div>
+    
+</div>
 
-<div id="category-cloud" class="container chip-container">
-    <div class="card">
-        <div class="card-content">
-            <div class="tag-title center-align">文章分类</div>
-            <div class="tag-chips">
-                
-                
-                
-                <a href="/categories/环境安装/" title="环境安装: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default " style="background-color: #F9EBEA;">环境安装
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/categories/golang/" title="golang: 2">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default " style="background-color: #F5EEF8;">golang
-                        <span class="tag-length">2</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/categories/golang基础/" title="golang基础: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default " style="background-color: #D5F5E3;">golang基础
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/categories/计算机基础/" title="计算机基础: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-active " style="background-color: #E8F8F5;">计算机基础
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/categories/区块链/" title="区块链: 3">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default " style="background-color: #FEF9E7;">区块链
-                        <span class="tag-length">3</span>
-                    </span>
-                </a>
-                
-                
+<script src="/libs/share/js/social-share.min.js"></script>
+
+            <div class="reprint">
+                <p>
+                    <span class="reprint-tip">未经本人允许不得转载 - 感谢您的阅读</span>
+                    
+                    <i class="fa fa-angle-right fa-lg fa-fw text-color"></i>
+                    <a href="/posts/251c8c15.html" class="b-link-green">Go——变量量及常量量</a>
+                </p>
             </div>
         </div>
     </div>
+
+	
+        <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src="/js/Valine.min.js"></script>
+<div class="valine-card card" data-aos="fade-up" style="padding: 10px">
+ 
+	<div class="comment"></div>
+	<script>
+        new Valine({
+			av: AV,
+            el: '.comment',
+            notify: false,
+            verify: false,
+			emoticon_url: 'https://cloud.panjunwen.com/alu',
+			emoticon_list: ["吐.png","喷血.png","狂汗.png","不说话.png","汗.png","坐等.png","献花.png","不高兴.png","中刀.png","害羞.png","皱眉.png","小眼睛.png","中指.png","尴尬.png","瞅你.png","想一想.png","中枪.png","得意.png","肿包.png","扇耳光.png","亲亲.png","惊喜.png","脸红.png","无所谓.png","便便.png","愤怒.png","蜡烛.png","献黄瓜.png","内伤.png","投降.png","观察.png","看不见.png","击掌.png","抠鼻.png","邪恶.png","看热闹.png","口水.png","抽烟.png","锁眉.png","装大款.png","吐舌.png","无奈.png","长草.png","赞一个.png","呲牙.png","无语.png","阴暗.png","不出所料.png","咽气.png","期待.png","高兴.png","吐血倒地.png","哭泣.png","欢呼.png","黑线.png","喜极而泣.png","喷水.png","深思.png","鼓掌.png","暗地观察.png"],
+            app_id: 'B8rpy4srnRGi45Bf5LnjHijX-9Nh9j0Va',
+            app_key: 'cMaKM9IAt2UR3hQDD6ot7Bag',
+			avatar: '',
+            avatar_cdn: "https://gravatar.loli.net/avatar/9e63c80900d106cbbec5a9f4ea433a3e?size=80",
+			placeholder: '说点什么吧~',
+			pageSize: 10,
+        });
+		
+    </script>
+	
 </div>
+    
+	
+	
+	
+    
 
     
 
-    <article id="articles" class="container articles">
-        <div class="row tags-posts">
-            
-            <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/posts/ef82378d.html">
-                        <div class="card-image tag-image">
-                            
-                            <img src="http://pijeczpx9.bkt.clouddn.com/1120.jpeg" class="responsive-img" alt="字符集和字符编码问题">
-                            
-                            <span class="card-title">字符集和字符编码问题</span>
-                        </div>
-                    </a>
-                    <div class="card-content article-content">
-                        <div class="summary">
-字符集和字符编码问题
+    
 
-一、字符集及字符编码概述(一)、字符编码的重要性​    只要有中文的地方就会出现编码问题。
-​    编码问题是</div>
-                        <div class="publish-info">
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">本篇</div>
+            <div class="card">
+                <a href="/posts/251c8c15.html">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="Go——变量量及常量量">
+                        
+                        <span class="card-title">Go——变量量及常量量</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary"></div>
+                    <div class="publish-info">
                             <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2016-08-07
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2018-11-29
                             </span>
-                            <span class="publish-author">
-                                
-                                <i class="fa fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/计算机基础/" class="post-category" target="_blank">
-                                    计算机基础
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
+                        <span class="publish-author">
+                            
+                            <i class="fa fa-user fa-fw"></i>
+                            michel
+                            
+                        </span>
                     </div>
+                </div>
 
-                    
-                    <div class="card-action article-tags">
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">下一篇</div>
+            <div class="card">
+                <a href="/posts/3e321210.html">
+                    <div class="card-image">
                         
-                        <a href="/tags/字符集/" target="_blank">
-                            <span class="chip bg-color">字符集</span>
-                        </a>
+                        <img src="https://ws1.sinaimg.cn/large/e64a4785gy1fxovmx4lnwj20ku0dwgmo.jpg" class="responsive-img" alt="初识Go">
                         
-                        <a href="/tags/字符编码/" target="_blank">
-                            <span class="chip bg-color">字符编码</span>
-                        </a>
-                        
+                        <span class="card-title">初识Go</span>
                     </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary">
+  HelloWorld程序解释及Go编码规范
+
+⼀、HelloWorld程序解释（⼀）、第⼀个HelloWorld程序package main
+import "fmt"
+func main(){
+    /*这是第一个简单的程序*/
+ </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2018-08-05
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fa fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/golang基础/" class="post-category" target="_blank">
+                                    golang基础
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Golang/" target="_blank">
+                        <span class="chip bg-color">Golang</span>
+                    </a>
                     
                 </div>
+                
             </div>
-            
         </div>
-    </article>
-</main>
+        
+    </div>
+</article>
 
+</div>
+    
+
+</main>
 
 <footer class="page-footer bg-color">
     <div class="container row center-align">

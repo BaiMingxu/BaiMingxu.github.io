@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://nlbsn.com/"/>
-  <updated>2018-11-29T06:12:58.702Z</updated>
+  <updated>2018-11-29T09:18:48.519Z</updated>
   <id>https://nlbsn.com/</id>
   
   <author>
@@ -15,6 +15,20 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Go——变量量及常量量</title>
+    <link href="https://nlbsn.com/posts/251c8c15.html"/>
+    <id>https://nlbsn.com/posts/251c8c15.html</id>
+    <published>2018-11-29T09:18:48.000Z</published>
+    <updated>2018-11-29T09:18:48.519Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>初识Go</title>
