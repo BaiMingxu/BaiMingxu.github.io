@@ -94,10 +94,25 @@ blockquote {
 
 
 
+code {
+    padding: 1px 5px;
+    font-size: 1.1rem;
+    color: #e96900;
+    background-color: #f8f8f8;
+    border-radius: 2px;
+}
 
 
 
+pre[class*="language-"] {
+    padding: 1.2em;
+    margin: .5em 0;
+}
 
+code[class*="language-"],
+pre[class*="language-"] {
+    color: #e8eaf6;
+}
 
 b,
 strong {
