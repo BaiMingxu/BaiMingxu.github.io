@@ -3,6 +3,29 @@
   
     
     <entry>
+      <title>Goland安装和配置</title>
+      <link href="/posts/a1f7ed3f.html"/>
+      <url>/posts/a1f7ed3f.html</url>
+      
+        <content type="html"><![CDATA[<blockquote><p><strong>Goland</strong>安装和配置</p></blockquote><ul><li><h4 id="⼀、安装Goland开发⼯具"><a href="#⼀、安装Goland开发⼯具" class="headerlink" title="⼀、安装Goland开发⼯具"></a>⼀、安装<strong>Goland</strong>开发⼯具</h4><ul><li><h5 id="（⼀）、介绍"><a href="#（⼀）、介绍" class="headerlink" title="（⼀）、介绍"></a>（⼀）、介绍</h5><p>  Goland是由JetBrains公司旨在为go开发者提供的⼀个符合⼈体⼯程学的新的商业IDE。这个IDE整合了IntelliJ平台的有关go语⾔的编码辅助功能和⼯具集成 特点。它具有以下特点：</p><ul><li>编码辅助功能</li><li>符合⼈体⼯程学的设计</li><li>⼯具的集成</li><li>IntelliJ插件⽣态系统</li></ul></li><li><h5 id="（⼆）、下载及安装"><a href="#（⼆）、下载及安装" class="headerlink" title="（⼆）、下载及安装"></a>（⼆）、下载及安装</h5><ol><li><p>官⽹下载地址：<a href="https://www.jetbrains.com/go/download/。下载完成后，在" rel="external nofollow noopener noreferrer" target="_blank">https://www.jetbrains.com/go/download/。下载完成后，在</a> 本地执⾏解压，安装。<img src="https://ws1.sinaimg.cn/large/e64a4785gy1fxorvzqo7oj224q146n6b.jpg" alt=""></p></li><li><p>安装过程</p><p> 点击“next”按钮，选择要安装的路径，然后点击“next”，会出现安装选项。根据你⾃⼰电脑的型号，选择合适的版本后点击“next”按钮。接着保持默认的程 序启动⽬录，点击“install”进⾏安装。整个安装过程很快，⼏乎⼀路next到底。</p></li></ol></li><li><h5 id="（三）、使⽤Goland"><a href="#（三）、使⽤Goland" class="headerlink" title="（三）、使⽤Goland"></a>（三）、使⽤Goland</h5><ol><li>打开Goland⼯具<img src="https://ws4.sinaimg.cn/large/e64a4785gy1fxos14du57j21de0x0n15.jpg" alt=""></li><li>创建项⽬：<img src="https://ws2.sinaimg.cn/large/e64a4785gy1fxos4xaemlj21620mo75g.jpg" alt=""></li></ol></li></ul></li></ul><ul><li><p>####⼆、第⼀个程序：<strong>HelloWorld</strong></p><ul><li><h5 id="（⼀）、编写第⼀个程序"><a href="#（⼀）、编写第⼀个程序" class="headerlink" title="（⼀）、编写第⼀个程序"></a>（⼀）、编写第⼀个程序</h5><ol><li><p>打开编辑器创建⼀个新的helloworld.go⽂件，并输⼊以下内容：</p><pre class=" language-go"><code class="language-go"> <span class="token keyword">package</span> main  <span class="token keyword">import</span> <span class="token string">"fmt"</span>  <span class="token keyword">func</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>     <span class="token comment" spellcheck="true">/* 输出 */</span>     fmt<span class="token punctuation">.</span><span class="token function">Println</span><span class="token punctuation">(</span><span class="token string">"Hello, World!"</span><span class="token punctuation">)</span>  <span class="token punctuation">}</span></code></pre></li><li><p>执⾏go程序  <code>执⾏go程序由⼏种⽅式</code></p><ul><li>⽅式⼀：使⽤go run命令<ul><li>step1：使⽤快捷键win+R，输⼊cmd打开命令⾏提示符</li><li>step2：进⼊helloworld.go所在的⽬录</li><li>step3：输⼊go run helloworld.go命令并观察运⾏结果。</li></ul></li><li>⽅式⼆：使⽤go build命令<ul><li>step1：使⽤快捷键win+R，输⼊cmd打开命令⾏提示符</li><li>step2：进⼊helloworld.go所在的⽬录</li><li>step3：输⼊go build helloworld.go命令进⾏编译，产⽣同名的helloworld.exe⽂件</li><li>step4：输⼊helloworld.exe，执⾏</li></ul></li><li>⽅式三：使⽤ go playground<ul><li>step1：打开⼀下⽹址<a href="https://play.golang.org/" rel="external nofollow noopener noreferrer" target="_blank">https://play.golang.org/</a></li></ul></li></ul></li></ol></li></ul></li></ul><ul><li><h4 id="三、Goland常⽤快捷键"><a href="#三、Goland常⽤快捷键" class="headerlink" title="三、Goland常⽤快捷键"></a>三、<strong>Goland</strong>常⽤快捷键</h4><ul><li><h5 id="（⼀）、⽂件相关快捷键："><a href="#（⼀）、⽂件相关快捷键：" class="headerlink" title="（⼀）、⽂件相关快捷键："></a>（⼀）、⽂件相关快捷键：</h5><ol><li>TRL+E，打开最近浏览过的⽂件。</li><li>CTRL+SHIFT+E，打开最近更改的⽂件。</li><li>CTRL+N，可以快速打开struct结构体。</li><li>CTRL+SHIFT+N，可以快速打开⽂件。</li></ol></li><li><h5 id="（⼆）、代码格式化："><a href="#（⼆）、代码格式化：" class="headerlink" title="（⼆）、代码格式化："></a>（⼆）、代码格式化：</h5><ol><li>CTRL+ALT+T，可以把代码包在⼀个块内，例如if{…}else{…}。</li><li>CTRL+ALT+L，格式化代码。</li><li>CTRL+空格，代码提示。</li><li>CTRL+/，单⾏注释。CTRL+SHIFT+/，进⾏多⾏注释。</li><li>CTRL+B，快速打开光标处的结构体或⽅法（跳转到定义处）。</li><li>CTRL+“+/-”，可以将当前⽅法进⾏展开或折叠。</li></ol></li><li><h5 id="（三）、查找和定位"><a href="#（三）、查找和定位" class="headerlink" title="（三）、查找和定位"></a>（三）、查找和定位</h5><ol><li>CTRL+R，替换⽂本。</li><li>CTRL+F，查找⽂本。</li><li>TRL+SHIFT+F，进⾏全局查找。</li><li>CTRL+G，快速定位到某⾏。</li></ol></li><li><h5 id="（四）、代码编辑"><a href="#（四）、代码编辑" class="headerlink" title="（四）、代码编辑"></a>（四）、代码编辑</h5><ol><li>ALT+Q，可以看到当前⽅法的声明。</li><li>SHIFT+ENTER，可以向下插⼊新⾏，即使光标在当前⾏的中间。</li><li>CTRL+Backspace，按单词进⾏删除或删除光标所在⾏。</li><li>TRL+X，剪切当前光标所在⾏。</li><li>CTRL+D，复制当前光标所在⾏。</li><li>ALT+SHIFT+UP/DOWN，可以将光标所在⾏的代码上下移动。</li><li>CTRL+SHIFT+U，可以将选中内容进⾏⼤⼩写转化。</li></ol></li></ul></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 环境安装 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Goland </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>Golang安装和配置</title>
       <link href="/posts/883f59cd.html"/>
       <url>/posts/883f59cd.html</url>
@@ -26,7 +49,7 @@
     </entry>
     
     <entry>
-      <title>⽐比特币客户端Bitcoin Core及Bitcoin-cli命令</title>
+      <title>比特币客户端Bitcoin Core及Bitcoin-cli命令</title>
       <link href="/posts/f69008c9.html"/>
       <url>/posts/f69008c9.html</url>
       
