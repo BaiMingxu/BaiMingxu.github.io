@@ -9,11 +9,7 @@
     <meta name="description" content="
   HelloWorld程序解释及Go编码规范
 
-⼀、HelloWorld程序解释（⼀）、第⼀个HelloWorld程序package main
-import &#34;fmt&#34;
-func main(){
-    /*这是第一个简单的程序*/
- ">
+⼀、HelloWorld程序解释（⼀）、第⼀个HelloWorld程序123456package mainimport &#34;fmt&#34;func main()&amp;#123;    /*这是第一个简">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -34,7 +30,7 @@ func main(){
     <link rel="stylesheet" type="text/css" href="/css/my.css">
 
     <script src="/libs/jquery/jquery-2.2.0.min.js"></script>
-<link rel="stylesheet" href="/css/prism-base16-ateliersulphurpool.light.css" type="text/css"></head>
+</head>
 
 </head>
 
@@ -346,7 +342,7 @@ func main(){
             <div class="post-info">
                 
 				<span class="post-date">
-					<i class="fa fa-file-word-o fa-fw"></i>323
+					<i class="fa fa-file-word-o fa-fw"></i>328
 				<span class="post-date">
 					<i class="fa fa-hourglass-half fa-fw"></i>1分
 				</span>
@@ -372,13 +368,7 @@ func main(){
                 <blockquote>
 <p>  <strong>HelloWorld</strong>程序解释及<strong>Go</strong>编码规范</p>
 </blockquote>
-<h4 id="⼀、HelloWorld程序解释"><a href="#⼀、HelloWorld程序解释" class="headerlink" title="⼀、HelloWorld程序解释"></a>⼀、<strong>HelloWorld</strong>程序解释</h4><h5 id="（⼀）、第⼀个HelloWorld程序"><a href="#（⼀）、第⼀个HelloWorld程序" class="headerlink" title="（⼀）、第⼀个HelloWorld程序"></a>（⼀）、第⼀个HelloWorld程序</h5><pre class=" language-go"><code class="language-go"><span class="token keyword">package</span> main
-<span class="token keyword">import</span> <span class="token string">"fmt"</span>
-<span class="token keyword">func</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-    <span class="token comment" spellcheck="true">/*这是第一个简单的程序*/</span>
-    fmt<span class="token punctuation">.</span><span class="token function">Println</span><span class="token punctuation">(</span><span class="token string">"Hello, World!"</span>
-<span class="token punctuation">}</span>
-</code></pre>
+<h4 id="⼀、HelloWorld程序解释"><a href="#⼀、HelloWorld程序解释" class="headerlink" title="⼀、HelloWorld程序解释"></a>⼀、<strong>HelloWorld</strong>程序解释</h4><h5 id="（⼀）、第⼀个HelloWorld程序"><a href="#（⼀）、第⼀个HelloWorld程序" class="headerlink" title="（⼀）、第⼀个HelloWorld程序"></a>（⼀）、第⼀个HelloWorld程序</h5><figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> main</span><br><span class="line"><span class="keyword">import</span> <span class="string">"fmt"</span></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="comment">/*这是第一个简单的程序*/</span></span><br><span class="line">    fmt.Println(<span class="string">"Hello, World!"</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p>​    </p>
 <p>​    </p>
 <p>​    </p>
@@ -389,14 +379,7 @@ func main(){
 <li>下⼀⾏ /<em>…</em>/ 是注释，在程序执⾏时将被忽略。单⾏注释是最常⻅见的注释形式，你可以在任何地⽅使⽤以 // 开头的单⾏注释。多⾏注释也叫块注释， 均已以 /<em> 开头，并以 </em>/ 结尾，且不可以嵌套使⽤，多⾏注释⼀般⽤于⽂档描述或代码⽚段。</li>
 <li>下⼀⾏ fmt.Println(…) 可以将字符串输出到控制台，并在最后⾃动增加换 ⾏字符 \n。 使⽤ fmt.Print(“hello, world\n”) 可以得到相同的结果。</li>
 </ol>
-<h4 id="⼆、Go语⾔编码规范"><a href="#⼆、Go语⾔编码规范" class="headerlink" title="⼆、Go语⾔编码规范"></a>⼆、<strong>Go</strong>语⾔编码规范</h4><h5 id="（⼀）、注释"><a href="#（⼀）、注释" class="headerlink" title="（⼀）、注释"></a>（⼀）、注释</h5><pre class=" language-java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">helloworld</span>
-<span class="token punctuation">{</span>
-    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span>String <span class="token punctuation">[</span><span class="token punctuation">]</span>args<span class="token punctuation">)</span>
-    <span class="token punctuation">{</span>
-        System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"Hello world!"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-<span class="token punctuation">}</span>
-</code></pre>
+<h4 id="⼆、Go语⾔编码规范"><a href="#⼆、Go语⾔编码规范" class="headerlink" title="⼆、Go语⾔编码规范"></a>⼆、<strong>Go</strong>语⾔编码规范</h4><h5 id="（⼀）、注释"><a href="#（⼀）、注释" class="headerlink" title="（⼀）、注释"></a>（⼀）、注释</h5><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">helloworld</span></span></span><br><span class="line"><span class="class"></span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String []args)</span></span></span><br><span class="line"><span class="function">    </span>&#123;</span><br><span class="line">        System.out.println(<span class="string">"Hello world!"</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p>​    </p>
 
             </div>
