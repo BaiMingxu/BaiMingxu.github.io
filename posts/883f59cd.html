@@ -568,10 +568,52 @@ Golang安装和配置
         background: #fbfbfb;
         border: none;
         border-radius: 0;
-        padding: .6em;
+        padding: 10px;
         margin: 0;
-        line-height: 2
+        line-height: 2;
+        border-bottom: 1px solid #5f5f5f;
     }
+    .v .vwrap {
+        padding: 0px;
+        border: 2px solid #000 
+    }
+    .v .vwrap .vedit {
+        padding: 10px 10px 0 10px;
+    }
+    .v .vwrap .vcontrol {
+        padding: 10px 10px 0 10px;
+    }
+    .v .vinfo .vcount .vnum {
+        color: red;
+    }
+    .v .vinfo .vcount .vnum {
+        display: none;
+    }
+    .v .vbtn {
+        color: #fff;
+        width: 100%;
+        line-height: 2;
+        font-weight: bolder;
+        border-radius: 30px;
+        border: 1px solid #e9eff3;
+        background-color: #111;
+        padding: .4em .5em;
+    }
+    
+    .v .vlist .vcard .vh .vmeta .vat{
+        background-color: #7f7f7f !important;
+        color: #fff !important;
+        border-radius: 3px !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+    .v .vwrap .vedit .vctrl span {
+        background-color: #7f7f7f !important;
+        color: #fff !important;
+        border-radius: 3px !important;
+        padding: 3px !important;
+    }
+    
     .v .vwrap .vheader .vinput {
         box-shadow: none;
         color: #0e0a0a;
@@ -579,13 +621,42 @@ Golang安装和配置
         border: none;
         width: 50%;
     }   
-    v .txt-right {
-        display: none;
+    ::-webkit-input-placeholder { /* Chrome */
+        color: black;
+        transition: opacity 250ms ease-in-out;
+    }
+    :focus::-webkit-input-placeholder {
+        opacity: 0.5;
+    }
+    :-ms-input-placeholder { /* IE 10+ */
+        color: black;
+        transition: opacity 250ms ease-in-out;
+    }
+    :focus:-ms-input-placeholder {
+        opacity: 0.5;
+    }
+    ::-moz-placeholder { /* Firefox 19+ */
+        color: black;
+        opacity: 1;
+        transition: opacity 250ms ease-in-out;
+    }
+    :focus::-moz-placeholder {
+        opacity: 0.5;
+    }
+    :-moz-placeholder { /* Firefox 4 - 18 */
+        color: black;
+        opacity: 1;
+        transition: opacity 250ms ease-in-out;
+    }
+    :focus:-moz-placeholder {
+        opacity: 0.5;
     }
     .v .info {
         display: none;
     }
-    
+    .v .vwrap  .vheader .vlink {
+        display: none;
+    }      
     .v .vwrap .vheader input:focus {
         border-color: #c4c8cb;
         box-shadow: none;
@@ -597,7 +668,7 @@ Golang安装和配置
 <script src="/js/Valine.min.js"></script>
 <div class="valine-card card" data-aos="fade-up">
  
-	<div class="comment"></div>
+	<div class="comment" style="padding: 12px;"></div>
 	<script>
         new Valine({
             el: '.comment',
