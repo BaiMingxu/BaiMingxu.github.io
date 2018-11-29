@@ -10,9 +10,10 @@
   HelloWorld程序解释及Go编码规范
 
 ⼀、HelloWorld程序解释（⼀）、第⼀个HelloWorld程序package main
-import &amp;quot;fmt&amp;quot;
+import &#34;fmt&#34;
 func main(){
-    /*这是第一">
+    /*这是第一个简单的程序*/
+ ">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -33,7 +34,7 @@ func main(){
     <link rel="stylesheet" type="text/css" href="/css/my.css">
 
     <script src="/libs/jquery/jquery-2.2.0.min.js"></script>
-</head>
+<link rel="stylesheet" href="/css/prism-ghcolors.css" type="text/css"></head>
 
 </head>
 
@@ -345,7 +346,7 @@ func main(){
             <div class="post-info">
                 
 				<span class="post-date">
-					<i class="fa fa-file-word-o fa-fw"></i>329
+					<i class="fa fa-file-word-o fa-fw"></i>323
 				<span class="post-date">
 					<i class="fa fa-hourglass-half fa-fw"></i>1分
 				</span>
@@ -371,12 +372,12 @@ func main(){
                 <blockquote>
 <p>  <strong>HelloWorld</strong>程序解释及<strong>Go</strong>编码规范</p>
 </blockquote>
-<h4 id="⼀、HelloWorld程序解释"><a href="#⼀、HelloWorld程序解释" class="headerlink" title="⼀、HelloWorld程序解释"></a>⼀、<strong>HelloWorld</strong>程序解释</h4><h5 id="（⼀）、第⼀个HelloWorld程序"><a href="#（⼀）、第⼀个HelloWorld程序" class="headerlink" title="（⼀）、第⼀个HelloWorld程序"></a>（⼀）、第⼀个HelloWorld程序</h5><pre><code class="go">package main
-import &quot;fmt&quot;
-func main(){
-    /*这是第一个简单的程序*/
-    fmt.Println(&quot;Hello, World!&quot;
-}
+<h4 id="⼀、HelloWorld程序解释"><a href="#⼀、HelloWorld程序解释" class="headerlink" title="⼀、HelloWorld程序解释"></a>⼀、<strong>HelloWorld</strong>程序解释</h4><h5 id="（⼀）、第⼀个HelloWorld程序"><a href="#（⼀）、第⼀个HelloWorld程序" class="headerlink" title="（⼀）、第⼀个HelloWorld程序"></a>（⼀）、第⼀个HelloWorld程序</h5><pre class=" language-go"><code class="language-go"><span class="token keyword">package</span> main
+<span class="token keyword">import</span> <span class="token string">"fmt"</span>
+<span class="token keyword">func</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token comment" spellcheck="true">/*这是第一个简单的程序*/</span>
+    fmt<span class="token punctuation">.</span><span class="token function">Println</span><span class="token punctuation">(</span><span class="token string">"Hello, World!"</span>
+<span class="token punctuation">}</span>
 </code></pre>
 <p>​    </p>
 <p>​    </p>
@@ -388,13 +389,13 @@ func main(){
 <li>下⼀⾏ /<em>…</em>/ 是注释，在程序执⾏时将被忽略。单⾏注释是最常⻅见的注释形式，你可以在任何地⽅使⽤以 // 开头的单⾏注释。多⾏注释也叫块注释， 均已以 /<em> 开头，并以 </em>/ 结尾，且不可以嵌套使⽤，多⾏注释⼀般⽤于⽂档描述或代码⽚段。</li>
 <li>下⼀⾏ fmt.Println(…) 可以将字符串输出到控制台，并在最后⾃动增加换 ⾏字符 \n。 使⽤ fmt.Print(“hello, world\n”) 可以得到相同的结果。</li>
 </ol>
-<h4 id="⼆、Go语⾔编码规范"><a href="#⼆、Go语⾔编码规范" class="headerlink" title="⼆、Go语⾔编码规范"></a>⼆、<strong>Go</strong>语⾔编码规范</h4><h5 id="（⼀）、注释"><a href="#（⼀）、注释" class="headerlink" title="（⼀）、注释"></a>（⼀）、注释</h5><pre><code class="java">public class helloworld
-{
-    public static void main(String []args)
-    {
-        System.out.println(&quot;Hello world!&quot;);
-    }
-}
+<h4 id="⼆、Go语⾔编码规范"><a href="#⼆、Go语⾔编码规范" class="headerlink" title="⼆、Go语⾔编码规范"></a>⼆、<strong>Go</strong>语⾔编码规范</h4><h5 id="（⼀）、注释"><a href="#（⼀）、注释" class="headerlink" title="（⼀）、注释"></a>（⼀）、注释</h5><pre class=" language-java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">helloworld</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span>String <span class="token punctuation">[</span><span class="token punctuation">]</span>args<span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"Hello world!"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
 </code></pre>
 <p>​    </p>
 
@@ -725,10 +726,7 @@ func main(){
 </div>
 
 
-<!--prettify代码高亮主题css引入-->
-<link href="/prettify/prettify.css" rel="stylesheet">
 <link href="https://cdn.bootcss.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
-<script src="/libs/jquery/jquery-2.2.0.min.js"></script>
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 <script src="/libs/materialize/js/materialize.min.js"></script>
 <script src="/libs/masonry/masonry.pkgd.min.js"></script>
@@ -736,11 +734,4 @@ func main(){
 <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
 <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
 <script src="/js/matery.js"></script>
-<script src="/prettify/prettify.js"></script>
-<script type="text/javascript">
-    $(window).load(function(){
-    $('pre').addClass('prettyprint linenums').attr('style', 'overflow:auto;');
-     prettyPrint();
-    })
-    </script>
 <script async>window.onload=function(){var a=document.createElement('script'),b=document.getElementsByTagName('script')[0];a.type='text/javascript',a.async=!0,a.src='/sw-register.js?v='+Date.now(),b.parentNode.insertBefore(a,b)};</script></body></html>
