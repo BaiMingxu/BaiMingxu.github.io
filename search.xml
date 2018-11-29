@@ -3,52 +3,6 @@
   
     
     <entry>
-      <title>Goland安装和配置</title>
-      <link href="/posts/a1f7ed3f.html"/>
-      <url>/posts/a1f7ed3f.html</url>
-      
-        <content type="html"><![CDATA[<blockquote><p><strong>Goland</strong>安装和配置</p></blockquote><ul><li><h4 id="⼀、安装Goland开发⼯具"><a href="#⼀、安装Goland开发⼯具" class="headerlink" title="⼀、安装Goland开发⼯具"></a>⼀、安装<strong>Goland</strong>开发⼯具</h4><ul><li><h5 id="（⼀）、介绍"><a href="#（⼀）、介绍" class="headerlink" title="（⼀）、介绍"></a>（⼀）、介绍</h5><p>  Goland是由JetBrains公司旨在为go开发者提供的⼀个符合⼈体⼯程学的新的商业IDE。这个IDE整合了IntelliJ平台的有关go语⾔的编码辅助功能和⼯具集成 特点。它具有以下特点：</p><ul><li>编码辅助功能</li><li>符合⼈体⼯程学的设计</li><li>⼯具的集成</li><li>IntelliJ插件⽣态系统</li></ul></li><li><h5 id="（⼆）、下载及安装"><a href="#（⼆）、下载及安装" class="headerlink" title="（⼆）、下载及安装"></a>（⼆）、下载及安装</h5><ol><li><p>官⽹下载地址：<a href="https://www.jetbrains.com/go/download/。下载完成后，在" rel="external nofollow noopener noreferrer" target="_blank">https://www.jetbrains.com/go/download/。下载完成后，在</a> 本地执⾏解压，安装。<img src="https://ws1.sinaimg.cn/large/e64a4785gy1fxorvzqo7oj224q146n6b.jpg" alt=""></p></li><li><p>安装过程</p><p> 点击“next”按钮，选择要安装的路径，然后点击“next”，会出现安装选项。根据你⾃⼰电脑的型号，选择合适的版本后点击“next”按钮。接着保持默认的程 序启动⽬录，点击“install”进⾏安装。整个安装过程很快，⼏乎⼀路next到底。</p></li></ol></li><li><h5 id="（三）、使⽤Goland"><a href="#（三）、使⽤Goland" class="headerlink" title="（三）、使⽤Goland"></a>（三）、使⽤Goland</h5><ol><li>打开Goland⼯具<img src="https://ws4.sinaimg.cn/large/e64a4785gy1fxos14du57j21de0x0n15.jpg" alt=""></li><li>创建项⽬：<img src="https://ws2.sinaimg.cn/large/e64a4785gy1fxos4xaemlj21620mo75g.jpg" alt=""></li></ol></li></ul></li></ul><ul><li><p>####⼆、第⼀个程序：<strong>HelloWorld</strong></p><ul><li><h5 id="（⼀）、编写第⼀个程序"><a href="#（⼀）、编写第⼀个程序" class="headerlink" title="（⼀）、编写第⼀个程序"></a>（⼀）、编写第⼀个程序</h5><ol><li><p>打开编辑器创建⼀个新的helloworld.go⽂件，并输⼊以下内容：</p><pre class=" language-go"><code class="language-go"> <span class="token keyword">package</span> main  <span class="token keyword">import</span> <span class="token string">"fmt"</span>  <span class="token keyword">func</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>     <span class="token comment" spellcheck="true">/* 输出 */</span>     fmt<span class="token punctuation">.</span><span class="token function">Println</span><span class="token punctuation">(</span><span class="token string">"Hello, World!"</span><span class="token punctuation">)</span>  <span class="token punctuation">}</span></code></pre></li><li><p>执⾏go程序  <code>执⾏go程序由⼏种⽅式</code></p><ul><li>⽅式⼀：使⽤go run命令<ul><li>step1：使⽤快捷键win+R，输⼊cmd打开命令⾏提示符</li><li>step2：进⼊helloworld.go所在的⽬录</li><li>step3：输⼊go run helloworld.go命令并观察运⾏结果。</li></ul></li><li>⽅式⼆：使⽤go build命令<ul><li>step1：使⽤快捷键win+R，输⼊cmd打开命令⾏提示符</li><li>step2：进⼊helloworld.go所在的⽬录</li><li>step3：输⼊go build helloworld.go命令进⾏编译，产⽣同名的helloworld.exe⽂件</li><li>step4：输⼊helloworld.exe，执⾏</li></ul></li><li>⽅式三：使⽤ go playground<ul><li>step1：打开⼀下⽹址<a href="https://play.golang.org/" rel="external nofollow noopener noreferrer" target="_blank">https://play.golang.org/</a></li></ul></li></ul></li></ol></li></ul></li></ul><ul><li><h4 id="三、Goland常⽤快捷键"><a href="#三、Goland常⽤快捷键" class="headerlink" title="三、Goland常⽤快捷键"></a>三、<strong>Goland</strong>常⽤快捷键</h4><ul><li><h5 id="（⼀）、⽂件相关快捷键："><a href="#（⼀）、⽂件相关快捷键：" class="headerlink" title="（⼀）、⽂件相关快捷键："></a>（⼀）、⽂件相关快捷键：</h5><ol><li>TRL+E，打开最近浏览过的⽂件。</li><li>CTRL+SHIFT+E，打开最近更改的⽂件。</li><li>CTRL+N，可以快速打开struct结构体。</li><li>CTRL+SHIFT+N，可以快速打开⽂件。</li></ol></li><li><h5 id="（⼆）、代码格式化："><a href="#（⼆）、代码格式化：" class="headerlink" title="（⼆）、代码格式化："></a>（⼆）、代码格式化：</h5><ol><li>CTRL+ALT+T，可以把代码包在⼀个块内，例如if{…}else{…}。</li><li>CTRL+ALT+L，格式化代码。</li><li>CTRL+空格，代码提示。</li><li>CTRL+/，单⾏注释。CTRL+SHIFT+/，进⾏多⾏注释。</li><li>CTRL+B，快速打开光标处的结构体或⽅法（跳转到定义处）。</li><li>CTRL+“+/-”，可以将当前⽅法进⾏展开或折叠。</li></ol></li><li><h5 id="（三）、查找和定位"><a href="#（三）、查找和定位" class="headerlink" title="（三）、查找和定位"></a>（三）、查找和定位</h5><ol><li>CTRL+R，替换⽂本。</li><li>CTRL+F，查找⽂本。</li><li>TRL+SHIFT+F，进⾏全局查找。</li><li>CTRL+G，快速定位到某⾏。</li></ol></li><li><h5 id="（四）、代码编辑"><a href="#（四）、代码编辑" class="headerlink" title="（四）、代码编辑"></a>（四）、代码编辑</h5><ol><li>ALT+Q，可以看到当前⽅法的声明。</li><li>SHIFT+ENTER，可以向下插⼊新⾏，即使光标在当前⾏的中间。</li><li>CTRL+Backspace，按单词进⾏删除或删除光标所在⾏。</li><li>TRL+X，剪切当前光标所在⾏。</li><li>CTRL+D，复制当前光标所在⾏。</li><li>ALT+SHIFT+UP/DOWN，可以将光标所在⾏的代码上下移动。</li><li>CTRL+SHIFT+U，可以将选中内容进⾏⼤⼩写转化。</li></ol></li></ul></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> 环境安装 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Goland </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    <entry>
-      <title>Golang安装和配置</title>
-      <link href="/posts/883f59cd.html"/>
-      <url>/posts/883f59cd.html</url>
-      
-        <content type="html"><![CDATA[<blockquote><p><strong>Golang</strong>安装和配置</p></blockquote><h4 id="⼀、Golang安装"><a href="#⼀、Golang安装" class="headerlink" title="⼀、Golang安装"></a>⼀、<strong>Golang</strong>安装</h4><h5 id="（⼀）、下载"><a href="#（⼀）、下载" class="headerlink" title="（⼀）、下载"></a>（⼀）、下载</h5><p>​    在Mac、Windows和Linux三个平台上都⽀持Golang。您可以从<a href="https://golang.org/dl/下载相应平台的⼆进制⽂件。该⽹站在国内不容易访问，" rel="external nofollow noopener noreferrer" target="_blank">https://golang.org/dl/下载相应平台的⼆进制⽂件。该⽹站在国内不容易访问，</a> 所以可以访问<a href="https://www.studygolang.com/dl" rel="external nofollow noopener noreferrer" target="_blank">https://www.studygolang.com/dl</a> 进⾏安装软件的下载。</p><p><img src="https://wx4.sinaimg.cn/large/e64a4785gy1fxoof8rth4j21lw0qe7ag.jpg" alt=""></p><p><img src="https://ws4.sinaimg.cn/large/e64a4785gy1fxoofpgaxaj21lo0rw0zc.jpg" alt="">  </p><ul><li>Mac OS 从<a href="https://golang.org/dl/下载osx安装程序。双击启动安装。按照" rel="external nofollow noopener noreferrer" target="_blank">https://golang.org/dl/下载osx安装程序。双击启动安装。按照</a> 提示，这应该在/usr/local/go中安装了Golang，并且还会将⽂件夹/usr/local/go/bin添加到您的PATH环境变量中。</li><li>Windows 从<a href="https://golang.org/dl/下载MSI安装程序。双击启动安装并遵" rel="external nofollow noopener noreferrer" target="_blank">https://golang.org/dl/下载MSI安装程序。双击启动安装并遵</a> 循提示。这将在位置c中安装Golang:\Go，并且还将添加⽬录c:\Go\bin到您 的path环境变量。</li><li>Linux 从<a href="https://golang.org/dl/下载tar⽂件，并将其解压到/usr/local。" rel="external nofollow noopener noreferrer" target="_blank">https://golang.org/dl/下载tar⽂件，并将其解压到/usr/local。</a> 将/usr/local/go/bin添加到PATH环境变量中。这应该安装在linux中。</li></ul><h4 id="⼆、-windows系统下安装和配置环境变量"><a href="#⼆、-windows系统下安装和配置环境变量" class="headerlink" title="⼆、 windows系统下安装和配置环境变量"></a>⼆、 <strong>windows</strong>系统下安装和配置环境变量</h4><h5 id="（⼀）、安装步骤⾮常简单，⼀路到底"><a href="#（⼀）、安装步骤⾮常简单，⼀路到底" class="headerlink" title="（⼀）、安装步骤⾮常简单，⼀路到底"></a>（⼀）、安装步骤⾮常简单，⼀路到底</h5><h5 id="（⼆）、配置环境变量"><a href="#（⼆）、配置环境变量" class="headerlink" title="（⼆）、配置环境变量"></a>（⼆）、配置环境变量</h5><ol><li>配置环境变量. </li></ol><p>注意：如果是msi安装⽂件，Go语⾔的环境变量会⾃动设置好。我的电脑——右键“属性”——“⾼级系统设置”——“环境变量”——“系统变量”假设GO安装于C盘根⽬录新建：</p><ul><li>GOROOT：Go安装路径（例：C:\Go）</li><li>GOPATH：Go⼯程的路径（例：E:\go）。如果有多个，就以分号分隔添 加</li></ul><p><img src="https://ws3.sinaimg.cn/large/e64a4785gy1fxoolu8m1fj20bf0bxtbc.jpg" alt="">  </p><p>修改：</p><pre><code> * Path：在path中增加：C:\Go\bin;%GOPATH%\bin;  需要把GOPATH中的可执⾏⽬录也配置到环境变量中, 否则你⾃⾏下载的第 三⽅go⼯具就⽆法使⽤了</code></pre><p><img src="https://ws3.sinaimg.cn/large/e64a4785gy1fxoon98qwsj20cf0ctn0l.jpg" alt="">  </p><pre><code> * ⼯作⽬录就是我们⽤来存放开发的源代码的地⽅，对应的也是Go⾥的GOPATH这个环境变量。这个环境变量指定之后，我们编译源代码等⽣成的 ⽂件都会放到这个⽬录下，GOPATH环境变量的配置参考上⾯的安装Go，配 置到Windows下的系统变量⾥。 * GOPATH之下主要包含三个⽬录: bin、pkg、src。bin⽬录主要存放可执⾏⽂件; pkg⽬录存放编译好的库⽂件, 主要是*.a⽂件; src⽬录下主要存放go 的源⽂件</code></pre><ol start="2"><li><p>查看是否安装配置成功</p><p>使⽤快捷键win+R键，输⼊cmd，打开命令⾏提示符，在命令⾏中输⼊ go env # 查看得到go的配置信息</p><p>go version # 查看go的版本号</p></li></ol><h4 id="三、mac系统安装并配置"><a href="#三、mac系统安装并配置" class="headerlink" title="三、mac系统安装并配置"></a>三、<strong>mac</strong>系统安装并配置</h4><h5 id="（⼀）、安装"><a href="#（⼀）、安装" class="headerlink" title="（⼀）、安装"></a>（⼀）、安装</h5><p>​    双击pkg包，顺着指引，即可安装成功。 在命令⾏输⼊ go version，获取到go的 版本号，则代表安装成功。</p><h5 id="（⼆）、配置环境变量-1"><a href="#（⼆）、配置环境变量-1" class="headerlink" title="（⼆）、配置环境变量"></a>（⼆）、配置环境变量</h5><pre><code> 1. 打开终端输⼊cd ~进⼊⽤户主⽬录; 2. 输⼊ls -all命令查看是否存在.bash_profile 3. 存在既使⽤vim .bash_profile 打开⽂件; 4. 输⼊ i 进⼊vim编辑模式； 5. 输⼊下⾯代码， 其中 GOPATH: ⽇常开发的根⽬录。GOBIN:是GOPATH下的 bin⽬录。     * export GOPATH=/Users/steven/Documents/go_projec     * export GOROOT= /Usr/local/go     * export GOBIN=$GOROOT/bin     * export PATH=$PATH:$GOBIN6. 点击ESC，并输⼊ :wq 保存并退出编辑。可输⼊vim .bash_profile 查看是否 保存成功。7. 输⼊source ~/.bash_profile 完成对golang环境变量的配置，配置成功没有提 示。8. 输⼊go env 查看配置结果</code></pre>]]></content>
-      
-      
-      <categories>
-          
-          <category> golang </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 环境安装 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    <entry>
       <title>比特币客户端Bitcoin Core及Bitcoin-cli命令</title>
       <link href="/posts/f69008c9.html"/>
       <url>/posts/f69008c9.html</url>
@@ -139,6 +93,52 @@
         <tags>
             
             <tag> GoLang </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Golang安装和配置</title>
+      <link href="/posts/883f59cd.html"/>
+      <url>/posts/883f59cd.html</url>
+      
+        <content type="html"><![CDATA[<blockquote><p><strong>Golang</strong>安装和配置</p></blockquote><h4 id="⼀、Golang安装"><a href="#⼀、Golang安装" class="headerlink" title="⼀、Golang安装"></a>⼀、<strong>Golang</strong>安装</h4><h5 id="（⼀）、下载"><a href="#（⼀）、下载" class="headerlink" title="（⼀）、下载"></a>（⼀）、下载</h5><p>​    在Mac、Windows和Linux三个平台上都⽀持Golang。您可以从<a href="https://golang.org/dl/下载相应平台的⼆进制⽂件。该⽹站在国内不容易访问，" rel="external nofollow noopener noreferrer" target="_blank">https://golang.org/dl/下载相应平台的⼆进制⽂件。该⽹站在国内不容易访问，</a> 所以可以访问<a href="https://www.studygolang.com/dl" rel="external nofollow noopener noreferrer" target="_blank">https://www.studygolang.com/dl</a> 进⾏安装软件的下载。</p><p><img src="https://wx4.sinaimg.cn/large/e64a4785gy1fxoof8rth4j21lw0qe7ag.jpg" alt=""></p><p><img src="https://ws4.sinaimg.cn/large/e64a4785gy1fxoofpgaxaj21lo0rw0zc.jpg" alt="">  </p><ul><li>Mac OS 从<a href="https://golang.org/dl/下载osx安装程序。双击启动安装。按照" rel="external nofollow noopener noreferrer" target="_blank">https://golang.org/dl/下载osx安装程序。双击启动安装。按照</a> 提示，这应该在/usr/local/go中安装了Golang，并且还会将⽂件夹/usr/local/go/bin添加到您的PATH环境变量中。</li><li>Windows 从<a href="https://golang.org/dl/下载MSI安装程序。双击启动安装并遵" rel="external nofollow noopener noreferrer" target="_blank">https://golang.org/dl/下载MSI安装程序。双击启动安装并遵</a> 循提示。这将在位置c中安装Golang:\Go，并且还将添加⽬录c:\Go\bin到您 的path环境变量。</li><li>Linux 从<a href="https://golang.org/dl/下载tar⽂件，并将其解压到/usr/local。" rel="external nofollow noopener noreferrer" target="_blank">https://golang.org/dl/下载tar⽂件，并将其解压到/usr/local。</a> 将/usr/local/go/bin添加到PATH环境变量中。这应该安装在linux中。</li></ul><h4 id="⼆、-windows系统下安装和配置环境变量"><a href="#⼆、-windows系统下安装和配置环境变量" class="headerlink" title="⼆、 windows系统下安装和配置环境变量"></a>⼆、 <strong>windows</strong>系统下安装和配置环境变量</h4><h5 id="（⼀）、安装步骤⾮常简单，⼀路到底"><a href="#（⼀）、安装步骤⾮常简单，⼀路到底" class="headerlink" title="（⼀）、安装步骤⾮常简单，⼀路到底"></a>（⼀）、安装步骤⾮常简单，⼀路到底</h5><h5 id="（⼆）、配置环境变量"><a href="#（⼆）、配置环境变量" class="headerlink" title="（⼆）、配置环境变量"></a>（⼆）、配置环境变量</h5><ol><li>配置环境变量. </li></ol><p>注意：如果是msi安装⽂件，Go语⾔的环境变量会⾃动设置好。我的电脑——右键“属性”——“⾼级系统设置”——“环境变量”——“系统变量”假设GO安装于C盘根⽬录新建：</p><ul><li>GOROOT：Go安装路径（例：C:\Go）</li><li>GOPATH：Go⼯程的路径（例：E:\go）。如果有多个，就以分号分隔添 加</li></ul><p><img src="https://ws3.sinaimg.cn/large/e64a4785gy1fxoolu8m1fj20bf0bxtbc.jpg" alt="">  </p><p>修改：</p><pre><code> * Path：在path中增加：C:\Go\bin;%GOPATH%\bin;  需要把GOPATH中的可执⾏⽬录也配置到环境变量中, 否则你⾃⾏下载的第 三⽅go⼯具就⽆法使⽤了</code></pre><p><img src="https://ws3.sinaimg.cn/large/e64a4785gy1fxoon98qwsj20cf0ctn0l.jpg" alt="">  </p><pre><code> * ⼯作⽬录就是我们⽤来存放开发的源代码的地⽅，对应的也是Go⾥的GOPATH这个环境变量。这个环境变量指定之后，我们编译源代码等⽣成的 ⽂件都会放到这个⽬录下，GOPATH环境变量的配置参考上⾯的安装Go，配 置到Windows下的系统变量⾥。 * GOPATH之下主要包含三个⽬录: bin、pkg、src。bin⽬录主要存放可执⾏⽂件; pkg⽬录存放编译好的库⽂件, 主要是*.a⽂件; src⽬录下主要存放go 的源⽂件</code></pre><ol start="2"><li><p>查看是否安装配置成功</p><p>使⽤快捷键win+R键，输⼊cmd，打开命令⾏提示符，在命令⾏中输⼊ go env # 查看得到go的配置信息</p><p>go version # 查看go的版本号</p></li></ol><h4 id="三、mac系统安装并配置"><a href="#三、mac系统安装并配置" class="headerlink" title="三、mac系统安装并配置"></a>三、<strong>mac</strong>系统安装并配置</h4><h5 id="（⼀）、安装"><a href="#（⼀）、安装" class="headerlink" title="（⼀）、安装"></a>（⼀）、安装</h5><p>​    双击pkg包，顺着指引，即可安装成功。 在命令⾏输⼊ go version，获取到go的 版本号，则代表安装成功。</p><h5 id="（⼆）、配置环境变量-1"><a href="#（⼆）、配置环境变量-1" class="headerlink" title="（⼆）、配置环境变量"></a>（⼆）、配置环境变量</h5><pre><code> 1. 打开终端输⼊cd ~进⼊⽤户主⽬录; 2. 输⼊ls -all命令查看是否存在.bash_profile 3. 存在既使⽤vim .bash_profile 打开⽂件; 4. 输⼊ i 进⼊vim编辑模式； 5. 输⼊下⾯代码， 其中 GOPATH: ⽇常开发的根⽬录。GOBIN:是GOPATH下的 bin⽬录。     * export GOPATH=/Users/steven/Documents/go_projec     * export GOROOT= /Usr/local/go     * export GOBIN=$GOROOT/bin     * export PATH=$PATH:$GOBIN6. 点击ESC，并输⼊ :wq 保存并退出编辑。可输⼊vim .bash_profile 查看是否 保存成功。7. 输⼊source ~/.bash_profile 完成对golang环境变量的配置，配置成功没有提 示。8. 输⼊go env 查看配置结果</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> golang </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 环境安装 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Goland安装和配置</title>
+      <link href="/posts/a1f7ed3f.html"/>
+      <url>/posts/a1f7ed3f.html</url>
+      
+        <content type="html"><![CDATA[<blockquote><p><strong>Goland</strong>安装和配置</p></blockquote><ul><li><h4 id="⼀、安装Goland开发⼯具"><a href="#⼀、安装Goland开发⼯具" class="headerlink" title="⼀、安装Goland开发⼯具"></a>⼀、安装<strong>Goland</strong>开发⼯具</h4><ul><li><h5 id="（⼀）、介绍"><a href="#（⼀）、介绍" class="headerlink" title="（⼀）、介绍"></a>（⼀）、介绍</h5><p>  Goland是由JetBrains公司旨在为go开发者提供的⼀个符合⼈体⼯程学的新的商业IDE。这个IDE整合了IntelliJ平台的有关go语⾔的编码辅助功能和⼯具集成 特点。它具有以下特点：</p><ul><li>编码辅助功能</li><li>符合⼈体⼯程学的设计</li><li>⼯具的集成</li><li>IntelliJ插件⽣态系统</li></ul></li><li><h5 id="（⼆）、下载及安装"><a href="#（⼆）、下载及安装" class="headerlink" title="（⼆）、下载及安装"></a>（⼆）、下载及安装</h5><ol><li><p>官⽹下载地址：<a href="https://www.jetbrains.com/go/download/。下载完成后，在" rel="external nofollow noopener noreferrer" target="_blank">https://www.jetbrains.com/go/download/。下载完成后，在</a> 本地执⾏解压，安装。<img src="https://ws1.sinaimg.cn/large/e64a4785gy1fxorvzqo7oj224q146n6b.jpg" alt=""></p></li><li><p>安装过程</p><p> 点击“next”按钮，选择要安装的路径，然后点击“next”，会出现安装选项。根据你⾃⼰电脑的型号，选择合适的版本后点击“next”按钮。接着保持默认的程 序启动⽬录，点击“install”进⾏安装。整个安装过程很快，⼏乎⼀路next到底。</p></li></ol></li><li><h5 id="（三）、使⽤Goland"><a href="#（三）、使⽤Goland" class="headerlink" title="（三）、使⽤Goland"></a>（三）、使⽤Goland</h5><ol><li>打开Goland⼯具<img src="https://ws4.sinaimg.cn/large/e64a4785gy1fxos14du57j21de0x0n15.jpg" alt=""></li><li>创建项⽬：<img src="https://ws2.sinaimg.cn/large/e64a4785gy1fxos4xaemlj21620mo75g.jpg" alt=""></li></ol></li></ul></li></ul><ul><li><h4 id="⼆、第⼀个程序：HelloWorld"><a href="#⼆、第⼀个程序：HelloWorld" class="headerlink" title="⼆、第⼀个程序：HelloWorld"></a>⼆、第⼀个程序：<strong>HelloWorld</strong></h4><ul><li><h5 id="（⼀）、编写第⼀个程序"><a href="#（⼀）、编写第⼀个程序" class="headerlink" title="（⼀）、编写第⼀个程序"></a>（⼀）、编写第⼀个程序</h5><ol><li><p>打开编辑器创建⼀个新的helloworld.go⽂件，并输⼊以下内容：</p><pre class=" language-go"><code class="language-go"> <span class="token keyword">package</span> main  <span class="token keyword">import</span> <span class="token string">"fmt"</span>  <span class="token keyword">func</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>     <span class="token comment" spellcheck="true">/* 输出 */</span>     fmt<span class="token punctuation">.</span><span class="token function">Println</span><span class="token punctuation">(</span><span class="token string">"Hello, World!"</span><span class="token punctuation">)</span>  <span class="token punctuation">}</span></code></pre></li><li><p>执⾏go程序  <code>执⾏go程序由⼏种⽅式</code></p><ul><li>⽅式⼀：使⽤go run命令<ul><li>step1：使⽤快捷键win+R，输⼊cmd打开命令⾏提示符</li><li>step2：进⼊helloworld.go所在的⽬录</li><li>step3：输⼊go run helloworld.go命令并观察运⾏结果。</li></ul></li><li>⽅式⼆：使⽤go build命令<ul><li>step1：使⽤快捷键win+R，输⼊cmd打开命令⾏提示符</li><li>step2：进⼊helloworld.go所在的⽬录</li><li>step3：输⼊go build helloworld.go命令进⾏编译，产⽣同名的helloworld.exe⽂件</li><li>step4：输⼊helloworld.exe，执⾏</li></ul></li><li>⽅式三：使⽤ go playground<ul><li>step1：打开⼀下⽹址<a href="https://play.golang.org/" rel="external nofollow noopener noreferrer" target="_blank">https://play.golang.org/</a></li></ul></li></ul></li></ol></li></ul></li></ul><ul><li><h4 id="三、Goland常⽤快捷键"><a href="#三、Goland常⽤快捷键" class="headerlink" title="三、Goland常⽤快捷键"></a>三、<strong>Goland</strong>常⽤快捷键</h4><ul><li><h5 id="（⼀）、⽂件相关快捷键："><a href="#（⼀）、⽂件相关快捷键：" class="headerlink" title="（⼀）、⽂件相关快捷键："></a>（⼀）、⽂件相关快捷键：</h5><ol><li>TRL+E，打开最近浏览过的⽂件。</li><li>CTRL+SHIFT+E，打开最近更改的⽂件。</li><li>CTRL+N，可以快速打开struct结构体。</li><li>CTRL+SHIFT+N，可以快速打开⽂件。</li></ol></li><li><h5 id="（⼆）、代码格式化："><a href="#（⼆）、代码格式化：" class="headerlink" title="（⼆）、代码格式化："></a>（⼆）、代码格式化：</h5><ol><li>CTRL+ALT+T，可以把代码包在⼀个块内，例如if{…}else{…}。</li><li>CTRL+ALT+L，格式化代码。</li><li>CTRL+空格，代码提示。</li><li>CTRL+/，单⾏注释。CTRL+SHIFT+/，进⾏多⾏注释。</li><li>CTRL+B，快速打开光标处的结构体或⽅法（跳转到定义处）。</li><li>CTRL+“+/-”，可以将当前⽅法进⾏展开或折叠。</li></ol></li><li><h5 id="（三）、查找和定位"><a href="#（三）、查找和定位" class="headerlink" title="（三）、查找和定位"></a>（三）、查找和定位</h5><ol><li>CTRL+R，替换⽂本。</li><li>CTRL+F，查找⽂本。</li><li>TRL+SHIFT+F，进⾏全局查找。</li><li>CTRL+G，快速定位到某⾏。</li></ol></li><li><h5 id="（四）、代码编辑"><a href="#（四）、代码编辑" class="headerlink" title="（四）、代码编辑"></a>（四）、代码编辑</h5><ol><li>ALT+Q，可以看到当前⽅法的声明。</li><li>SHIFT+ENTER，可以向下插⼊新⾏，即使光标在当前⾏的中间。</li><li>CTRL+Backspace，按单词进⾏删除或删除光标所在⾏。</li><li>TRL+X，剪切当前光标所在⾏。</li><li>CTRL+D，复制当前光标所在⾏。</li><li>ALT+SHIFT+UP/DOWN，可以将光标所在⾏的代码上下移动。</li><li>CTRL+SHIFT+U，可以将选中内容进⾏⼤⼩写转化。</li></ol></li></ul></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 环境安装 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Goland </tag>
             
         </tags>
       
