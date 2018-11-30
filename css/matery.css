@@ -33,6 +33,63 @@ body {
     color: #34495e;
 }
 
+.box6:before{
+    content:'';    
+    width: 25px;
+    height: 20px;
+    position: absolute;
+    bottom:0;
+    right:0;
+    -webkit-border-bottom-right-radius: 30px;
+    -webkit-box-shadow: -2px -2px 5px rgba(0, 0, 0, 0.3);
+    -webkit-transform:
+    rotate(-20deg)
+    skew(-40deg,-3deg)
+    translate(-13px,-13px);
+}
+
+.box6:after{
+    content: '';
+    z-index: -10;
+    width: 100px;
+    height: 100px;
+    position:absolute;
+    bottom:0;
+    right:0;
+    background: rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    -webkit-box-shadow: 20px 20px 8px rgba(0, 0, 0, 0.2);
+    -webkit-transform: rotate(0deg)
+                        translate(-45px,-20px)
+                           skew(20deg);
+}
+.box6_corner_lf{
+    width: 100px;
+    height: 100px;
+    top:0; left:0;
+    position:absolute;
+    z-index:-6;
+    display: inline-block;
+    -webkit-box-shadow: -10px -10px 10px rgba(0, 0, 0, 0.2);
+    -webkit-transform: rotate(2deg)
+                        translate(20px,25px)
+                           skew(20deg);
+}
+
+.box6_corner_rt{
+    content: '';
+    width: 50px;
+    height: 50px;
+    top:0; right:0;
+    position:absolute;
+    display: inline-block;
+    z-index:-6;
+    -webkit-box-shadow: 10px -10px 8px rgba(0, 0, 0, 0.2);
+    -webkit-transform: rotate(2deg)
+                        translate(-14px,20px)
+                           skew(-20deg);
+}
+
 h1 {
     margin: 48px 0 22px -5px;
     font-size: 2.0rem;
@@ -52,6 +109,9 @@ h3 {
     font-size: 1.6rem;
     font-weight: bold;
     line-height: 1.7rem;
+    border-left: 4px solid #EE3B3B;
+    margin-left: -58px;
+    padding-left: 60px;
 }
 
 h4 {
@@ -59,6 +119,9 @@ h4 {
     font-size: 1.45rem;
     font-weight: bold;
     line-height: 1.45rem;
+    border-left: 4px solid #EE7942;
+    margin-left: -58px;
+    padding-left: 60px;
 }
 
 h5 {
@@ -66,6 +129,9 @@ h5 {
     font-size: 1.2rem;
     font-weight: bold;
     line-height: 1.2rem;
+    border-left: 4px solid #EE6A50;
+    margin-left: -58px;
+    padding-left: 60px;
 }
 
 h6 {
