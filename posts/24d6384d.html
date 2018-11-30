@@ -1,6 +1,1165 @@
-<!DOCTYPE HTML><html lang="zh-Hans"><head><head><meta name="generator" content="Hexo 3.8.0"><meta charset="utf-8"><meta name="keywords" content="初识区块链家族, 区块链 Python Java golang Android H5 michel"><meta name="description" content="初识区块链家族区块链有一个伟大的家族
+<!DOCTYPE HTML>
+<html lang="zh-Hans">
+<head>
+    
+
+<head><meta name="generator" content="Hexo 3.8.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="初识区块链家族, 区块链 Python Java golang Android H5 michel">
+    <meta name="description" content="初识区块链家族区块链有一个伟大的家族
 
 一.区块链的父亲————去中心化
 去中心化基本概念
 
-中心化(Centralization, [ sentrelai’zei J n])和去中心化(Decentralization, [ diisen"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="renderer" content="webkit|ie-stand|ie-comp"><meta name="mobile-web-app-capable" content="yes"><meta name="format-detection" content="telephone=no"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><title>初识区块链家族 | michel的梦想</title><link rel="icon" type="image/png" href="/img/favicon.ico"><link href="https://cdn.bootcss.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet"><link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css"><link rel="stylesheet" type="text/css" href="/libs/materialize/css/materialize.min.css"><link rel="stylesheet" type="text/css" href="/libs/aos/aos.css"><link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css"><link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css"><link rel="stylesheet" type="text/css" href="/css/matery.css"><link rel="stylesheet" type="text/css" href="/css/my.css"><script src="/libs/jquery/jquery-2.2.0.min.js"></script><link rel="stylesheet" href="/css/prism-base16-ateliersulphurpool.light.css" type="text/css"></head></head><body><header class="navbar-fixed"><nav id="headNav" class="bg-color nav-transparent"><div id="navContainer" class="container"><div class="nav-wrapper"><div class="brand-logo"> <a href="/" class="waves-effect waves-light"><img src="/medias/logo.png" class="logo-img hide-on-small-only"> <span class="logo-span">michel的梦想</span></a></div><a href="#" data-activates="mobile-nav" class="button-collapse"><i class="fa fa-navicon"></i></a><ul class="right"><li class="hide-on-med-and-down"><a href="/" class="waves-effect waves-light"><i class="fa fa-home"></i> <span>主页</span></a></li><li class="hide-on-med-and-down"><a href="/tags" class="waves-effect waves-light"><i class="fa fa-tags"></i> <span>标签</span></a></li><li class="hide-on-med-and-down"><a href="/categories" class="waves-effect waves-light"><i class="fa fa-bookmark"></i> <span>分类</span></a></li><li class="hide-on-med-and-down"><a href="/archives" class="waves-effect waves-light"><i class="fa fa-archive"></i> <span>更多</span></a></li><li class="hide-on-med-and-down"><a href="/one" class="waves-effect waves-light"><i class="fa fa-gratipay"></i> <span>一句</span></a></li><li class="hide-on-med-and-down"><a href="/gallery" class="waves-effect waves-light"><i class="fa fa-picture-o"></i> <span>图片</span></a></li><li class="hide-on-med-and-down"><a href="/video" class="waves-effect waves-light"><i class="fa fa-video-camera"></i> <span>视频</span></a></li><li class="hide-on-med-and-down"><a href="/about" class="waves-effect waves-light"><i class="fa fa-user-circle-o"></i> <span>我</span></a></li><li><a id="toggleSearch" class="waves-effect waves-light"><i id="searchIcon" class="mdi-action-search"></i></a></li></ul><div class="side-nav" id="mobile-nav"><div class="mobile-head bg-color"> <img src="/medias/logo.png" class="logo-img circle responsive-img"><div class="logo-name">michel的梦想</div><div class="logo-desc"> 快乐的人没有过去，不快乐的人除了过去一无所有。</div></div><ul class="menu-list mobile-menu-list"><li><a href="/" class="waves-effect waves-light"><i class="fa fa-fw fa-home"></i> 主页</a></li><li><a href="/tags" class="waves-effect waves-light"><i class="fa fa-fw fa-tags"></i> 标签</a></li><li><a href="/categories" class="waves-effect waves-light"><i class="fa fa-fw fa-bookmark"></i> 分类</a></li><li><a href="/archives" class="waves-effect waves-light"><i class="fa fa-fw fa-archive"></i> 更多</a></li><li><a href="/one" class="waves-effect waves-light"><i class="fa fa-fw fa-gratipay"></i> 一句</a></li><li><a href="/gallery" class="waves-effect waves-light"><i class="fa fa-fw fa-picture-o"></i> 图片</a></li><li><a href="/video" class="waves-effect waves-light"><i class="fa fa-fw fa-video-camera"></i> 视频</a></li><li><a href="/about" class="waves-effect waves-light"><i class="fa fa-fw fa-user-circle-o"></i> 我</a></li><li><div class="divider"></div></li><li><a href="https://github.com/BaiMingxu" class="waves-effect waves-light" target="_blank" rel="external nofollow noopener noreferrer"><i class="fa fa-github-square fa-fw"></i> Fork Me</a></li></ul></div></div></div><style>.nav-transparent .github-corner{display:none!important}.github-corner{position:absolute;z-index:10;top:0;right:0;border:0;transform:scale(1.1)}.github-corner svg{color:#0f9d58;fill:#fff;height:64px;width:64px}.github-corner:hover .octo-arm{animation:a .56s ease-in-out}.github-corner .octo-arm{animation:none}@keyframes a{0%,to{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}</style> <a href="https://github.com/BaiMingxu" class="github-corner tooltipped hide-on-med-and-down" target="_blank" data-tooltip="Fork Me" data-position="left" data-delay="50" rel="external nofollow noopener noreferrer"><svg viewbox="0 0 250 250" aria-hidden="true"><path d="M0 0 115 115 130 115 142 142 250 250 250 0Z"/><path d="M128.3 109C113.8 99.7 119 89.6 119 89.6 122 82.7 120.5 78.6 120.5 78.6 119.2 72 123.4 76.3 123.4 76.3 127.3 80.9 125.5 87.3 125.5 87.3 122.9 97.6 130.6 101.9 134.4 103.2" fill="currentColor" style="transform-origin:130px 106px" class="octo-arm"/><path d="M115 115C114.9 115.1 118.7 116.5 119.8 115.4L133.7 101.6C136.9 99.2 139.9 98.4 142.2 98.6 133.8 88 127.5 74.4 143.8 58 148.5 53.4 154 51.2 159.7 51 160.3 49.4 163.2 43.6 171.4 40.1 171.4 40.1 176.1 42.5 178.8 56.2 183.1 58.6 187.2 61.8 190.9 65.4 194.5 69 197.7 73.2 200.1 77.6 213.8 80.2 216.3 84.9 216.3 84.9 212.7 93.1 206.9 96 205.4 96.6 205.1 102.4 203 107.8 198.3 112.5 181.9 128.9 168.3 122.5 157.7 114.1 157.9 116.9 156.7 120.9 152.7 124.9L141 136.5C139.8 137.7 141.6 141.9 141.8 141.8Z" fill="currentColor" class="octo-body"/></svg></a></nav></header><div class="bg-cover post-cover" style="background-image:url(https://ws1.sinaimg.cn/large/e64a4785gy1fxpu732ru2j20ku0dwwew.jpg)"><div class="container"><div class="row"><div class="col s12 m12 l12"><div class="brand"><div class="description center-align post-title"> 初识区块链家族</div></div></div></div></div></div><main class="container content"><div id="artDetail"><div class="card"><div class="card-content article-info"><div class="article-tag"> <a href="/tags/blockchain/" target="_blank"><span class="chip bg-color">blockchain</span></a></div><div class="post-info"><span class="post-date"><i class="fa fa-file-word-o fa-fw"></i> 9.5k<span class="post-date"><i class="fa fa-hourglass-half fa-fw"></i> 32分</span><span class="post-cate"><i class="fa fa-bookmark fa-fw icon-category"></i> <a href="/categories/区块链/" class="post-category" target="_blank">区块链</a></span><span class="post-date"><i class="fa fa-clock-o fa-fw"></i> 2017-10-29</span></span></div></div><hr><div class="card-content article-card-content"><div id="articleContent"><h1 id="初识区块链家族"><a href="#初识区块链家族" class="headerlink" title="初识区块链家族"></a>初识区块链家族</h1><p>区块链有一个伟大的家族</p><p><img src="http://ws4.sinaimg.cn/large/e64a4785gy1fwp6pe3nhbj20qa0vqn0d.jpg" alt="1540794240835"></p><h2 id="一-区块链的父亲————去中心化"><a href="#一-区块链的父亲————去中心化" class="headerlink" title="一.区块链的父亲————去中心化"></a>一.区块链的父亲————去中心化</h2><ol><li><p>去中心化基本概念</p><ul><li>中心化(Centralization, [ sentrelai’zei J n])和去中心化(Decentralization, [ diisentralai’zei J n])就是集权与分权；</li><li>从天文学的角度来看去中心化是指宇宙没有中心，就是一片无边界的物质 组成，没有中心点；</li><li>去中心化在宗教方面的体现，比如基督教，基督教原来是以教会为核心的，去中心化结合基督教之后，每个人都可以直接跟上帝发生关联，而不一定要通过教会；</li><li>去中心化结合政治，于是产生了民主制度，从此每个人都能发表自己的见解；</li><li>去中心化是一种哲学思想。这种思想在人类出现的时候就已经存在，主旨是弱化中心，然后实现人与人之间直接沟通、直接交易、直接传播的一种方式；</li><li>去中心化，并非不要中心，而是由节点来自由选择中心、自由决定中心。 所以将Decentralization翻译成“去中心化”不够准确，确切点说应该是“弱中 心化”。比如在金融活动中，简单地区中心，会被误读为既想从事金融活动，又不愿意接受金融监督。目前业界已经慎重使用Decentralization,更多地使 用P2P或者Serverless（无服务器的）；</li><li>简单地说，中心化的意思，是中心决定节点。节点必须依赖中心，节点离 开了中心就无法生存。在去中心化系统中，任何人都是一个节点，任何人也都可以成为一个中心。任何中心都不是永久的，而是阶段性的，任何中心对 节点都不具有强制性；</li><li>中心化和去中心化是相辅相成的关系。未来的技术肯定是不断的调整中心化和去中心化的平衡，以取得相应场景的最高效率。绝对的中心化和去中心 化都没有意义。向一个方向倾斜时会带来相应好处，同时也会带来相应的弊端。</li></ul></li><li><p>互联网中的去中心化</p><ul><li><p>去中心化在互联网上，人们习惯叫他P2P，P2P具有极大的影响力；</p><ul><li>P2P是Peer-to-Peer（peer,地位同等，对等的意思）的简称。在互联网中P2P被称为“对等联网”；</li><li>P2P是Point - to - Point （点对点）；</li><li>P2P是person-to-person的简写，意思是个人对个人；</li><li>对等联网是只读网络的终结（Peer-to-peer is the end of the read­ only Web）；</li><li>对等联网使你重新参与互联网（Peer-to-peer allows you to participate in the Internet again）；</li><li>对等联网使网络远离电视（Peer-to-peer steering the Internet away from TV）；</li><li>P2P就是一种思想，有着改变整个互联网基础的潜能的思想。而P2P并非一个新思想，从某些角度看它其实才是最初创建互联网的基本思想。</li></ul></li><li><p>去中心化的表现就是多样化。在网络世界不再是有几个门户网站说了算， 各种各样的网站开始有了自己的声音，表达不同的选择，不同的爱好，这些网站分布在网络世界的各个角落里张扬着个性；</p><ul><li>通俗地讲，中心化是几个经过认证的嘉宾在‘讲话’，所有其他人在听，类似上课；去中心化是每个人都可以‘讲话’，每个人都可以选择讲或者听，如同英语角。中心化的典型例子是门户网站，去中心化的典型例子是blog、社交媒体等。</li></ul></li><li><p>互联网去中心化发展过程</p><ul><li>互联网发展的层面来看，去中心化是相对于“中心化”而言的新型网络 内容的生产过程；</li><li>早期的互联网Web1.0时代，网络内容是由专业网站或特定人群所产生的，这就是“中心化”；</li><li>自网络Web2.0开始，出现了新型的网络内容生产过程。网络内容由全 体网民共同参与、共同创造。任何人都可以在网络上表达自己的观点或 发表原创内容。网络从缺乏互动的个别人建站变成了以圈子的形式来聚 合人才共同贡献智慧，这是一个巨大的变革；</li><li>Web2.0兴起后，Wikipedia （维基百科，网络百科全书）、Flickr（雅虎旗下图片分享网站）、Blogger（博客，网络日志）等网络服务商所提 供的服务都是去中心化的，任何参与者都可提交内容。之后更简单易用 的去中心化产品出现了，例如Twitter （推特，微博）、Facebook（脸书）、QQ、微信这些当今最流行的P2P应用的出现，使得普通网民为互 联网贡献内容更加简便、更加多元化，也更加积极。最终使得每一个网 民都成为了一个微小且独立的信息提供者，使得互联网更加扁平、内容生产更加多元化。</li></ul></li><li><p>很多人对去中心化有一些误解，比如说Facebook. Twitter、QQ、微信等正在成为更集中的中心。去中心化不是说今后不再有大网站，也不是说大网站就一定是中心化的，去中心化主要是指技术对普通用户的赋权。另外，去中心化也不是人人绝对平等的意思，总会有人更善于利用技术赋予的可能 性，有人则不善用或不在乎。</p><p><img src="http://wx4.sinaimg.cn/large/e64a4785gy1fwp6q0c0vtj20po0gq45g.jpg" alt="1540802427979"></p></li></ul></li><li><p>去中心化的经典案例</p><p>Github是去中心化的一个很好的例子。Github就是让所有人在互联网上分享 和贡献代码，在Github里，没有所谓的中心化公司，所有的交互都是人与人之间产生。在区块链的世界里，所有事物都是去中心化的：从一个应用，到一家公司，都必须通过每个人来贡献，大家遵守共同制定的规则。</p><p><img src="http://wx1.sinaimg.cn/large/e64a4785gy1fwp6tmoindj20yb0jf138.jpg" alt="1540802757425"></p></li></ol><h2 id="二-区块链的母亲一互联网"><a href="#二-区块链的母亲一互联网" class="headerlink" title="二.区块链的母亲一互联网"></a>二.区块链的母亲一互联网</h2><ul><li><p>区块链的母亲就是互联网;</p></li><li><p>互联网是一个没有中心化节点的网络结构。每一个点，从本质上来说，在整个互联网上都是同等重要的存在。所以去中心化与网络是天作之合；</p></li><li><p>去中心化与网络结合后，诞生了延续了去中心化基因，并且对整个世界产生巨大影响的8个孩子，按照排行分别是：P2P下载、CDN、分布式计算、社交媒体、P2P借货、众筹（众筹与代币结合后诞生了ICO）、区块链（区块链 的儿子是比特币）、DAO自组织。</p><p><img src="http://ws1.sinaimg.cn/large/e64a4785gy1fwp6xzrboqj20uf0hkqh1.jpg" alt="1540803011138"></p></li></ul><h2 id="三-区块链的大哥一P2P下载"><a href="#三-区块链的大哥一P2P下载" class="headerlink" title="三.区块链的大哥一P2P下载"></a>三.区块链的大哥一P2P下载</h2><ol><li><p>P2P下载的发展史</p><ul><li>去中心化的第一个产物就是P2P下载。P2P下载是其父亲的姓氏+其自身名字“下载”的合称；</li><li>早在1998年，美国东北波士顿大学的一年级新生——18岁的Shawn Fanning（肖恩•范宁，他也是Facebook最早的顾问、投资人和股东之一）为了能够解决他的室友的一个问题——如何在网上找到音乐而编写的一个简单的程序，这个程序能够搜索音乐文件并提供检索，把所有的音乐文件地址存 放在一个集中的服务器中，这样使用者就能够方便地过滤上百个地址而找到自己需要的MP3文件；</li><li><p>到了1999年，令他们没有想到的是，这个叫做Napster的mp3音乐分享网 站成为了人们争相转告的“杀手程序”——它令无数散布在互联网上的音乐爱好者美梦成真，无数人在一夜之内开始使用Napster。1999年5月，Napster公司宣告成立，这是一个非同意义的起始，也正是从这天起，P2P开始了它曲折但极富生命力的发展。在最高峰时Napster网络有8000万的注册用户，这是一个让众多网络平台望尘莫及的数字。这大概可以作为P2P软件成功进入人们生活的一个标志；</p></li><li><p>Napster,能让大家自由下载MP3,但是这个mp3文件，并不是放在Napster网站的硬盘上的。要想把整个互联网上的音乐都放在一起也是不可相 像的。Shawn是将每个人电脑上的mp3汇集成一张目录。如果你想下载mp3,那么Napster就会找到那些有这个mp3的电脑，同时去从这些电脑中下载一个个小小的碎片，然后在你的电脑上拼成这个mp3。所以Napster本身并 不拥有MP3,他只是帮助那些拥有mp3的人互相分享，这就是“点对点分 享”；</p></li><li><p>Napster并非一帆风顺，因为P2P下载对版权保护的冲击很大，美国后来禁止用这种方式来分享MP3, Napster也于2002年宣告破产。但是这个逻辑，一直存续了下来。尤其在中国P2P下载风景这边独好。</p><p><img src="http://ws4.sinaimg.cn/large/e64a4785gy1fwp781zcbwj20a309jq5q.jpg" alt="1540803601649"></p></li></ul></li><li><p>P2P下载的知名产品简介</p><ul><li><p>P2P作为一种网络技术，依赖网络中参与者的计算能力和带宽，而不是把依赖都聚集在较少的几台服务器上；</p></li><li><p>P2P下载的本质，是一种硬盘的共享，是把每个人电脑上的一部分硬盘拿出来与其他人共享；</p></li><li><p>BT下载：说到P2P，就不能不提BT，这个被人戏称为“变态”的词几乎在大多数人感觉中与P2P成了对等的一组概念，而它也将P2P技术发展到了近乎完美的地步。</p><ul><li><p>实际上BitTorrent（torrent [‘torrent]山洪；洪流；激流；爆发。中文名称比特流，简称BT），原先是指是一个多点下载的P2P软件。它不象FTP那样只有一个发送源，BT有多个发送点，当你在下载时，同时也在上传，使大家都处在同步传送的状态。应该说，BT是当今P2P最为成功的一个应用；</p></li><li><p>BT用的是BT专用协议，在BT网络中都有一个种子文件，下载者都是从 这个种子文件开始下载，然后每个下载者之间再互传。例如：客户端甲从服务器上随机下载了第N部分，客户端乙从服务器上随机下载了第M部分。这样甲的BT就会根据情况到乙的电脑上去拿乙已经下载好的第M部 分，乙的BT就会根据情况去到甲的电脑上去拿甲已经下载好的第N部 分。BT下载从理论上讲是下载的同时必需上传给其它人分享。这种下载方式，人越多时下载速度越快；</p></li><li><p>有一句话可以作为BT最为形象的解释就是：“我为人人，人人为我”。最初听到此概念时，有人担心使用BT会损坏硬盘！因为在执行P2P下载曰寸，电脑硬盘在高速执行读与写的操作，同时对电脑内存占用也较多， 会影响整机速度。但是没有贡献怎么会有获取，这就是BT下载传输的精髓。工具软件BTJoy,将BT技术以软件的形式完美呈现起来，BTJoy诞 生仅一年内就已经迅速火遍整个网络。对于BT下载的爱好者来说，BTJoy的存在让多大的硬盘都可以被迅速塞满；</p></li><li><p>迅雷(Thunder)下载：迅雷智能下载软件，它拥有比目前用户常用的下载软 件快7—10倍的下载速度。迅雷就是P2P下载，它的逻辑是把电影文件放到每个不同的电脑上，然后彼此分享，这个模式极大地节省了资源；</p></li><li><p>酷狗(KuGoo)音乐：酷狗是基于中文平台专业的P2P音乐传输软件。通过KuGoo,用户可以方便、快捷、安全地实现中国国内最大的音乐搜索查找。</p><p><img src="http://wx2.sinaimg.cn/large/e64a4785gy1fwp7fclz56j20g807qaei.jpg" alt="1540803999555"></p><p><img src="http://ws2.sinaimg.cn/large/e64a4785gy1fwp7gvllh6j20g80avwhb.jpg" alt="1540804105736"></p><p><img src="http://ws1.sinaimg.cn/large/e64a4785gy1fwp7hslpwhj20g80b1q68.jpg" alt="1540804163466"></p></li></ul></li></ul></li></ol><h2 id="四-区块链的二哥一CDN"><a href="#四-区块链的二哥一CDN" class="headerlink" title="四.区块链的二哥一CDN"></a>四.区块链的二哥一CDN</h2><ol><li><p>CDN</p><ul><li>去中心化与互联网结合后的第二个产物就是CDN；</li><li>CDN的全称是Content Delivery Network,即内容分发网络。<ul><li>CDN的基本思路是尽可能避开互联网上有可能影响数据传输速度和稳定性的瓶颈和环节，使内容传输的更快、更稳定；</li><li>例如：在互联网上看电影，有一个问题。在上海通过视频网站看一部电影，因为电影是存放在北京的服务器上，在上海看就会很慢，如果在深圳去看这个电影，反应会更慢。那怎么办？有一个办法就是把这个电影放在很多不同地区的服务器，看电影时找最近的服务器来访问，这就是CDN;</li><li>CDN的基本原理是广泛采用各种缓存服务器，将这些缓存服务器分布 到用户访问相对集中的地区或网络中，在用户访问网站时，利用全局负载技术将用户的访问指向距离最近的工作正常的缓存服务器上，由缓存服务器直接响应用户请求。最终降低网络拥塞，提高用户访问响应速度 和命中率；</li><li>CDN包括分布式存储、负载均衡、网络请求的重定向和内容管理4个要件，而内容管理和全局的网络流量管理是CDN的核心所在。通过用户就近性和服务器负载的判断，CDN确保内容以一种极为高效的方式为用户的请求提供服务；</li><li>CDN目前广泛应用于视频云行业的内容分发加速。</li></ul></li></ul></li><li><p>P-CDN</p><ul><li><p>P-CDN：就是P2P内容分发网络（英文名：P2PCDN,简称P-CDN）,是以 P2P技术为基础，通过挖掘利用边缘网络的海量碎片化闲置资源而构建的低成 本高品质的内容分发网络服务。接入该服务后能获得高于CDN的分发质量，同时显著降低分发成本。适用于视频点播、直播、大文件下载等业务场景;</p></li><li><p>阿里云PCDN是基于P2P技术的CDN产品，两者实现完美结合，更适合大流量分发。PCDN产品相对于CDN拥有成本更低、质量更好两方面的核心优势;</p></li><li><p>关于P-CDN的落地，要感谢迅雷。迅雷很早就开始用P-CDN,它出售给会员一种商品，当年叫赚钱宝，后来叫玩客币。玩客币是迅雷旗下智能硬件“玩 客云”用户激励的虚拟数字资产，其实都是让会员用家里面的网络，来访问彼 此网络带宽的一种设备。迅雷通过这一硬件设备，将用户的闲置带宽充分利用，以极低的代价扩充自身CDN，获得更大的云储备空间与带宽，而对于用户来说，可以在带宽闲置时贡献带宽从而获得收益;</p><ul><li>玩客币每天产量固定，第一年每天产量每天约164万个，每365天减半 一次。这种以区块链技术为基础，通过挖矿获取，总量有限且产量随时 间逐步递减的模式在很大程度上都与比特币相似。</li></ul></li><li><p>如果说P2P下载实现了硬盘的分享，而P-CDN实现的是网络资源带宽的分享。</p><p><img src="http://wx4.sinaimg.cn/large/e64a4785gy1fwp7ospf4dj20ie0a476n.jpg" alt="1540804609647"></p></li></ul></li></ol><h2 id="五-区块链的三哥一分布式计算"><a href="#五-区块链的三哥一分布式计算" class="headerlink" title="五.区块链的三哥一分布式计算"></a>五.区块链的三哥一分布式计算</h2><ol><li><p>分布式计算概述</p><ul><li>去中心化与互联网结合后诞生了分布式计算，而分布式计算的出现，轰动了全世界；</li><li>广义上讲，分布式计算是一门计算机科学，它研究如何把一个需要非常巨大的计算能力才能解决的问题分成许多小的部分，然后把这些部分分配给许多计算机进行处理，最后把这些计算结果综合起来得到最终的结果；</li><li>具体来讲，分布式计算是一种计算方法，和集中式计算是相对的。随着计 算技术的发展，有些应用需要非常巨大的计算能力才能完成，如果采用集中式计算，需要耗费相当长的时间来完成。分布式计算将该应用分解成许多小的部分，分配给多台计算机进行处理。这样可以节约整体计算时间，大大提 高计算效率。<ul><li>过去我们破译一个算法或者密码，我们用一个东西：超级计算机。就是在机房里有个特别厉害的计算机，它的运算速度，比全世界任何一台计算机都要快。这就是中心化的计算。</li><li>那什么是分布式计算呢？就把需要大量计算的工作，比如说，破译密码，或者计算一个DNA序列，分解成无数的小块。分成小块后，再扔给全世界一个个小的计算机，比如你家里的个人电脑。当全世界几千、几万甚至几十万台个人电脑的CPU,同时计算的时候，再怎么样，计算速度都会比一个超级计算机要快。</li><li>一些人类以前解决不了的问题，比如需要大量计算的基因学、密码学的问题，在分布式计算面前也能被轻而易举地解决。最近的分布式计算项目被用于使用世界各地成千上万位志愿者的计算机的闲置计算能力， 通过因特网，分析来自外太空的电讯号，寻找隐蔽的黑洞，探索可能存在的外星智慧生命。</li><li>使用多台电脑一起来运算，而如果这么多台电脑都处在互联网上，它们如何相互链接？如何传递消息和通信？如何协调各自的任务和分工？这些问题就是分布式计算系统要解决的事。</li><li>世界上很多非常复杂的科学问题，就是通过分布式计算来完成的。比特币就是其中之一。</li></ul></li></ul></li><li><p>边缘计算与Hadoop</p><ul><li><p>P2P下载是用来共享硬盘的；CDN是共享网络帯宽的；分布式计算则共享计算机CPU资源。三种技术联合在一起叫做“边缘计算”；</p></li><li><p>云计算，可以算是区块链家族的一个远房亲戚。云计算是通过互联网的方式来给大家提供一台巨大的、远的云端计算机。但是云计算依然是用云端来提供的一个中心化的计算资源；</p></li><li><p>边缘计算，是不用云端来提供一个中心化的计算资源，而是把每台计算机的硬盘资源、网络资源、CPU资源都拿出来共享，这样全世界的计算机，加 在一起就变成一台虚拟的超级计算机。这被称之为分布式云计算，由全网计算机一起提供云计算的服务，然后由边缘计算技术来统一协调。</p></li><li><p>Hadoop是一个能够对海量数据进行分布式计算的软件框架。</p></li><li><p>Hadoop框架最核心的设计就是：HDFS和MapReduce。HDFS为海量的数 据提供了存储，则MapReduce为海量的数据提供了计算。</p></li><li><p>HDFS是Hadoop分布式文件系统(Hadoop Distributed File System)的缩写，为分布式存储提供了底层支持。</p></li><li><p>MapReduce从它名字上来看就大致可以看出个缘由，两个动词Map和Reduce, “Map (展开)”就是将一个任务分解成为多个任务，“Reduce”就是将分解后多任务处理的结果汇总起来，得出最后的分析结果。MapReduce总体说就是“任务分解与结果汇总”。</p><p><img src="http://wx2.sinaimg.cn/large/e64a4785gy1fwp7w1uvo2j20hs0a60v6.jpg" alt="1540804975680"></p></li></ul></li></ol><h2 id="六-区块链的四姐一社交媒体"><a href="#六-区块链的四姐一社交媒体" class="headerlink" title="六.区块链的四姐一社交媒体"></a>六.区块链的四姐一社交媒体</h2><ol><li><p>社交媒体是去中心化与互联网结合后的其中一个产物；</p></li><li><p>过去媒体是中心化的，在全世界范围之内，发言权是集中在少数人手上的；</p></li><li><p>社交媒体诞生后，她让每个人都有公平发言的机会，每个人的声音都能被别人听到，整个世界就立刻变得非常感性，每个人都能够说出自己有创意的、有感情的想法；</p></li><li><p>社交媒体是人们彼此之间用来分享意见、见解、经验和观点的工具和平台，现阶段最知名的社交媒体就是Facebook.Twitter,在中国则是新浪微博、腾讯QQ、微信等等；</p></li><li><p>社交媒体传播的信息已成为人们浏览互联网的重要内容，不仅制造了人们社交生活中争相讨论的热门话题，更进而吸引传统媒体争相跟进；</p></li><li><p>社交媒体已经不仅仅是个人信息发布的平台，更是企业营销的最佳渠道。</p><p><img src="http://wx3.sinaimg.cn/large/e64a4785gy1fwp7za5mm4j20ha0a1qa0.jpg" alt="1540805167758"></p></li></ol><h2 id="七-区块链的五哥一P2P借货"><a href="#七-区块链的五哥一P2P借货" class="headerlink" title="七.区块链的五哥一P2P借货"></a>七.区块链的五哥一P2P借货</h2><ol><li><p>P2P借贷是去中心化与网络结合后，在金融领域诞生的第一个孩子；</p></li><li><p>P2P借贷是什么意思呢？就是今天我需要钱，我不去银行，而是直接去找有钱人借。一般需要借助电子商务专业网络平台帮助借货双方确立借货关系并 完成相关交易手续。借款者可自行发布借款信息，包括金额、利息、还款方式和时间，实现自助式借款；借出者根据借款人发布的信息，自行决定借出金额，实现自助式借货。</p></li><li><p>举例说明：MB月光宝盒平台</p><ul><li>A有借款的需求，却找不到合适的人来借，在平台上发布了这个需求。</li><li>B有多余的闲钱，想要有更好的收益，于是通过平台进行投资。</li><li>平台所做的就是通过A的需求，B的需求，最终把俩人匹配了起来，由B借给A，平台做担保。A要承担一定的借款利息，B可以收益一定的借款利息。这就是P2P借货。</li></ul></li><li><p>归根结底，电商卖家、小微企业很难从银行获得贷款的原因，就是因为卡在了信用审批这一环节上。客观地说，电商卖家、小微企业并非没有信用，只不过各大银行很难客观公正地评估中小企业的信用。在这种市场环境下，P2P货款平台的出现，为小微企业提供了融资渠道，解决了发展过程中的一大难题。</p></li><li><p>P2P网货平台由于没有货款牌照，还属于民间借贷，借货资金的进出往往要 通过网站创始人的个人账户或公司账户进行，一般较大的P2P平台每天的资金 沉淀多达三五百万元，这就为平台私自挪用用户资金乃至携款潜逃埋下了隐患。大部分P2P平台都选择和第三方支付平台合作。</p></li><li><p>为了借货安全应该引入第三方资金托管，才能降低P2P借货资金流转中的风险。</p><p><img src="http://wx2.sinaimg.cn/large/e64a4785gy1fwp86igpnaj20ew09egqv.jpg" alt="1540805572816"></p></li></ol><h2 id="八-区块链的六哥一众筹"><a href="#八-区块链的六哥一众筹" class="headerlink" title="八.区块链的六哥一众筹"></a>八.区块链的六哥一众筹</h2><ol><li><p>众筹的鼻祖AngelList</p><ul><li><p>在金融领域诞生P2P借货之后，很快又诞生了众筹；</p></li><li><p>2003年，纳瓦尔(Naval)创办了一家企业，由于不懂风险投资行业潜规则」，被投资人骗得血本无归。这让Naval对资本的恶意、创业的艰辛深有体会。他决定以一种特殊的方式，帮助初创企业——创办AngelList (天使名单的意思)。</p></li><li><p>AngelList是一家专门连接初创企业和投资者的融资平台和社交网络。他是 股权众筹的鼻袓。AngelList®覆了传统风投业，聚合了大量的巨无霸型投融资平台。AngelList从初创公司成长为投融资航母级企业，他们只用了三年。AngelList模式在全世界范围内被广泛地传播和复制，也包括中国。</p></li><li><p>AngelList对自己白勺定位：AngelList is where the world meets startups.<br>(AngelList是让世界认识初创企业的地方)</p><p><img src="http://wx1.sinaimg.cn/large/e64a4785gy1fwp8athwajj20ga07d0w1.jpg" alt="1540805832605"></p></li></ul></li><li><p>众筹概述</p><ul><li><p>众筹，英文是crowdfunding0即大众筹资或群众筹资，香港译作“群众集资”，台湾译作“群众募资”。由发起人、跟投人、平台构成。具有低门槛、多样性、依靠大众力量、注重创意的特征，一种向群众募资，以支持发起的个人或组织的行为。一般而言是通过网络上的平台连结起赞助者与提案者。群众募资被用来支持各种活动，包含灾害重建、民间集资、竞选活动、创业募资、艺术创作、自由软件、设计发明、科学研究以及公共专案等。</p></li><li><p>过去我们融资都是去找风险投资，或者去上市，这些都是中心化融资的方法。其实机构或者股市的钱也是无数投资人给的，那么一个企业如果需要钱，能不能直接去找这些零散的投资人借呢？</p></li><li><p>今天的金融世界里是有监管的，因为世界上有很多不合格的投资人，就是那些对风险没有识别能力和承受能力的人，拿他们的钱，会有金融风险。</p></li><li><p>在中国超过200人叫非法集资，那么我们能不能在200人之内，找到对风险 有识别能力和承受能力的人，拿他们的钱，而不需要通过中间机构呢？我们把这种方式叫做众筹。</p></li><li><p>众筹依然会让全世界觉得头疼，因为还是涉及到金融风险。但是他让很多优秀的创业者拿到了投资，让他们能够有机会去改变这个世界。</p></li><li><p>美国打车软件Uber,这家在全世界引起巨大反响的公司，他们的第一笔钱，就是从angelList通过众筹的方式拿到的。</p><p><img src="http://ws1.sinaimg.cn/large/e64a4785gy1fwp8feib8rj20g70a6458.jpg" alt="1540806094096"></p></li></ul></li></ol><h2 id="九-区块链家族的老七一区块链"><a href="#九-区块链家族的老七一区块链" class="headerlink" title="九.区块链家族的老七一区块链"></a>九.区块链家族的老七一区块链</h2><p><img src="http://ws3.sinaimg.cn/large/e64a4785gy1fwp8h3rmisj20gt0a40za.jpg" alt="1540806194244"></p><ol><li><p>区块链的起源：区块链(Blockchain)的概念最早可以追溯到2008年末，笔名“中本聪”的人在论坛中发表了一篇论文《比特币：一种点对点的电子现金系统》，首次提出了区块链的概念。随后，区块链成为了比特币的核心组成部分，核心作用是作为所有交易的公共账簿。区块链成为第一个解决数字货币重复消费问题的技术。</p></li><li><p>区块链的概念:</p><ul><li>狭义来讲，区块链是一种按照时间顺序将数据区块以顺序相连的方式组合成的一种链式数据结构，并以密码学方式保证的不可篡改和不可伪造的分布式公共账本。</li><li>广义来讲，区块链技术是利用链式数据结构来验证与存储数据、利用分布式节点共识算法来生成和更新数据、利用密码学的方式保证数据传输和访问的安全、利用由自动化脚本代码组成的智能合约来编程和操作数据的一种全新的分布式基础架构与计算方式。</li></ul></li><li><p>区块链的本质：</p><ul><li>区块链的本质，其实就是一个去中心化的数据库，全民集体在维护这个可靠的数据库。传统情况下，无论系统多大多小，其背后都有一个数据库，谁维护系统谁就管理数据库，其他使用者无权参与。区块链则颠覆传统，让系统中每个用户参与其中。</li><li>通俗一点说，区块链技术是一种全民参与记账的方式。<ul><li>区块链就是一个分布式的公共账本，每一个点都可以在上面记账。传统的记账系统，记账权只掌握在中心服务器手中。比如QQ、微信上的信息，只能由腾讯的服务器来记账；淘宝、天猫的信息，只能由阿里的服 务器来记账。但在区块链系统，每台计算机是一个节点，任何一个节点都可以记账，中间无需第三方服务器。</li><li>当任意两个账号的资金互转，这笔加密的交易会广播到其他所有节点，也就是说通知到其他所有用户。举例说明，在一个100人的村子，张三买了李四家一头牛，向他支付1万元。普通的做法是，他可以找到中间人村会计王五（总记账人），将自己账下1万元转到李四账下。但在区块链系统里，张三无需再通过总记账人王五，而是直接将自己账本的1万元 记到李四账本；同时将这笔交易信息广播给全村听到（即整个区块链系统）。当村里其他人知道并确认了这笔交易，交易才算最终完成。因为这笔交易被加密处理，只有李四才能收到这1万元，而其他98人只能在账户内看到有这笔交易信息，但无法看到这笔信息是转给谁的。此外系统可以完整记录交易过程，整个交易可以溯源。</li><li>区块链防止了交易双方篡改交易信息，这使得区块链彻彻底底的透明。区块链中没有中心总账本，而是通过所有参与者的独立账本分布式记账，每个人都持有完整的账本。这些节点分布在互联网的任意角落，让具有足够多节点的区块链很难被攻击或篡改。所以区块链被认为是世界上有史以来最安全的数据管理方式。</li></ul></li></ul></li><li><p>区块链模型：</p><ul><li><p>区块链模型：一般说来，区块链系统由数据层、网络层、共识层、激励层、合约层和应用层等六层组成。</p><ul><li><p>数据层封装了底层数据区块以及相关的数据加密和时间戳等基础数据和基本算法；</p></li><li><p>网络层则包括分布式组网机制、数据传播机制和数据验证机制等；</p></li><li><p>共识层主要封装网络节点的各类共识算法；</p></li><li><p>激励层将经济因素集成到区块链技术体系中来，主要包括经济激励的发行机制和分配机制等；</p></li><li><p>合约层主要封装各类脚本、算法和智能合约，是区块链可编程特性的基础；</p></li><li><p>应用层则封装了区块链的各种应用场景和案例；</p></li><li><p>该模型中，基于时间戳的链式区块结构、分布式节点的共识机制、基于共识算力的经济激励和灵活可编程的智能合约是区块链技术最具代表性的创新点。</p><p><img src="http://ws3.sinaimg.cn/large/e64a4785gy1fwp8os22ohj20f90kwq5z.jpg" alt="1540806631902"></p></li></ul></li></ul></li><li><p>区块链的分类：</p><ul><li><p>区块链目前分为三类：公有区块链(PublicBlockChains)、联合区块链<br>(ConsortiumBlockChains)、私有区块链(privateBlockChains)。其中联合区块链和私有区块链认为是广义的私链。公有区块链是最早的区块链，也是目前应用最广泛的区块链，各大bitcoins系列的虚拟数字货币均基于公有区块链。目前传统金融也开始尝试私有区块链，私链的应用产品还在摸索当中。</p></li><li><p>区块链的本质是解决信任。公有区块链解决人类不可信，联合区块链解决组织不可信，私有区块链解决队友不可信。</p></li><li><p>区块链出生后，中本聪基于区块链技术推出了比特币。</p></li></ul></li></ol><h2 id="十-区块链的儿子——比特币"><a href="#十-区块链的儿子——比特币" class="headerlink" title="十.区块链的儿子——比特币"></a>十.区块链的儿子——比特币</h2><ol><li><p>区块链的孩子叫做比特币（BitCoin）。比特币的概念最初由中本聪在2009年提出，是基于分布式记账技术的一种数字现金；</p></li><li><p>与大多数货币不同，比特币不依靠特定货币机构发行，它依据特定算法， 通过大量的计算产生，比特币使用整个网络构成的分布式数据库来确认并记录所有的交易行为，并使用密码学的设计来确保货币流通各个环节安全性。</p></li><li><p>基于密码学的设计可以使比特币只能被真实的拥有者转移或支付。这确保了货币所有权与流通交易的匿名性。</p></li><li><p>比特币与其他虚拟货币最大的不同，是其总数量非常有限，具有极强的稀缺性。比特币是模拟黄金来发行的，每4年开采量就会减半，之后的总数量将被永久限制在2100万个。</p></li><li><p>比特币的本质：其实就是一堆复杂算法所生成的特解。</p><ul><li>特解是指方程组所能得到无限个（其实比特币是有限个）解中的一组。而每一个特解都能解开方程并且是唯一的。</li><li>以人民币来比喻的话，比特币就是人民币的序列号，你知道了某张钞票上的序列号，你就拥有了这张钞票。</li><li>而挖矿的过程就是通过庞大的计算量不断的去寻求这个方程组的特解，这个方程组被设计成了只有2100万个特解，所以比特币的上限就是2100万。</li></ul></li><li><p>比特币可以用来兑现，可以兑换成大多数国家的货币。使用者可以用比特币购买一些虚拟物品，只要有人接受，也可以使用比特币购买现实生活当中的物品。</p><p><img src="http://wx3.sinaimg.cn/large/e64a4785gy1fwp947h6qfj20gb09lqfa.jpg" alt="1540807486479"></p></li><li><p>兑换利率</p><ul><li><p>SHA：安全哈希算法（Secure Hash Algorithm,缩写为SHA）,能计算出一个数字消息所对应到的长度固定的字符串（又称消息摘要）的算法。</p></li><li><p>SHA家族的五个算法，分别是SHA-1、SHA-224. SHA-256. SHA-384, 和SHA-512,由美国国家安全局（NSA）所设计，并由美国国家标准与技术 研究院（NIST）发布，是美国的政府标准。后四者并称为SHA-2。</p><p>SHA-1在许多安全协定中广为使用，曾被视为是MD5的后继者。但SHA-1的安全性如今被密码学家严重质疑；SHA-2的算法跟SHA-1基本上相似，但是至今尚未出现对SHA-2有效的攻击。</p></li></ul></li></ol><h2 id="十一-区块链的侄子一一ICO"><a href="#十一-区块链的侄子一一ICO" class="headerlink" title="十一.区块链的侄子一一ICO"></a>十一.区块链的侄子一一ICO</h2><ol><li><p>比特币诞生后不久，众筹在与代币结合，然后生下ico。众筹的太太叫代币，代币是比特币的原型，比特币的逻辑；</p></li><li><p>ICO Olnitial Coin Offering缩写），叫做“首次币发行”。ICO是区块链行业术语，他是一种金融行为，源自股票市场的首次公开发行（IPO）概念；</p><ul><li>IPO（英文简称Initial Public Offering）首次公开发行。指股份公司首次向社会公众公开招股的发行方式。与ICO相比，他们有共同点也有区别。</li><li>共同点：都有通过出售股份来筹措资金；都有潜在投资者为了潜在的巨大收益而冒险参与；</li><li>不同点：ICO的大部分支持者是项目爱好者或不专业的投资者；ICO不需要注册经营牌照；ICO平台是第三方中立平台，投资者自担风险。</li></ul></li><li><p>ICO是一种为加密数字货币筹措资金的常用方式。早期参与者可以从中获得初始产生的加密数字货币作为回报。由于代币具有市场价值，可以兑换成法币，从而支持项目的开发成本。ICO所发行的代币，可以基于不同的区块链。 常见的是基于以太坊（ETH）和比特股（BTS）区块链发行，由区块链提供记账服务和价值共识，实现全球发行和流通；</p></li><li><p>ICO参与者对于一个项目的成功非常重要，他们会在社区里为该区块链项目进行宣传，使它产生的代币在开始交易前就获得流动性。但ICO的参与者最看重的依然是由项目发展或代币发行后价格升值带来的潜在收益；</p></li><li><p>ICO给全世界和区块链家族，造成了特别大的困扰，就是他能够在没有任何 的实际项目执行的情况下，很快就融到一大笔比特币、以太币，或者其他代币。所以缺乏监管体系，缺乏风险管理。</p><p><img src="http://ws2.sinaimg.cn/large/e64a4785gy1fwp91v2339j20gh099k31.jpg" alt="1540807376924"></p></li></ol><h2 id="十二-区块链未来的八弟——DAO"><a href="#十二-区块链未来的八弟——DAO" class="headerlink" title="十二.区块链未来的八弟——DAO"></a>十二.区块链未来的八弟——DAO</h2><ol><li>区块链未来的弟弟，他的名字叫Decentralized autonomous organizations,简称DAO,就是去中心化的组织，或者叫做分布式自治组织；</li><li>过去人类的组织形态，都是有管理者的层级组织。比如一个公司有CEO,再往下是高层、中层，一直到员工。这个组织形态，其实很好用，但是也有问题，就是它的沟通效率低；</li><li>DAO设想让每个组织里面不再有一个所谓的管理层，而是自我沟通，通过效率的方式直接连接，就很有可能会提高全人类的组织效率。</li></ol></div><hr><style>#reward{margin:40px 0;text-align:center}#reward .reward-link{font-size:1.88rem}#reward .btn-floating:hover{box-shadow:0 6px 12px rgba(0,0,0,.2),0 5px 15px rgba(0,0,0,.2)}#rewardModal{width:320px;height:350px}#rewardModal .reward-title{margin:15px auto;padding-bottom:5px}#rewardModal .modal-content{padding:10px}#rewardModal .close{position:absolute;right:15px;top:15px;color:rgba(0,0,0,.5);font-size:1.3rem;line-height:20px;cursor:pointer}#rewardModal .reward-tabs{margin:0 auto;width:210px}.reward-tabs .tabs{height:38px;margin:10px auto;padding-left:0}.reward-tabs .tabs .tab{height:38px;line-height:38px}.reward-tabs .tab a{color:#fff;background-color:#ccc}.reward-tabs .tab a:hover{color:#fff}.reward-tabs .wechat-tab .active{color:#fff;background-color:#22ab38}.reward-tabs .alipay-tab .active{color:#fff;background-color:#019fe8}.reward-tabs .reward-img{width:210px;height:210px}</style><div id="reward"> <a class="reward-link btn-floating btn-large waves-effect waves-light red">赏</a><div id="rewardModal" class="modal"><div class="modal-content"><a class="close"><i class="fa fa-close"></i></a><h4 class="reward-title">你的赏识是我前进的动力</h4><div class="reward-content"><div class="reward-tabs"><ul class="tabs"><li class="tab wechat-tab waves-effect waves-light"><a class="active" href="#wechat">微信</a></li><li class="tab alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li></ul><div id="wechat"> <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码"></div><div id="alipay"> <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码"></div></div></div></div></div></div><script>$(function(){$("#reward .reward-link").on("click",function(){$("#rewardModal").openModal()}),$("#rewardModal .close").on("click",function(){$("#rewardModal").closeModal()})})</script><link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css"><div id="article-share"><div class="social-share" data-disabled="qzone" data-wechat-qrcode-helper="<p>微信里点“发现”->“扫一扫”二维码便可查看分享。</p>"></div></div><script src="/libs/share/js/social-share.min.js"></script><div class="reprint"><p> <span class="reprint-tip">未经本人允许不得转载 - 感谢您的阅读</span><i class="fa fa-angle-right fa-lg fa-fw text-color"></i> <a href="/posts/24d6384d.html" class="b-link-green">初识区块链家族</a></p></div></div></div><style>.v .vinput{padding:0}.vheader{background:#fbfbfb;border:none;border-radius:0;padding:0 10px 0 10px;margin:0;line-height:3;border-bottom:1px dashed #f5f5f5}.v .vwrap{padding:0;border:2px solid #fafafa}.v .vwrap .vedit{padding:10px 10px 0 10px}.v .vwrap .vcontrol{padding:10px 8px 0 12px}.v .vinfo .vcount .vnum{color:red}.v .vbtn{color:#fff;border-radius:3rem;background:#3cb371;padding:.5rem 2.45rem}.v .vlist .vcard .vhead .vsys{display:none}.v .vlist .vcard .vh .vmeta .vat{background-color:#7f7f7f!important;color:#fff!important;border-radius:3px!important;padding-left:10px!important;padding-right:10px!important}.v .vwrap .vedit .vctrl span{background-color:#ff8c69!important;color:#fff!important;border-radius:3px!important;padding:1px 5px 1px 5px!important}.v .vwrap .vheader .vinput{box-shadow:none;color:#0e0a0a;background:#fafafa;border:none;width:50%;height:100%}::-webkit-input-placeholder{color:#000;transition:opacity 250ms ease-in-out}:focus::-webkit-input-placeholder{opacity:.5}:-ms-input-placeholder{color:#000;transition:opacity 250ms ease-in-out}:focus:-ms-input-placeholder{opacity:.5}::-moz-placeholder{color:#000;opacity:1;transition:opacity 250ms ease-in-out}:focus::-moz-placeholder{opacity:.5}:-moz-placeholder{color:#000;opacity:1;transition:opacity 250ms ease-in-out}:focus:-moz-placeholder{opacity:.5}.v .info{display:none}.v .vwrap .vheader .vlink{display:none}.v .vwrap .vheader input:focus{border-color:#c4c8cb;box-shadow:none;border:none;outline:0}</style><script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script><script src="/js/Valine.min.js"></script><div class="valine-card card" data-aos="fade-up"><div class="comment" style="padding:12px"></div><script>new Valine({el:".comment",notify:!1,verify:!1,app_id:"B8rpy4srnRGi45Bf5LnjHijX-9Nh9j0Va",app_key:"cMaKM9IAt2UR3hQDD6ot7Bag",avatar:"",avatar_cdn:"https://gravatar.loli.net/avatar/9e63c80900d106cbbec5a9f4ea433a3e?size=80",placeholder:"说点什么吧~",pageSize:10})</script></div><article id="prenext-posts" class="prev-next articles"><div class="row article-row"><div class="article col s12 m6" data-aos="fade-up"><div class="article-badge left-badge text-color">上一篇</div><div class="card"><a href="/posts/6a013406.html"><div class="card-image"> <img src="https://ws3.sinaimg.cn/large/e64a4785gy1fxpu8big41j20ku0dwt9s.jpg" class="responsive-img" alt="比特币及区块链中常见问题"> <span class="card-title">比特币及区块链中常见问题</span></div></a><div class="card-content article-content"><div class="summary">⽐特币及区块链中常⻅问题一、⽐特币挖矿相关问题 比特币节点 运行区块链软件的计算机就是一个节点 每个比特币钱包都是一个节点 全节点 拥有完整区块链账本的节点叫做全节点，负责比特币转账交易的广播和验证 同步整个区块链并对交易做验证，同时中</div><div class="publish-info"><span class="publish-date"><i class="fa fa-clock-o fa-fw icon-date"></i> 2017-10-30</span><span class="publish-author"><i class="fa fa-bookmark fa-fw icon-category"></i> <a href="/categories/区块链/" class="post-category" target="_blank">区块链</a></span></div></div><div class="card-action article-tags"> <a href="/tags/比特币/" target="_blank"><span class="chip bg-color">比特币</span></a> <a href="/tags/blockchain/" target="_blank"><span class="chip bg-color">blockchain</span></a></div></div></div><div class="article col s12 m6" data-aos="fade-up"><div class="article-badge right-badge text-color">下一篇</div><div class="card"><a href="/posts/d8c1eece.html"><div class="card-image"> <img src="https://ws2.sinaimg.cn/large/e64a4785gy1fxpu51tg0hj20ku0dw74j.jpg" class="responsive-img" alt="Go语言发展历史"> <span class="card-title">Go语言发展历史</span></div></a><div class="card-content article-content"><div class="summary">一. Go语言发展历史(一). 知名编程语⾔言或系统的发展简史 B语言之父：Ken Thompson（肯.汤普森）。该语言得名于汤姆森的妻子Bonnie，一门剑桥于60年代中期开发的语言。 C语言之父：美国著名计算机专家、C语言发明人、U</div><div class="publish-info"><span class="publish-date"><i class="fa fa-clock-o fa-fw icon-date"></i> 2017-10-26</span><span class="publish-author"><i class="fa fa-bookmark fa-fw icon-category"></i> <a href="/categories/后端/" class="post-category" target="_blank">后端</a></span></div></div><div class="card-action article-tags"> <a href="/tags/GoLang/" target="_blank"><span class="chip bg-color">GoLang</span></a></div></div></div></div></article></div></main><footer class="page-footer bg-color"><div class="container row center-align"><div class="col s12 m8 l8 copy-right"><span id="busuanzi_container_site_pv" style="display:none"><span class="fa fa-eye"></span> &nbsp;<span id="busuanzi_value_site_pv"></span></span> &nbsp;&nbsp;<span id="busuanzi_container_site_uv" style="display:none"><span class="fa fa-user"></span> &nbsp;<span id="busuanzi_value_site_uv"></span></span> &nbsp;&nbsp; ©2018 nlbsn.com 版权所有 ICP证：<a href="http://www.miitbeian.gov.cn/" rel="external nofollow noopener noreferrer" target="_blank">蒙ICP备18005245号</a></div><div class="col s12 m4 l4 social-link"><a href="https://github.com/BaiMingxu" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50" rel="external nofollow noopener noreferrer"><i class="fa fa-github"></i></a><a href="mailto:mxdlsm@163.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50" rel="external nofollow noopener noreferrer"><i class="fa fa-envelope-open"></i></a><a href="#!" class="tooltipped" data-tooltip="QQ联系我: 806605375" data-position="top" data-delay="50"><i class="fa fa-qq"></i></a><a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50"><i class="fa fa-rss"></i></a></div></div></footer><div class="progress-bar"></div><div id="searchModal" class="modal"><div class="modal-content"><div class="search-header"> <span class="title">搜索</span> <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字" class="search-input" autofocus></div><div id="searchResult"></div></div></div><script src="/js/search.js"></script><script type="text/javascript">searchFunc("/search.xml","searchInput","searchResult")</script><div id="backTop" class="top-scroll"><a class="btn-floating btn-large waves-effect waves-light" href="#!"><i class="fa fa-angle-up"></i></a></div><link href="https://cdn.bootcss.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet"><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script src="/libs/materialize/js/materialize.min.js"></script><script src="/libs/masonry/masonry.pkgd.min.js"></script><script src="/libs/aos/aos.js"></script><script src="/libs/scrollprogress/scrollProgress.min.js"></script><script src="/libs/lightGallery/js/lightgallery-all.min.js"></script><script src="/js/matery.js"></script><script async>window.onload=function(){var e=document.createElement("script"),t=document.getElementsByTagName("script")[0];e.type="text/javascript",e.async=!0,e.src="/sw-register.js?v="+Date.now(),t.parentNode.insertBefore(e,t)}</script></body></html>
+中心化(Centralization, [ sentrelai’zei J n])和去中心化(Decentralization, [ diisen">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>初识区块链家族 | michel的梦想</title>
+    <link rel="icon" type="image/png" href="/img/favicon.ico">
+
+	<link href="https://cdn.bootcss.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/materialize/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
+
+    <script src="/libs/jquery/jquery-2.2.0.min.js"></script>
+<link rel="stylesheet" href="/css/prism-base16-ateliersulphurpool.light.css" type="text/css"></head>
+
+</head>
+
+<body>
+
+<header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="container">
+            <div class="nav-wrapper">
+                <div class="brand-logo">
+                    <a href="/" class="waves-effect waves-light">
+                        
+                        <img src="/medias/logo.png" class="logo-img hide-on-small-only">
+                        
+                        <span class="logo-span">michel的梦想</span>
+                    </a>
+                </div>
+                <a href="#" data-activates="mobile-nav" class="button-collapse"><i class="fa fa-navicon"></i></a>
+<ul class="right">
+    
+    <li class="hide-on-med-and-down">
+        <a href="/" class="waves-effect waves-light">
+            
+            <i class="fa fa-home"></i>
+            
+            <span>主页</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/tags" class="waves-effect waves-light">
+            
+            <i class="fa fa-tags"></i>
+            
+            <span>标签</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/categories" class="waves-effect waves-light">
+            
+            <i class="fa fa-bookmark"></i>
+            
+            <span>分类</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/archives" class="waves-effect waves-light">
+            
+            <i class="fa fa-archive"></i>
+            
+            <span>更多</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/one" class="waves-effect waves-light">
+            
+            <i class="fa fa-gratipay"></i>
+            
+            <span>一句</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/gallery" class="waves-effect waves-light">
+            
+            <i class="fa fa-picture-o"></i>
+            
+            <span>图片</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/video" class="waves-effect waves-light">
+            
+            <i class="fa fa-video-camera"></i>
+            
+            <span>视频</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/about" class="waves-effect waves-light">
+            
+            <i class="fa fa-user-circle-o"></i>
+            
+            <span>我</span>
+        </a>
+    </li>
+    
+    <li>
+        <a id="toggleSearch" class="waves-effect waves-light">
+            <i id="searchIcon" class="mdi-action-search"></i>
+        </a>
+    </li>
+
+</ul>
+
+<div class="side-nav" id="mobile-nav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="/medias/logo.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">michel的梦想</div>
+        <div class="logo-desc">
+            
+            快乐的人没有过去，不快乐的人除了过去一无所有。
+            
+        </div>
+    </div>
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li>
+            <a href="/" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-home"></i>
+                
+                主页
+            </a>
+        </li>
+        
+        <li>
+            <a href="/tags" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-tags"></i>
+                
+                标签
+            </a>
+        </li>
+        
+        <li>
+            <a href="/categories" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-bookmark"></i>
+                
+                分类
+            </a>
+        </li>
+        
+        <li>
+            <a href="/archives" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-archive"></i>
+                
+                更多
+            </a>
+        </li>
+        
+        <li>
+            <a href="/one" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-gratipay"></i>
+                
+                一句
+            </a>
+        </li>
+        
+        <li>
+            <a href="/gallery" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-picture-o"></i>
+                
+                图片
+            </a>
+        </li>
+        
+        <li>
+            <a href="/video" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-video-camera"></i>
+                
+                视频
+            </a>
+        </li>
+        
+        <li>
+            <a href="/about" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-user-circle-o"></i>
+                
+                我
+            </a>
+        </li>
+        
+        
+        <li><div class="divider"></div></li>
+        <li>
+            <a href="https://github.com/BaiMingxu" class="waves-effect waves-light" target="_blank" rel="external nofollow noopener noreferrer">
+                <i class="fa fa-github-square fa-fw"></i>Fork Me
+            </a>
+        </li>
+        
+    </ul>
+
+    <!-- <div class="social-link"><a href="https://github.com/BaiMingxu" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50" rel="external nofollow noopener noreferrer">
+    <i class="fa fa-github"></i>
+</a>
+<a href="mailto:mxdlsm@163.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50" rel="external nofollow noopener noreferrer">
+    <i class="fa fa-envelope-open"></i>
+</a>
+<a href="#!" class="tooltipped" data-tooltip="QQ联系我: 806605375" data-position="top" data-delay="50">
+    <i class="fa fa-qq"></i>
+</a>
+
+<a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+    <i class="fa fa-rss"></i>
+</a>
+</div> -->
+</div>
+
+            </div>
+        </div>
+
+        
+        <style>
+    .nav-transparent .github-corner {
+        display: none !important;
+    }
+
+    .github-corner {
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        right: 0;
+        border: 0;
+        transform: scale(1.1);
+    }
+
+    .github-corner svg {
+        color: #0f9d58;
+        fill: #fff;
+        height: 64px;
+        width: 64px;
+    }
+
+    .github-corner:hover .octo-arm {
+        animation: a 0.56s ease-in-out;
+    }
+
+    .github-corner .octo-arm {
+        animation: none;
+    }
+
+    @keyframes a {
+        0%,
+        to {
+            transform: rotate(0);
+        }
+        20%,
+        60% {
+            transform: rotate(-25deg);
+        }
+        40%,
+        80% {
+            transform: rotate(10deg);
+        }
+    }
+</style>
+
+<a href="https://github.com/BaiMingxu" class="github-corner tooltipped hide-on-med-and-down" target="_blank" data-tooltip="Fork Me" data-position="left" data-delay="50" rel="external nofollow noopener noreferrer">
+    <svg viewbox="0 0 250 250" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"/>
+        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"/>
+        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"/>
+    </svg>
+</a>
+        
+    </nav>
+</header>
+
+
+
+<div class="bg-cover post-cover" style="background-image: url('https://ws1.sinaimg.cn/large/e64a4785gy1fxpu732ru2j20ku0dwwew.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <div class="description center-align post-title">
+                        初识区块链家族
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<main class="container content">
+
+    
+    <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            
+            <div class="article-tag">
+                
+                <a href="/tags/blockchain/" target="_blank">
+                    <span class="chip bg-color">blockchain</span>
+                </a>
+                
+            </div>
+            
+            <div class="post-info">
+                
+				<span class="post-date">
+					<i class="fa fa-file-word-o fa-fw"></i>9.5k
+				<span class="post-date">
+					<i class="fa fa-hourglass-half fa-fw"></i>32分
+				</span>
+				
+                <span class="post-cate">
+                    <i class="fa fa-bookmark fa-fw icon-category"></i>
+                    
+                    <a href="/categories/区块链/" class="post-category" target="_blank">
+                        区块链
+                    </a>
+                    
+                </span>
+                
+
+                <span class="post-date">
+                    <i class="fa fa-clock-o fa-fw"></i>2017-10-29
+                </span>
+            </span></div>
+        </div>
+        <hr>
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <h1 id="初识区块链家族"><a href="#初识区块链家族" class="headerlink" title="初识区块链家族"></a>初识区块链家族</h1><p>区块链有一个伟大的家族</p>
+<p><img src="http://ws4.sinaimg.cn/large/e64a4785gy1fwp6pe3nhbj20qa0vqn0d.jpg" alt="1540794240835"></p>
+<h2 id="一-区块链的父亲————去中心化"><a href="#一-区块链的父亲————去中心化" class="headerlink" title="一.区块链的父亲————去中心化"></a>一.区块链的父亲————去中心化</h2><ol>
+<li><p>去中心化基本概念</p>
+<ul>
+<li>中心化(Centralization, [ sentrelai’zei J n])和去中心化(Decentralization, [ diisentralai’zei J n])就是集权与分权；</li>
+<li>从天文学的角度来看去中心化是指宇宙没有中心，就是一片无边界的物质 组成，没有中心点；</li>
+<li>去中心化在宗教方面的体现，比如基督教，基督教原来是以教会为核心的，去中心化结合基督教之后，每个人都可以直接跟上帝发生关联，而不一定要通过教会；</li>
+<li>去中心化结合政治，于是产生了民主制度，从此每个人都能发表自己的见解；</li>
+<li>去中心化是一种哲学思想。这种思想在人类出现的时候就已经存在，主旨是弱化中心，然后实现人与人之间直接沟通、直接交易、直接传播的一种方式；</li>
+<li>去中心化，并非不要中心，而是由节点来自由选择中心、自由决定中心。 所以将Decentralization翻译成“去中心化”不够准确，确切点说应该是“弱中 心化”。比如在金融活动中，简单地区中心，会被误读为既想从事金融活动，又不愿意接受金融监督。目前业界已经慎重使用Decentralization,更多地使 用P2P或者Serverless（无服务器的）；</li>
+<li>简单地说，中心化的意思，是中心决定节点。节点必须依赖中心，节点离 开了中心就无法生存。在去中心化系统中，任何人都是一个节点，任何人也都可以成为一个中心。任何中心都不是永久的，而是阶段性的，任何中心对 节点都不具有强制性；</li>
+<li>中心化和去中心化是相辅相成的关系。未来的技术肯定是不断的调整中心化和去中心化的平衡，以取得相应场景的最高效率。绝对的中心化和去中心 化都没有意义。向一个方向倾斜时会带来相应好处，同时也会带来相应的弊端。</li>
+</ul>
+</li>
+<li><p>互联网中的去中心化</p>
+<ul>
+<li><p>去中心化在互联网上，人们习惯叫他P2P，P2P具有极大的影响力；</p>
+<ul>
+<li>P2P是Peer-to-Peer（peer,地位同等，对等的意思）的简称。在互联网中P2P被称为“对等联网”；</li>
+<li>P2P是Point - to - Point （点对点）；</li>
+<li>P2P是person-to-person的简写，意思是个人对个人；</li>
+<li>对等联网是只读网络的终结（Peer-to-peer  is  the  end  of  the  read­ only Web）；</li>
+<li>对等联网使你重新参与互联网（Peer-to-peer allows you to participate in the Internet again）；</li>
+<li>对等联网使网络远离电视（Peer-to-peer steering the Internet away from TV）；</li>
+<li>P2P就是一种思想，有着改变整个互联网基础的潜能的思想。而P2P并非一个新思想，从某些角度看它其实才是最初创建互联网的基本思想。</li>
+</ul>
+</li>
+<li><p>去中心化的表现就是多样化。在网络世界不再是有几个门户网站说了算， 各种各样的网站开始有了自己的声音，表达不同的选择，不同的爱好，这些网站分布在网络世界的各个角落里张扬着个性；</p>
+<ul>
+<li>通俗地讲，中心化是几个经过认证的嘉宾在‘讲话’，所有其他人在听，类似上课；去中心化是每个人都可以‘讲话’，每个人都可以选择讲或者听，如同英语角。中心化的典型例子是门户网站，去中心化的典型例子是blog、社交媒体等。</li>
+</ul>
+</li>
+<li><p>互联网去中心化发展过程</p>
+<ul>
+<li>互联网发展的层面来看，去中心化是相对于“中心化”而言的新型网络 内容的生产过程；</li>
+<li>早期的互联网Web1.0时代，网络内容是由专业网站或特定人群所产生的，这就是“中心化”；</li>
+<li>自网络Web2.0开始，出现了新型的网络内容生产过程。网络内容由全 体网民共同参与、共同创造。任何人都可以在网络上表达自己的观点或 发表原创内容。网络从缺乏互动的个别人建站变成了以圈子的形式来聚 合人才共同贡献智慧，这是一个巨大的变革；</li>
+<li>Web2.0兴起后，Wikipedia （维基百科，网络百科全书）、Flickr（雅虎旗下图片分享网站）、Blogger（博客，网络日志）等网络服务商所提 供的服务都是去中心化的，任何参与者都可提交内容。之后更简单易用 的去中心化产品出现了，例如Twitter （推特，微博）、Facebook（脸书）、QQ、微信这些当今最流行的P2P应用的出现，使得普通网民为互 联网贡献内容更加简便、更加多元化，也更加积极。最终使得每一个网 民都成为了一个微小且独立的信息提供者，使得互联网更加扁平、内容生产更加多元化。</li>
+</ul>
+</li>
+<li><p>很多人对去中心化有一些误解，比如说Facebook. Twitter、QQ、微信等正在成为更集中的中心。去中心化不是说今后不再有大网站，也不是说大网站就一定是中心化的，去中心化主要是指技术对普通用户的赋权。另外，去中心化也不是人人绝对平等的意思，总会有人更善于利用技术赋予的可能 性，有人则不善用或不在乎。</p>
+<p><img src="http://wx4.sinaimg.cn/large/e64a4785gy1fwp6q0c0vtj20po0gq45g.jpg" alt="1540802427979"></p>
+</li>
+</ul>
+</li>
+<li><p>去中心化的经典案例</p>
+<p>Github是去中心化的一个很好的例子。Github就是让所有人在互联网上分享 和贡献代码，在Github里，没有所谓的中心化公司，所有的交互都是人与人之间产生。在区块链的世界里，所有事物都是去中心化的：从一个应用，到一家公司，都必须通过每个人来贡献，大家遵守共同制定的规则。</p>
+<p><img src="http://wx1.sinaimg.cn/large/e64a4785gy1fwp6tmoindj20yb0jf138.jpg" alt="1540802757425"></p>
+</li>
+</ol>
+<h2 id="二-区块链的母亲一互联网"><a href="#二-区块链的母亲一互联网" class="headerlink" title="二.区块链的母亲一互联网"></a>二.区块链的母亲一互联网</h2><ul>
+<li><p>区块链的母亲就是互联网;</p>
+</li>
+<li><p>互联网是一个没有中心化节点的网络结构。每一个点，从本质上来说，在整个互联网上都是同等重要的存在。所以去中心化与网络是天作之合；</p>
+</li>
+<li><p>去中心化与网络结合后，诞生了延续了去中心化基因，并且对整个世界产生巨大影响的8个孩子，按照排行分别是：P2P下载、CDN、分布式计算、社交媒体、P2P借货、众筹（众筹与代币结合后诞生了ICO）、区块链（区块链 的儿子是比特币）、DAO自组织。</p>
+<p><img src="http://ws1.sinaimg.cn/large/e64a4785gy1fwp6xzrboqj20uf0hkqh1.jpg" alt="1540803011138"></p>
+</li>
+</ul>
+<h2 id="三-区块链的大哥一P2P下载"><a href="#三-区块链的大哥一P2P下载" class="headerlink" title="三.区块链的大哥一P2P下载"></a>三.区块链的大哥一P2P下载</h2><ol>
+<li><p>P2P下载的发展史</p>
+<ul>
+<li>去中心化的第一个产物就是P2P下载。P2P下载是其父亲的姓氏+其自身名字“下载”的合称；</li>
+<li>早在1998年，美国东北波士顿大学的一年级新生——18岁的Shawn Fanning（肖恩•范宁，他也是Facebook最早的顾问、投资人和股东之一）为了能够解决他的室友的一个问题——如何在网上找到音乐而编写的一个简单的程序，这个程序能够搜索音乐文件并提供检索，把所有的音乐文件地址存 放在一个集中的服务器中，这样使用者就能够方便地过滤上百个地址而找到自己需要的MP3文件；</li>
+<li><p>到了1999年，令他们没有想到的是，这个叫做Napster的mp3音乐分享网 站成为了人们争相转告的“杀手程序”——它令无数散布在互联网上的音乐爱好者美梦成真，无数人在一夜之内开始使用Napster。1999年5月，Napster公司宣告成立，这是一个非同意义的起始，也正是从这天起，P2P开始了它曲折但极富生命力的发展。在最高峰时Napster网络有8000万的注册用户，这是一个让众多网络平台望尘莫及的数字。这大概可以作为P2P软件成功进入人们生活的一个标志；</p>
+</li>
+<li><p>Napster,能让大家自由下载MP3,但是这个mp3文件，并不是放在Napster网站的硬盘上的。要想把整个互联网上的音乐都放在一起也是不可相 像的。Shawn是将每个人电脑上的mp3汇集成一张目录。如果你想下载mp3,那么Napster就会找到那些有这个mp3的电脑，同时去从这些电脑中下载一个个小小的碎片，然后在你的电脑上拼成这个mp3。所以Napster本身并 不拥有MP3,他只是帮助那些拥有mp3的人互相分享，这就是“点对点分 享”；</p>
+</li>
+<li><p>Napster并非一帆风顺，因为P2P下载对版权保护的冲击很大，美国后来禁止用这种方式来分享MP3, Napster也于2002年宣告破产。但是这个逻辑，一直存续了下来。尤其在中国P2P下载风景这边独好。</p>
+<p><img src="http://ws4.sinaimg.cn/large/e64a4785gy1fwp781zcbwj20a309jq5q.jpg" alt="1540803601649"></p>
+</li>
+</ul>
+</li>
+<li><p>P2P下载的知名产品简介</p>
+<ul>
+<li><p>P2P作为一种网络技术，依赖网络中参与者的计算能力和带宽，而不是把依赖都聚集在较少的几台服务器上；</p>
+</li>
+<li><p>P2P下载的本质，是一种硬盘的共享，是把每个人电脑上的一部分硬盘拿出来与其他人共享；</p>
+</li>
+<li><p>BT下载：说到P2P，就不能不提BT，这个被人戏称为“变态”的词几乎在大多数人感觉中与P2P成了对等的一组概念，而它也将P2P技术发展到了近乎完美的地步。</p>
+<ul>
+<li><p>实际上BitTorrent（torrent [‘torrent]山洪；洪流；激流；爆发。中文名称比特流，简称BT），原先是指是一个多点下载的P2P软件。它不象FTP那样只有一个发送源，BT有多个发送点，当你在下载时，同时也在上传，使大家都处在同步传送的状态。应该说，BT是当今P2P最为成功的一个应用；</p>
+</li>
+<li><p>BT用的是BT专用协议，在BT网络中都有一个种子文件，下载者都是从 这个种子文件开始下载，然后每个下载者之间再互传。例如：客户端甲从服务器上随机下载了第N部分，客户端乙从服务器上随机下载了第M部分。这样甲的BT就会根据情况到乙的电脑上去拿乙已经下载好的第M部 分，乙的BT就会根据情况去到甲的电脑上去拿甲已经下载好的第N部 分。BT下载从理论上讲是下载的同时必需上传给其它人分享。这种下载方式，人越多时下载速度越快；</p>
+</li>
+<li><p>有一句话可以作为BT最为形象的解释就是：“我为人人，人人为我”。最初听到此概念时，有人担心使用BT会损坏硬盘！因为在执行P2P下载曰寸，电脑硬盘在高速执行读与写的操作，同时对电脑内存占用也较多， 会影响整机速度。但是没有贡献怎么会有获取，这就是BT下载传输的精髓。工具软件BTJoy,将BT技术以软件的形式完美呈现起来，BTJoy诞 生仅一年内就已经迅速火遍整个网络。对于BT下载的爱好者来说，BTJoy的存在让多大的硬盘都可以被迅速塞满；</p>
+</li>
+<li><p>迅雷(Thunder)下载：迅雷智能下载软件，它拥有比目前用户常用的下载软 件快7—10倍的下载速度。迅雷就是P2P下载，它的逻辑是把电影文件放到每个不同的电脑上，然后彼此分享，这个模式极大地节省了资源；</p>
+</li>
+<li><p>酷狗(KuGoo)音乐：酷狗是基于中文平台专业的P2P音乐传输软件。通过KuGoo,用户可以方便、快捷、安全地实现中国国内最大的音乐搜索查找。</p>
+<p><img src="http://wx2.sinaimg.cn/large/e64a4785gy1fwp7fclz56j20g807qaei.jpg" alt="1540803999555"></p>
+<p><img src="http://ws2.sinaimg.cn/large/e64a4785gy1fwp7gvllh6j20g80avwhb.jpg" alt="1540804105736"></p>
+<p><img src="http://ws1.sinaimg.cn/large/e64a4785gy1fwp7hslpwhj20g80b1q68.jpg" alt="1540804163466"></p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h2 id="四-区块链的二哥一CDN"><a href="#四-区块链的二哥一CDN" class="headerlink" title="四.区块链的二哥一CDN"></a>四.区块链的二哥一CDN</h2><ol>
+<li><p>CDN</p>
+<ul>
+<li>去中心化与互联网结合后的第二个产物就是CDN；</li>
+<li>CDN的全称是Content Delivery Network,即内容分发网络。<ul>
+<li>CDN的基本思路是尽可能避开互联网上有可能影响数据传输速度和稳定性的瓶颈和环节，使内容传输的更快、更稳定；</li>
+<li>例如：在互联网上看电影，有一个问题。在上海通过视频网站看一部电影，因为电影是存放在北京的服务器上，在上海看就会很慢，如果在深圳去看这个电影，反应会更慢。那怎么办？有一个办法就是把这个电影放在很多不同地区的服务器，看电影时找最近的服务器来访问，这就是CDN;</li>
+<li>CDN的基本原理是广泛采用各种缓存服务器，将这些缓存服务器分布 到用户访问相对集中的地区或网络中，在用户访问网站时，利用全局负载技术将用户的访问指向距离最近的工作正常的缓存服务器上，由缓存服务器直接响应用户请求。最终降低网络拥塞，提高用户访问响应速度 和命中率；</li>
+<li>CDN包括分布式存储、负载均衡、网络请求的重定向和内容管理4个要件，而内容管理和全局的网络流量管理是CDN的核心所在。通过用户就近性和服务器负载的判断，CDN确保内容以一种极为高效的方式为用户的请求提供服务；</li>
+<li>CDN目前广泛应用于视频云行业的内容分发加速。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>P-CDN</p>
+<ul>
+<li><p>P-CDN：就是P2P内容分发网络（英文名：P2PCDN,简称P-CDN）,是以 P2P技术为基础，通过挖掘利用边缘网络的海量碎片化闲置资源而构建的低成 本高品质的内容分发网络服务。接入该服务后能获得高于CDN的分发质量，同时显著降低分发成本。适用于视频点播、直播、大文件下载等业务场景;</p>
+</li>
+<li><p>阿里云PCDN是基于P2P技术的CDN产品，两者实现完美结合，更适合大流量分发。PCDN产品相对于CDN拥有成本更低、质量更好两方面的核心优势;</p>
+</li>
+<li><p>关于P-CDN的落地，要感谢迅雷。迅雷很早就开始用P-CDN,它出售给会员一种商品，当年叫赚钱宝，后来叫玩客币。玩客币是迅雷旗下智能硬件“玩 客云”用户激励的虚拟数字资产，其实都是让会员用家里面的网络，来访问彼 此网络带宽的一种设备。迅雷通过这一硬件设备，将用户的闲置带宽充分利用，以极低的代价扩充自身CDN，获得更大的云储备空间与带宽，而对于用户来说，可以在带宽闲置时贡献带宽从而获得收益;</p>
+<ul>
+<li>玩客币每天产量固定，第一年每天产量每天约164万个，每365天减半 一次。这种以区块链技术为基础，通过挖矿获取，总量有限且产量随时 间逐步递减的模式在很大程度上都与比特币相似。</li>
+</ul>
+</li>
+<li><p>如果说P2P下载实现了硬盘的分享，而P-CDN实现的是网络资源带宽的分享。</p>
+<p><img src="http://wx4.sinaimg.cn/large/e64a4785gy1fwp7ospf4dj20ie0a476n.jpg" alt="1540804609647"></p>
+</li>
+</ul>
+</li>
+</ol>
+<h2 id="五-区块链的三哥一分布式计算"><a href="#五-区块链的三哥一分布式计算" class="headerlink" title="五.区块链的三哥一分布式计算"></a>五.区块链的三哥一分布式计算</h2><ol>
+<li><p>分布式计算概述</p>
+<ul>
+<li>去中心化与互联网结合后诞生了分布式计算，而分布式计算的出现，轰动了全世界；</li>
+<li>广义上讲，分布式计算是一门计算机科学，它研究如何把一个需要非常巨大的计算能力才能解决的问题分成许多小的部分，然后把这些部分分配给许多计算机进行处理，最后把这些计算结果综合起来得到最终的结果；</li>
+<li>具体来讲，分布式计算是一种计算方法，和集中式计算是相对的。随着计 算技术的发展，有些应用需要非常巨大的计算能力才能完成，如果采用集中式计算，需要耗费相当长的时间来完成。分布式计算将该应用分解成许多小的部分，分配给多台计算机进行处理。这样可以节约整体计算时间，大大提 高计算效率。<ul>
+<li>过去我们破译一个算法或者密码，我们用一个东西：超级计算机。就是在机房里有个特别厉害的计算机，它的运算速度，比全世界任何一台计算机都要快。这就是中心化的计算。</li>
+<li>那什么是分布式计算呢？就把需要大量计算的工作，比如说，破译密码，或者计算一个DNA序列，分解成无数的小块。分成小块后，再扔给全世界一个个小的计算机，比如你家里的个人电脑。当全世界几千、几万甚至几十万台个人电脑的CPU,同时计算的时候，再怎么样，计算速度都会比一个超级计算机要快。</li>
+<li>一些人类以前解决不了的问题，比如需要大量计算的基因学、密码学的问题，在分布式计算面前也能被轻而易举地解决。最近的分布式计算项目被用于使用世界各地成千上万位志愿者的计算机的闲置计算能力， 通过因特网，分析来自外太空的电讯号，寻找隐蔽的黑洞，探索可能存在的外星智慧生命。</li>
+<li>使用多台电脑一起来运算，而如果这么多台电脑都处在互联网上，它们如何相互链接？如何传递消息和通信？如何协调各自的任务和分工？这些问题就是分布式计算系统要解决的事。</li>
+<li>世界上很多非常复杂的科学问题，就是通过分布式计算来完成的。比特币就是其中之一。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>边缘计算与Hadoop</p>
+<ul>
+<li><p>P2P下载是用来共享硬盘的；CDN是共享网络帯宽的；分布式计算则共享计算机CPU资源。三种技术联合在一起叫做“边缘计算”；</p>
+</li>
+<li><p>云计算，可以算是区块链家族的一个远房亲戚。云计算是通过互联网的方式来给大家提供一台巨大的、远的云端计算机。但是云计算依然是用云端来提供的一个中心化的计算资源；</p>
+</li>
+<li><p>边缘计算，是不用云端来提供一个中心化的计算资源，而是把每台计算机的硬盘资源、网络资源、CPU资源都拿出来共享，这样全世界的计算机，加 在一起就变成一台虚拟的超级计算机。这被称之为分布式云计算，由全网计算机一起提供云计算的服务，然后由边缘计算技术来统一协调。</p>
+</li>
+<li><p>Hadoop是一个能够对海量数据进行分布式计算的软件框架。</p>
+</li>
+<li><p>Hadoop框架最核心的设计就是：HDFS和MapReduce。HDFS为海量的数 据提供了存储，则MapReduce为海量的数据提供了计算。</p>
+</li>
+<li><p>HDFS是Hadoop分布式文件系统(Hadoop Distributed File System)的缩写，为分布式存储提供了底层支持。</p>
+</li>
+<li><p>MapReduce从它名字上来看就大致可以看出个缘由，两个动词Map和Reduce, “Map (展开)”就是将一个任务分解成为多个任务，“Reduce”就是将分解后多任务处理的结果汇总起来，得出最后的分析结果。MapReduce总体说就是“任务分解与结果汇总”。</p>
+<p><img src="http://wx2.sinaimg.cn/large/e64a4785gy1fwp7w1uvo2j20hs0a60v6.jpg" alt="1540804975680"></p>
+</li>
+</ul>
+</li>
+</ol>
+<h2 id="六-区块链的四姐一社交媒体"><a href="#六-区块链的四姐一社交媒体" class="headerlink" title="六.区块链的四姐一社交媒体"></a>六.区块链的四姐一社交媒体</h2><ol>
+<li><p>社交媒体是去中心化与互联网结合后的其中一个产物；</p>
+</li>
+<li><p>过去媒体是中心化的，在全世界范围之内，发言权是集中在少数人手上的；</p>
+</li>
+<li><p>社交媒体诞生后，她让每个人都有公平发言的机会，每个人的声音都能被别人听到，整个世界就立刻变得非常感性，每个人都能够说出自己有创意的、有感情的想法；</p>
+</li>
+<li><p>社交媒体是人们彼此之间用来分享意见、见解、经验和观点的工具和平台，现阶段最知名的社交媒体就是Facebook.Twitter,在中国则是新浪微博、腾讯QQ、微信等等；</p>
+</li>
+<li><p>社交媒体传播的信息已成为人们浏览互联网的重要内容，不仅制造了人们社交生活中争相讨论的热门话题，更进而吸引传统媒体争相跟进；</p>
+</li>
+<li><p>社交媒体已经不仅仅是个人信息发布的平台，更是企业营销的最佳渠道。</p>
+<p><img src="http://wx3.sinaimg.cn/large/e64a4785gy1fwp7za5mm4j20ha0a1qa0.jpg" alt="1540805167758"></p>
+</li>
+</ol>
+<h2 id="七-区块链的五哥一P2P借货"><a href="#七-区块链的五哥一P2P借货" class="headerlink" title="七.区块链的五哥一P2P借货"></a>七.区块链的五哥一P2P借货</h2><ol>
+<li><p>P2P借贷是去中心化与网络结合后，在金融领域诞生的第一个孩子；</p>
+</li>
+<li><p>P2P借贷是什么意思呢？就是今天我需要钱，我不去银行，而是直接去找有钱人借。一般需要借助电子商务专业网络平台帮助借货双方确立借货关系并 完成相关交易手续。借款者可自行发布借款信息，包括金额、利息、还款方式和时间，实现自助式借款；借出者根据借款人发布的信息，自行决定借出金额，实现自助式借货。</p>
+</li>
+<li><p>举例说明：MB月光宝盒平台</p>
+<ul>
+<li>A有借款的需求，却找不到合适的人来借，在平台上发布了这个需求。</li>
+<li>B有多余的闲钱，想要有更好的收益，于是通过平台进行投资。</li>
+<li>平台所做的就是通过A的需求，B的需求，最终把俩人匹配了起来，由B借给A，平台做担保。A要承担一定的借款利息，B可以收益一定的借款利息。这就是P2P借货。</li>
+</ul>
+</li>
+<li><p>归根结底，电商卖家、小微企业很难从银行获得贷款的原因，就是因为卡在了信用审批这一环节上。客观地说，电商卖家、小微企业并非没有信用，只不过各大银行很难客观公正地评估中小企业的信用。在这种市场环境下，P2P货款平台的出现，为小微企业提供了融资渠道，解决了发展过程中的一大难题。</p>
+</li>
+<li><p>P2P网货平台由于没有货款牌照，还属于民间借贷，借货资金的进出往往要 通过网站创始人的个人账户或公司账户进行，一般较大的P2P平台每天的资金 沉淀多达三五百万元，这就为平台私自挪用用户资金乃至携款潜逃埋下了隐患。大部分P2P平台都选择和第三方支付平台合作。</p>
+</li>
+<li><p>为了借货安全应该引入第三方资金托管，才能降低P2P借货资金流转中的风险。</p>
+<p><img src="http://wx2.sinaimg.cn/large/e64a4785gy1fwp86igpnaj20ew09egqv.jpg" alt="1540805572816"></p>
+</li>
+</ol>
+<h2 id="八-区块链的六哥一众筹"><a href="#八-区块链的六哥一众筹" class="headerlink" title="八.区块链的六哥一众筹"></a>八.区块链的六哥一众筹</h2><ol>
+<li><p>众筹的鼻祖AngelList</p>
+<ul>
+<li><p>在金融领域诞生P2P借货之后，很快又诞生了众筹；</p>
+</li>
+<li><p>2003年，纳瓦尔(Naval)创办了一家企业，由于不懂风险投资行业潜规则」，被投资人骗得血本无归。这让Naval对资本的恶意、创业的艰辛深有体会。他决定以一种特殊的方式，帮助初创企业——创办AngelList (天使名单的意思)。</p>
+</li>
+<li><p>AngelList是一家专门连接初创企业和投资者的融资平台和社交网络。他是 股权众筹的鼻袓。AngelList®覆了传统风投业，聚合了大量的巨无霸型投融资平台。AngelList从初创公司成长为投融资航母级企业，他们只用了三年。AngelList模式在全世界范围内被广泛地传播和复制，也包括中国。</p>
+</li>
+<li><p>AngelList对自己白勺定位：AngelList is where the world meets startups.<br>(AngelList是让世界认识初创企业的地方)</p>
+<p><img src="http://wx1.sinaimg.cn/large/e64a4785gy1fwp8athwajj20ga07d0w1.jpg" alt="1540805832605"></p>
+</li>
+</ul>
+</li>
+<li><p>众筹概述</p>
+<ul>
+<li><p>众筹，英文是crowdfunding0即大众筹资或群众筹资，香港译作“群众集资”，台湾译作“群众募资”。由发起人、跟投人、平台构成。具有低门槛、多样性、依靠大众力量、注重创意的特征，一种向群众募资，以支持发起的个人或组织的行为。一般而言是通过网络上的平台连结起赞助者与提案者。群众募资被用来支持各种活动，包含灾害重建、民间集资、竞选活动、创业募资、艺术创作、自由软件、设计发明、科学研究以及公共专案等。</p>
+</li>
+<li><p>过去我们融资都是去找风险投资，或者去上市，这些都是中心化融资的方法。其实机构或者股市的钱也是无数投资人给的，那么一个企业如果需要钱，能不能直接去找这些零散的投资人借呢？</p>
+</li>
+<li><p>今天的金融世界里是有监管的，因为世界上有很多不合格的投资人，就是那些对风险没有识别能力和承受能力的人，拿他们的钱，会有金融风险。</p>
+</li>
+<li><p>在中国超过200人叫非法集资，那么我们能不能在200人之内，找到对风险 有识别能力和承受能力的人，拿他们的钱，而不需要通过中间机构呢？我们把这种方式叫做众筹。</p>
+</li>
+<li><p>众筹依然会让全世界觉得头疼，因为还是涉及到金融风险。但是他让很多优秀的创业者拿到了投资，让他们能够有机会去改变这个世界。</p>
+</li>
+<li><p>美国打车软件Uber,这家在全世界引起巨大反响的公司，他们的第一笔钱，就是从angelList通过众筹的方式拿到的。</p>
+<p><img src="http://ws1.sinaimg.cn/large/e64a4785gy1fwp8feib8rj20g70a6458.jpg" alt="1540806094096"></p>
+</li>
+</ul>
+</li>
+</ol>
+<h2 id="九-区块链家族的老七一区块链"><a href="#九-区块链家族的老七一区块链" class="headerlink" title="九.区块链家族的老七一区块链"></a>九.区块链家族的老七一区块链</h2><p><img src="http://ws3.sinaimg.cn/large/e64a4785gy1fwp8h3rmisj20gt0a40za.jpg" alt="1540806194244"></p>
+<ol>
+<li><p>区块链的起源：区块链(Blockchain)的概念最早可以追溯到2008年末，笔名“中本聪”的人在论坛中发表了一篇论文《比特币：一种点对点的电子现金系统》，首次提出了区块链的概念。随后，区块链成为了比特币的核心组成部分，核心作用是作为所有交易的公共账簿。区块链成为第一个解决数字货币重复消费问题的技术。</p>
+</li>
+<li><p>区块链的概念:</p>
+<ul>
+<li>狭义来讲，区块链是一种按照时间顺序将数据区块以顺序相连的方式组合成的一种链式数据结构，并以密码学方式保证的不可篡改和不可伪造的分布式公共账本。</li>
+<li>广义来讲，区块链技术是利用链式数据结构来验证与存储数据、利用分布式节点共识算法来生成和更新数据、利用密码学的方式保证数据传输和访问的安全、利用由自动化脚本代码组成的智能合约来编程和操作数据的一种全新的分布式基础架构与计算方式。</li>
+</ul>
+</li>
+<li><p>区块链的本质：</p>
+<ul>
+<li>区块链的本质，其实就是一个去中心化的数据库，全民集体在维护这个可靠的数据库。传统情况下，无论系统多大多小，其背后都有一个数据库，谁维护系统谁就管理数据库，其他使用者无权参与。区块链则颠覆传统，让系统中每个用户参与其中。</li>
+<li>通俗一点说，区块链技术是一种全民参与记账的方式。<ul>
+<li>区块链就是一个分布式的公共账本，每一个点都可以在上面记账。传统的记账系统，记账权只掌握在中心服务器手中。比如QQ、微信上的信息，只能由腾讯的服务器来记账；淘宝、天猫的信息，只能由阿里的服 务器来记账。但在区块链系统，每台计算机是一个节点，任何一个节点都可以记账，中间无需第三方服务器。</li>
+<li>当任意两个账号的资金互转，这笔加密的交易会广播到其他所有节点，也就是说通知到其他所有用户。举例说明，在一个100人的村子，张三买了李四家一头牛，向他支付1万元。普通的做法是，他可以找到中间人村会计王五（总记账人），将自己账下1万元转到李四账下。但在区块链系统里，张三无需再通过总记账人王五，而是直接将自己账本的1万元 记到李四账本；同时将这笔交易信息广播给全村听到（即整个区块链系统）。当村里其他人知道并确认了这笔交易，交易才算最终完成。因为这笔交易被加密处理，只有李四才能收到这1万元，而其他98人只能在账户内看到有这笔交易信息，但无法看到这笔信息是转给谁的。此外系统可以完整记录交易过程，整个交易可以溯源。</li>
+<li>区块链防止了交易双方篡改交易信息，这使得区块链彻彻底底的透明。区块链中没有中心总账本，而是通过所有参与者的独立账本分布式记账，每个人都持有完整的账本。这些节点分布在互联网的任意角落，让具有足够多节点的区块链很难被攻击或篡改。所以区块链被认为是世界上有史以来最安全的数据管理方式。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>区块链模型：</p>
+<ul>
+<li><p>区块链模型：一般说来，区块链系统由数据层、网络层、共识层、激励层、合约层和应用层等六层组成。</p>
+<ul>
+<li><p>数据层封装了底层数据区块以及相关的数据加密和时间戳等基础数据和基本算法；</p>
+</li>
+<li><p>网络层则包括分布式组网机制、数据传播机制和数据验证机制等；</p>
+</li>
+<li><p>共识层主要封装网络节点的各类共识算法；</p>
+</li>
+<li><p>激励层将经济因素集成到区块链技术体系中来，主要包括经济激励的发行机制和分配机制等；</p>
+</li>
+<li><p>合约层主要封装各类脚本、算法和智能合约，是区块链可编程特性的基础；</p>
+</li>
+<li><p>应用层则封装了区块链的各种应用场景和案例；</p>
+</li>
+<li><p>该模型中，基于时间戳的链式区块结构、分布式节点的共识机制、基于共识算力的经济激励和灵活可编程的智能合约是区块链技术最具代表性的创新点。</p>
+<p><img src="http://ws3.sinaimg.cn/large/e64a4785gy1fwp8os22ohj20f90kwq5z.jpg" alt="1540806631902"></p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>区块链的分类：</p>
+<ul>
+<li><p>区块链目前分为三类：公有区块链(PublicBlockChains)、联合区块链<br>(ConsortiumBlockChains)、私有区块链(privateBlockChains)。其中联合区块链和私有区块链认为是广义的私链。公有区块链是最早的区块链，也是目前应用最广泛的区块链，各大bitcoins系列的虚拟数字货币均基于公有区块链。目前传统金融也开始尝试私有区块链，私链的应用产品还在摸索当中。 </p>
+</li>
+<li><p>区块链的本质是解决信任。公有区块链解决人类不可信，联合区块链解决组织不可信，私有区块链解决队友不可信。</p>
+</li>
+<li><p>区块链出生后，中本聪基于区块链技术推出了比特币。</p>
+</li>
+</ul>
+</li>
+</ol>
+<h2 id="十-区块链的儿子——比特币"><a href="#十-区块链的儿子——比特币" class="headerlink" title="十.区块链的儿子——比特币"></a>十.区块链的儿子——比特币</h2><ol>
+<li><p>区块链的孩子叫做比特币（BitCoin）。比特币的概念最初由中本聪在2009年提出，是基于分布式记账技术的一种数字现金；</p>
+</li>
+<li><p>与大多数货币不同，比特币不依靠特定货币机构发行，它依据特定算法， 通过大量的计算产生，比特币使用整个网络构成的分布式数据库来确认并记录所有的交易行为，并使用密码学的设计来确保货币流通各个环节安全性。</p>
+</li>
+<li><p>基于密码学的设计可以使比特币只能被真实的拥有者转移或支付。这确保了货币所有权与流通交易的匿名性。</p>
+</li>
+<li><p>比特币与其他虚拟货币最大的不同，是其总数量非常有限，具有极强的稀缺性。比特币是模拟黄金来发行的，每4年开采量就会减半，之后的总数量将被永久限制在2100万个。</p>
+</li>
+<li><p>比特币的本质：其实就是一堆复杂算法所生成的特解。</p>
+<ul>
+<li>特解是指方程组所能得到无限个（其实比特币是有限个）解中的一组。而每一个特解都能解开方程并且是唯一的。</li>
+<li>以人民币来比喻的话，比特币就是人民币的序列号，你知道了某张钞票上的序列号，你就拥有了这张钞票。</li>
+<li>而挖矿的过程就是通过庞大的计算量不断的去寻求这个方程组的特解，这个方程组被设计成了只有2100万个特解，所以比特币的上限就是2100万。</li>
+</ul>
+</li>
+<li><p>比特币可以用来兑现，可以兑换成大多数国家的货币。使用者可以用比特币购买一些虚拟物品，只要有人接受，也可以使用比特币购买现实生活当中的物品。</p>
+<p><img src="http://wx3.sinaimg.cn/large/e64a4785gy1fwp947h6qfj20gb09lqfa.jpg" alt="1540807486479"></p>
+</li>
+<li><p>兑换利率</p>
+<ul>
+<li><p>SHA：安全哈希算法（Secure Hash Algorithm,缩写为SHA）,能计算出一个数字消息所对应到的长度固定的字符串（又称消息摘要）的算法。</p>
+</li>
+<li><p>SHA家族的五个算法，分别是SHA-1、SHA-224. SHA-256. SHA-384, 和SHA-512,由美国国家安全局（NSA）所设计，并由美国国家标准与技术 研究院（NIST）发布，是美国的政府标准。后四者并称为SHA-2。</p>
+<p>SHA-1在许多安全协定中广为使用，曾被视为是MD5的后继者。但SHA-1的安全性如今被密码学家严重质疑；SHA-2的算法跟SHA-1基本上相似，但是至今尚未出现对SHA-2有效的攻击。</p>
+</li>
+</ul>
+</li>
+</ol>
+<h2 id="十一-区块链的侄子一一ICO"><a href="#十一-区块链的侄子一一ICO" class="headerlink" title="十一.区块链的侄子一一ICO"></a>十一.区块链的侄子一一ICO</h2><ol>
+<li><p>比特币诞生后不久，众筹在与代币结合，然后生下ico。众筹的太太叫代币，代币是比特币的原型，比特币的逻辑；</p>
+</li>
+<li><p>ICO Olnitial Coin Offering缩写），叫做“首次币发行”。ICO是区块链行业术语，他是一种金融行为，源自股票市场的首次公开发行（IPO）概念；</p>
+<ul>
+<li>IPO（英文简称Initial Public Offering）首次公开发行。指股份公司首次向社会公众公开招股的发行方式。与ICO相比，他们有共同点也有区别。</li>
+<li>共同点：都有通过出售股份来筹措资金；都有潜在投资者为了潜在的巨大收益而冒险参与；</li>
+<li>不同点：ICO的大部分支持者是项目爱好者或不专业的投资者；ICO不需要注册经营牌照；ICO平台是第三方中立平台，投资者自担风险。 </li>
+</ul>
+</li>
+<li><p>ICO是一种为加密数字货币筹措资金的常用方式。早期参与者可以从中获得初始产生的加密数字货币作为回报。由于代币具有市场价值，可以兑换成法币，从而支持项目的开发成本。ICO所发行的代币，可以基于不同的区块链。 常见的是基于以太坊（ETH）和比特股（BTS）区块链发行，由区块链提供记账服务和价值共识，实现全球发行和流通；</p>
+</li>
+<li><p>ICO参与者对于一个项目的成功非常重要，他们会在社区里为该区块链项目进行宣传，使它产生的代币在开始交易前就获得流动性。但ICO的参与者最看重的依然是由项目发展或代币发行后价格升值带来的潜在收益；</p>
+</li>
+<li><p>ICO给全世界和区块链家族，造成了特别大的困扰，就是他能够在没有任何 的实际项目执行的情况下，很快就融到一大笔比特币、以太币，或者其他代币。所以缺乏监管体系，缺乏风险管理。</p>
+<p><img src="http://ws2.sinaimg.cn/large/e64a4785gy1fwp91v2339j20gh099k31.jpg" alt="1540807376924"></p>
+</li>
+</ol>
+<h2 id="十二-区块链未来的八弟——DAO"><a href="#十二-区块链未来的八弟——DAO" class="headerlink" title="十二.区块链未来的八弟——DAO"></a>十二.区块链未来的八弟——DAO</h2><ol>
+<li>区块链未来的弟弟，他的名字叫Decentralized autonomous organizations,简称DAO,就是去中心化的组织，或者叫做分布式自治组织；</li>
+<li>过去人类的组织形态，都是有管理者的层级组织。比如一个公司有CEO,再往下是高层、中层，一直到员工。这个组织形态，其实很好用，但是也有问题，就是它的沟通效率低；</li>
+<li>DAO设想让每个组织里面不再有一个所谓的管理层，而是自我沟通，通过效率的方式直接连接，就很有可能会提高全人类的组织效率。</li>
+</ol>
+
+            </div>
+            <hr>
+
+            
+            <style>
+    #reward {
+        margin: 40px 0;
+        text-align: center;
+    }
+
+    #reward .reward-link {
+        font-size: 1.88rem;
+    }
+
+    #reward .btn-floating:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    #rewardModal {
+        width: 320px;
+        height: 350px;
+    }
+
+    #rewardModal .reward-title {
+        margin: 15px auto;
+        padding-bottom: 5px;
+    }
+
+    #rewardModal .modal-content {
+        padding: 10px;
+    }
+
+    #rewardModal .close {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 1.3rem;
+        line-height: 20px;
+        cursor: pointer;
+    }
+
+    #rewardModal .reward-tabs {
+        margin: 0 auto;
+        width: 210px;
+    }
+
+    .reward-tabs .tabs {
+        height: 38px;
+        margin: 10px auto;
+        padding-left: 0;
+    }
+
+    .reward-tabs .tabs .tab {
+        height: 38px;
+        line-height: 38px;
+    }
+
+    .reward-tabs .tab a {
+        color: #fff;
+        background-color: #ccc;
+    }
+
+    .reward-tabs .tab a:hover {
+        color: #fff;
+    }
+
+    .reward-tabs .wechat-tab .active {
+        color: #fff;
+        background-color: #22AB38;
+    }
+
+    .reward-tabs .alipay-tab .active {
+        color: #fff;
+        background-color: #019FE8;
+    }
+
+    .reward-tabs .reward-img {
+        width: 210px;
+        height: 210px;
+    }
+</style>
+
+<div id="reward">
+    <a class="reward-link btn-floating btn-large waves-effect waves-light red">赏</a>
+
+    <!-- Modal Structure -->
+    <div id="rewardModal" class="modal">
+        <div class="modal-content">
+            <a class="close"><i class="fa fa-close"></i></a>
+            <h4 class="reward-title">你的赏识是我前进的动力</h4>
+            <div class="reward-content">
+                <div class="reward-tabs">
+                    <ul class="tabs">
+                        <li class="tab wechat-tab waves-effect waves-light"><a class="active" href="#wechat">微信</a></li>
+                        <li class="tab alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
+                    </ul>
+                    <div id="wechat">
+                        <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
+                    </div>
+                    <div id="alipay">
+                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $('#reward .reward-link').on('click', function () {
+            $('#rewardModal').openModal();
+        });
+
+        $('#rewardModal .close').on('click', function () {
+            $('#rewardModal').closeModal();
+        });
+    });
+</script>
+            
+
+            <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+
+<div id="article-share">
+    
+    <div class="social-share" data-disabled="qzone" data-wechat-qrcode-helper="<p>微信里点“发现”->“扫一扫”二维码便可查看分享。</p>"></div>
+    
+</div>
+
+<script src="/libs/share/js/social-share.min.js"></script>
+
+            <div class="reprint">
+                <p>
+                    <span class="reprint-tip">未经本人允许不得转载 - 感谢您的阅读</span>
+                    
+                    <i class="fa fa-angle-right fa-lg fa-fw text-color"></i>
+                    <a href="/posts/24d6384d.html" class="b-link-green">初识区块链家族</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+	
+        <style>
+    .v .vinput {
+        padding: 0px;
+    }
+    .vheader {
+        background: #fbfbfb;
+        border: none;
+        border-radius: 0;
+        padding: 0px 10px 0px 10px;
+        margin: 0;
+        line-height: 3;
+        border-bottom: 1px dashed #F5F5F5;
+    }
+    .v .vwrap {
+        padding: 0px;
+        border: 2px solid #FAFAFA
+    }
+    .v .vwrap .vedit {
+        padding: 10px 10px 0 10px;
+    }
+    .v .vwrap .vcontrol {
+        padding: 10px 8px 0 12px;
+    }
+    .v .vinfo .vcount .vnum {
+        color: red;
+    }
+    
+    .v .vbtn {
+        color: #fff;
+        border-radius: 3rem;
+        background: #3CB371;
+        padding: .5rem 2.45rem;
+    }
+    
+    .v .vlist .vcard .vhead .vsys {
+        display: none;
+    }
+    .v .vlist .vcard .vh .vmeta .vat{
+        background-color: #7f7f7f !important;
+        color: #fff !important;
+        border-radius: 3px !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+    .v .vwrap .vedit .vctrl span {
+        background-color: #FF8C69 !important;
+        color: #fff !important;
+        border-radius: 3px !important;
+        padding: 1px 5px 1px 5px !important;
+    }
+    
+    .v .vwrap .vheader .vinput {
+        box-shadow: none;
+        color: #0e0a0a;
+        background: #fafafa;
+        border: none;
+        width: 50%;
+        height: 100%;
+    }   
+    ::-webkit-input-placeholder { /* Chrome */
+        color: black;
+        transition: opacity 250ms ease-in-out;
+    }
+    :focus::-webkit-input-placeholder {
+        opacity: 0.5;
+    }
+    :-ms-input-placeholder { /* IE 10+ */
+        color: black;
+        transition: opacity 250ms ease-in-out;
+    }
+    :focus:-ms-input-placeholder {
+        opacity: 0.5;
+    }
+    ::-moz-placeholder { /* Firefox 19+ */
+        color: black;
+        opacity: 1;
+        transition: opacity 250ms ease-in-out;
+    }
+    :focus::-moz-placeholder {
+        opacity: 0.5;
+    }
+    :-moz-placeholder { /* Firefox 4 - 18 */
+        color: black;
+        opacity: 1;
+        transition: opacity 250ms ease-in-out;
+    }
+    :focus:-moz-placeholder {
+        opacity: 0.5;
+    }
+    .v .info {
+        display: none;
+    }
+    .v .vwrap  .vheader .vlink {
+        display: none;
+    }      
+    .v .vwrap .vheader input:focus {
+        border-color: #c4c8cb;
+        box-shadow: none;
+        border: none;
+        outline: 0; 
+    }
+</style>
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src="/js/Valine.min.js"></script>
+<div class="valine-card card" data-aos="fade-up">
+ 
+	<div class="comment" style="padding: 12px;"></div>
+	<script>
+        new Valine({
+            el: '.comment',
+            notify: false,
+            verify: false,
+            app_id: 'B8rpy4srnRGi45Bf5LnjHijX-9Nh9j0Va',
+            app_key: 'cMaKM9IAt2UR3hQDD6ot7Bag',
+			avatar: '',
+            avatar_cdn: "https://gravatar.loli.net/avatar/9e63c80900d106cbbec5a9f4ea433a3e?size=80",
+			placeholder: '说点什么吧~',
+			pageSize: 10,
+        });
+		
+    </script>
+	
+</div>
+    
+	
+	
+	
+    
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">上一篇</div>
+            <div class="card">
+                <a href="/posts/6a013406.html">
+                    <div class="card-image">
+                        
+                        <img src="https://ws3.sinaimg.cn/large/e64a4785gy1fxpu8big41j20ku0dwt9s.jpg" class="responsive-img" alt="比特币及区块链中常见问题">
+                        
+                        <span class="card-title">比特币及区块链中常见问题</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary">⽐特币及区块链中常⻅问题一、⽐特币挖矿相关问题
+比特币节点
+运行区块链软件的计算机就是一个节点
+每个比特币钱包都是一个节点
+
+
+全节点
+拥有完整区块链账本的节点叫做全节点，负责比特币转账交易的广播和验证
+同步整个区块链并对交易做验证，同时中</div>
+                    <div class="publish-info">
+                        <span class="publish-date">
+                            <i class="fa fa-clock-o fa-fw icon-date"></i>2017-10-30
+                        </span>
+                        <span class="publish-author">
+                            
+                            <i class="fa fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/区块链/" class="post-category" target="_blank">
+                                    区块链
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/比特币/" target="_blank">
+                        <span class="chip bg-color">比特币</span>
+                    </a>
+                    
+                    <a href="/tags/blockchain/" target="_blank">
+                        <span class="chip bg-color">blockchain</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">下一篇</div>
+            <div class="card">
+                <a href="/posts/d8c1eece.html">
+                    <div class="card-image">
+                        
+                        <img src="https://ws2.sinaimg.cn/large/e64a4785gy1fxpu51tg0hj20ku0dw74j.jpg" class="responsive-img" alt="Go语言发展历史">
+                        
+                        <span class="card-title">Go语言发展历史</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary">一. Go语言发展历史(一). 知名编程语⾔言或系统的发展简史
+B语言之父：Ken Thompson（肯.汤普森）。该语言得名于汤姆森的妻子Bonnie，一门剑桥于60年代中期开发的语言。
+
+C语言之父：美国著名计算机专家、C语言发明人、U</div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2017-10-26
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fa fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/后端/" class="post-category" target="_blank">
+                                    后端
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/GoLang/" target="_blank">
+                        <span class="chip bg-color">GoLang</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+
+</div>
+    
+
+</main>
+
+<footer class="page-footer bg-color">
+    <div class="container row center-align">
+        <div class="col s12 m8 l8 copy-right">
+		<span id="busuanzi_container_site_pv" style="display:none">
+		<span class="fa fa-eye"></span>&nbsp;
+		<span id="busuanzi_value_site_pv"></span>
+		</span>&nbsp;&nbsp;
+		<span id="busuanzi_container_site_uv" style="display:none">
+		<span class="fa fa-user"></span>&nbsp;
+		<span id="busuanzi_value_site_uv"></span>
+		</span>&nbsp;&nbsp;
+			 ©2018 nlbsn.com 版权所有 ICP证：<a href="http://www.miitbeian.gov.cn/" rel="external nofollow noopener noreferrer" target="_blank">蒙ICP备18005245号</a>
+        </div>
+        <div class="col s12 m4 l4 social-link"><a href="https://github.com/BaiMingxu" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50" rel="external nofollow noopener noreferrer">
+    <i class="fa fa-github"></i>
+</a>
+<a href="mailto:mxdlsm@163.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50" rel="external nofollow noopener noreferrer">
+    <i class="fa fa-envelope-open"></i>
+</a>
+<a href="#!" class="tooltipped" data-tooltip="QQ联系我: 806605375" data-position="top" data-delay="50">
+    <i class="fa fa-qq"></i>
+</a>
+
+<a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+    <i class="fa fa-rss"></i>
+</a>
+</div>
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+<!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title">搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字" class="search-input" autofocus>
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script src="/js/search.js"></script>
+<script type="text/javascript">
+    searchFunc("/" + "search.xml", 'searchInput', 'searchResult');
+</script>
+<!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fa fa-angle-up"></i>
+    </a>
+</div>
+
+
+<link href="https://cdn.bootcss.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<script src="/libs/materialize/js/materialize.min.js"></script>
+<script src="/libs/masonry/masonry.pkgd.min.js"></script>
+<script src="/libs/aos/aos.js"></script>
+<script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+<script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+<script src="/js/matery.js"></script>
+<script async>window.onload=function(){var a=document.createElement('script'),b=document.getElementsByTagName('script')[0];a.type='text/javascript',a.async=!0,a.src='/sw-register.js?v='+Date.now(),b.parentNode.insertBefore(a,b)};</script></body></html>
