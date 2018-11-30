@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://nlbsn.com/"/>
-  <updated>2018-11-30T01:37:53.482Z</updated>
+  <updated>2018-11-30T01:32:57.420Z</updated>
   <id>https://nlbsn.com/</id>
   
   <author>
@@ -15,20 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>Go——变量量及常量量</title>
-    <link href="https://nlbsn.com/posts/251c8c15.html"/>
-    <id>https://nlbsn.com/posts/251c8c15.html</id>
-    <published>2018-11-29T09:18:48.000Z</published>
-    <updated>2018-11-30T01:37:53.482Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>初识Go</title>
@@ -92,7 +78,7 @@
     <link href="https://nlbsn.com/posts/6a013406.html"/>
     <id>https://nlbsn.com/posts/6a013406.html</id>
     <published>2017-10-30T13:41:21.000Z</published>
-    <updated>2018-11-29T00:29:44.555Z</updated>
+    <updated>2018-11-30T01:40:26.535Z</updated>
     
     <summary type="html">
     
@@ -162,6 +148,35 @@
     </summary>
     
       <category term="golang" scheme="https://nlbsn.com/categories/golang/"/>
+    
+    
+      <category term="GoLang" scheme="https://nlbsn.com/tags/GoLang/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Go——变量量及常量量</title>
+    <link href="https://nlbsn.com/posts/251c8c15.html"/>
+    <id>https://nlbsn.com/posts/251c8c15.html</id>
+    <published>2017-08-07T09:18:48.000Z</published>
+    <updated>2018-11-30T02:36:28.341Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;  Go语⾔基本语法——变量及常量&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;⼀、变量&quot;&gt;&lt;a href=&quot;#⼀、变量&quot; class=&quot;headerlink&quot; title=&quot;⼀、变量&quot;&gt;&lt;/a&gt;⼀、变量&lt;/h4&gt;&lt;h5
+        
+      
+    
+    </summary>
+    
+      <category term="golang基础" scheme="https://nlbsn.com/categories/golang%E5%9F%BA%E7%A1%80/"/>
     
     
       <category term="GoLang" scheme="https://nlbsn.com/tags/GoLang/"/>
