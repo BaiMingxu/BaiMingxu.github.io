@@ -34,60 +34,30 @@ body {
 }
 
 #artDetail .card:before{
-    content:'';    
-    width: 25px;
-    height: 20px;
-    position: absolute;
-    bottom:0;
-    right:0;
-    -webkit-border-bottom-right-radius: 30px;
-    -webkit-box-shadow: -2px -2px 5px rgba(0, 0, 0, 0.3);
-    -webkit-transform:
-    rotate(-20deg)
-    skew(-40deg,-3deg)
-    translate(-13px,-13px);
+    content: '';
+    width: 50px;
+    height: 100px;
+    position:absolute;
+    bottom:0; right:0;
+    -webkit-box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.1);
+    z-index:-1;
+    -webkit-transform: translate(-35px,-40px)
+                        skew(0deg,30deg)
+                        rotate(-25deg);
 }
 
 #artDetail .card:after{
     content: '';
-    z-index: -10;
-    width: 100px;
-    height: 100px;
-    position:absolute;
-    bottom:0;
-    right:0;
-    background: rgba(0, 0, 0, 0.2);
-    display: inline-block;
-    -webkit-box-shadow: 20px 20px 8px rgba(0, 0, 0, 0.2);
-    -webkit-transform: rotate(0deg)
-                        translate(-45px,-20px)
-                           skew(20deg);
-}
-.box6_corner_lf{
     width: 100px;
     height: 100px;
     top:0; left:0;
     position:absolute;
-    z-index:-6;
     display: inline-block;
+    z-index:-1;
     -webkit-box-shadow: -10px -10px 10px rgba(0, 0, 0, 0.2);
     -webkit-transform: rotate(2deg)
                         translate(20px,25px)
-                           skew(20deg);
-}
-
-.box6_corner_rt{
-    content: '';
-    width: 50px;
-    height: 50px;
-    top:0; right:0;
-    position:absolute;
-    display: inline-block;
-    z-index:-6;
-    -webkit-box-shadow: 10px -10px 8px rgba(0, 0, 0, 0.2);
-    -webkit-transform: rotate(2deg)
-                        translate(-14px,20px)
-                           skew(-20deg);
+                        skew(20deg);
 }
 
 h1 {
