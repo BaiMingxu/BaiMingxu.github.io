@@ -344,9 +344,9 @@
             <div class="post-info">
                 
 				<span class="post-date">
-					<i class="fa fa-file-word-o fa-fw"></i>2.1k
+					<i class="fa fa-file-word-o fa-fw"></i>3.2k
 				<span class="post-date">
-					<i class="fa fa-hourglass-half fa-fw"></i>7分
+					<i class="fa fa-hourglass-half fa-fw"></i>12分
 				</span>
 				
                 <span class="post-cate">
@@ -494,34 +494,80 @@ e <span class="token keyword">struct</span> <span class="token punctuation">{</s
 <h5 id="（⼆）、布尔值"><a href="#（⼆）、布尔值" class="headerlink" title="（⼆）、布尔值"></a>（⼆）、布尔值</h5><ul>
 <li>%t  单词true或false  true</li>
 </ul>
-<h5 id="（三）整数"><a href="#（三）整数" class="headerlink" title="（三）整数"></a>（三）整数</h5><p> %b 表示为⼆进制 binary</p>
-<p> %c 该值对应的unicode码值</p>
-<p> %d 表示为⼗进制 digital</p>
-<p> %8d 表示该整型⻓长度是8，不⾜8则在数值前补空格。如果超出8，则以 实际为准。</p>
-<p> %08d 数字⻓长度是8，不⾜8位的，在数字前补0。如果超出8，则以实际 为准。</p>
-<p> %o 表示为⼋进制 octal</p>
-<p> %q 该值对应的单引号括起来的go语法字符字⾯值，必要时会采⽤安</p>
-<p>全的转义表示 quotation</p>
-<p> %x 表示为⼗六进制，使⽤a-f hex</p>
-<p> %X 表示为⼗六进制，使⽤A-F</p>
-<p> %U 表示为Unicode格式：U+1234，等价于”U+%04X” unicode</p>
-<h5 id="（四）、浮点数与复数的两个组分"><a href="#（四）、浮点数与复数的两个组分" class="headerlink" title="（四）、浮点数与复数的两个组分"></a>（四）、浮点数与复数的两个组分</h5><p> %b ⽆⼩数部分、⼆进制指数的科学计数法，如-123456p-78；参⻅见 strconv.FormatFloat</p>
-<p> %e （=%.6e）有6位⼩数部分的科学计数法，如-1234.456e+78</p>
-<p> %E 科学计数法，如-1234.456E+78</p>
-<p> %f （=%.6f）有6位⼩数部分，如123.456123 float</p>
-<p> %F 等价于%f</p>
-<p> %g 根据实际情况采⽤%e或%f格式（以获得更简洁、准确的输出）</p>
-<p> %G 根据实际情况采⽤%E或%F格式（以获得更简洁、准确的输出）</p>
-<h5 id="（五）、字符串和-byte"><a href="#（五）、字符串和-byte" class="headerlink" title="（五）、字符串和[]byte"></a>（五）、字符串和[]byte</h5><p> %s 直接输出字符串或者[]byte string</p>
-<p> %q 该值对应的双引号括起来的go语法字符串字⾯值，必要时会采⽤ 安全的转义表示</p>
-<p> %x 每个字节⽤两字符⼗六进制数表示（使⽤a-f）</p>
-<p> %X 每个字节⽤两字符⼗六进制数表示（使⽤A-F）</p>
+<h5 id="（三）整数"><a href="#（三）整数" class="headerlink" title="（三）整数"></a>（三）整数</h5><ul>
+<li>%b 表示为⼆进制 binary</li>
+<li>%c 该值对应的unicode码值  char</li>
+<li>%d 表示为⼗进制 digital</li>
+<li>%8d 表示该整型⻓长度是8，不⾜8则在数值前补空格。如果超出8，则以 实际为准。</li>
+<li>%08d 数字⻓长度是8，不⾜8位的，在数字前补0。如果超出8，则以实际 为准。</li>
+<li>%o 表示为⼋进制 octal</li>
+<li>%q 该值对应的单引号括起来的go语法字符字⾯值，必要时会采⽤安全的转义表示 quotation</li>
+<li>%x 表示为⼗六进制，使⽤a-f hex</li>
+<li>%X 表示为⼗六进制，使⽤A-F</li>
+<li>%U 表示为Unicode格式：U+1234，等价于”U+%04X” unicode</li>
+</ul>
+<h5 id="（四）、浮点数与复数的两个组分"><a href="#（四）、浮点数与复数的两个组分" class="headerlink" title="（四）、浮点数与复数的两个组分"></a>（四）、浮点数与复数的两个组分</h5><ul>
+<li>%b ⽆⼩数部分、⼆进制指数的科学计数法，如-123456p-78；参⻅见 strconv.FormatFloat</li>
+<li>%e （=%.6e）有6位⼩数部分的科学计数法，如-1234.456e+78</li>
+<li>%E 科学计数法，如-1234.456E+78</li>
+<li>%f （=%.6f）有6位⼩数部分，如123.456123 float</li>
+<li>%F 等价于%f</li>
+<li>%g 根据实际情况采⽤%e或%f格式（以获得更简洁、准确的输出）</li>
+<li>%G 根据实际情况采⽤%E或%F格式（以获得更简洁、准确的输出）</li>
+</ul>
+<h5 id="（五）、字符串和-byte"><a href="#（五）、字符串和-byte" class="headerlink" title="（五）、字符串和[]byte"></a>（五）、字符串和[]byte</h5><ul>
+<li>%s 直接输出字符串或者[]byte string</li>
+<li>%q 该值对应的双引号括起来的go语法字符串字⾯值，必要时会采⽤ 安全的转义表示</li>
+<li>%x 每个字节⽤两字符⼗六进制数表示（使⽤a-f）</li>
+<li>%X 每个字节⽤两字符⼗六进制数表示（使⽤A-F）</li>
+</ul>
+<h5 id="（六）、指针"><a href="#（六）、指针" class="headerlink" title="（六）、指针"></a>（六）、指针</h5><ul>
+<li>%p 表示为⼗六进制，并加上前导的0x pointer</li>
+<li>没有%u。整数如果是⽆符号类型⾃然输出也是⽆符号的。类似的，也没有必要指定操作数的尺⼨（int8，int64）。</li>
+<li>宽度通过⼀个紧跟在百分号后⾯的⼗进制数指定，如果未指定宽度，则表示值时除必需之外不作填充。精度通过（可选的）宽度后跟点号后跟的⼗进 制数指定。如果未指定精度，会使⽤默认精度；如果点号后没有跟数字，表 示精度为0。举例如下：</li>
+<li>%f: 默认宽度，默认精度</li>
+<li>%9f 宽度9，默认精度</li>
+<li>%.2f 默认宽度，精度2</li>
+<li>%9.2f 宽度9，精度2</li>
+<li>%9.f 宽度9，精度0</li>
+</ul>
+<h5 id="（七）、其它flag"><a href="#（七）、其它flag" class="headerlink" title="（七）、其它flag"></a>（七）、其它flag</h5><ul>
+<li>‘+’ 总是输出数值的正负号；对%q（%+q）会⽣成全部是ASCII字符的输出（通过转义）；</li>
+<li>‘ ‘对数值，正数前加空格⽽负数前加负号；</li>
+<li>‘-‘ 在输出右边填充空⽩⽽不是默认的左边（即从默认的右对⻬齐切换为左对齐）；</li>
+<li>‘#’ 切换格式：</li>
+<li>⼋进制数前加0（%#o），⼗六进制数前加0x（%#x）或0X（%#X）， 指针去掉前⾯的0x（%#p）；</li>
+<li>对%q（%#q），如果strconv.CanBackquote返回真会输出反引号括起来的未转义字符串；</li>
+<li>对%U（%#U），输出Unicode格式后，如字符可打印，还会输出空格和单引号括起来的go字⾯值；</li>
+</ul>
+<h4 id="四、数据类型转换"><a href="#四、数据类型转换" class="headerlink" title="四、数据类型转换"></a>四、数据类型转换</h4><h5 id="（⼀）、数据类型转换的格式"><a href="#（⼀）、数据类型转换的格式" class="headerlink" title="（⼀）、数据类型转换的格式"></a>（⼀）、数据类型转换的格式</h5><ol>
+<li><p>T(表达式)</p>
+<ul>
+<li>采⽤数据类型前置加括号的⽅式进⾏类型转换。T表示要转换的类型；表 达式包括变量、数值、函数返回值等。</li>
+<li>类型转换时，需要考虑两种类型之间的关系和范围，是否会发⽣数值截断。</li>
+<li>布尔型⽆法与其他类型进⾏转换。</li>
+</ul>
+</li>
+<li><p>float与int之间转换</p>
+<ul>
+<li>需要注意float转int时精度的损失</li>
+</ul>
+</li>
+<li><p>int转string</p>
+<ul>
+<li>其实相当于是byte或rune转string。</li>
+<li>该int数值是ASCII码的编号或Unicode字符集的编号。转成string就是将根据字符集，将对应编号的字符查找出来。</li>
+<li>当该数值超出Unicode编号范围，则转成的字符串显示为乱码。</li>
+<li>例如19968转string，就是“⼀”。</li>
+</ul>
 <blockquote>
 <p>   ASCII字符集中数字的10进制范围是[30 - 39]</p>
 <p>   ASCII字符集中⼤写字⺟的10进制范围是[65 - 90]</p>
 <p>   ASCII字符集中⼩写字⺟的10进制范围是[97 - 122]</p>
 <p>   Unicode字符集中汉字的范围是[4e00-9fa5]，10进制范围是 [19968 - 40869]</p>
 </blockquote>
+</li>
+</ol>
 <p>4、string转int</p>
 <p> 不允许字符串转int（cannot convert 变量 (type string) to type int）<img src="https://wx2.sinaimg.cn/large/e64a4785gy1fxpve114vyj21620r8e81.jpg" alt=""></p>
 <h4 id="五、常量"><a href="#五、常量" class="headerlink" title="五、常量"></a>五、常量</h4><h5 id="⼀-、声明⽅式"><a href="#⼀-、声明⽅式" class="headerlink" title="(⼀)、声明⽅式"></a>(⼀)、声明⽅式</h5><ol>
@@ -577,9 +623,93 @@ e <span class="token keyword">struct</span> <span class="token punctuation">{</s
 <span class="token comment" spellcheck="true">//第⼀个 iota 等于 0，每当 iota 在新的⼀⾏被使⽤时，它的值都会⾃动加 1；所以 a=0, b=1, c=2</span>
 </code></pre>
 <ol start="4">
-<li></li>
+<li>常量组中如果不指定类型和初始值，则与上⼀⾏⾮空常量的值相同。所以上述的枚举可以简写为如下形式：</li>
 </ol>
+<pre class=" language-go"><code class="language-go"><span class="token keyword">const</span> <span class="token punctuation">(</span>
+ a <span class="token operator">=</span> <span class="token boolean">iota</span>
+ b
+ c
+ <span class="token punctuation">)</span>
+ <span class="token function">println</span><span class="token punctuation">(</span>a<span class="token punctuation">,</span> b<span class="token punctuation">,</span> c<span class="token punctuation">)</span>
+ <span class="token comment" spellcheck="true">//打印输出：0 1 2</span>
+</code></pre>
+<ol start="5">
+<li>示例⼀</li>
+</ol>
+<pre class=" language-go"><code class="language-go"><span class="token keyword">const</span> <span class="token punctuation">(</span>
+ i <span class="token operator">=</span> <span class="token number">1</span><span class="token operator">&lt;&lt;</span><span class="token boolean">iota</span>
+ j <span class="token operator">=</span> <span class="token number">3</span><span class="token operator">&lt;&lt;</span><span class="token boolean">iota</span>
+ k
+ l
+<span class="token punctuation">)</span>
 
+<span class="token keyword">func</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+ fmt<span class="token punctuation">.</span><span class="token function">Println</span><span class="token punctuation">(</span><span class="token string">"i="</span><span class="token punctuation">,</span>i<span class="token punctuation">)</span>
+ fmt<span class="token punctuation">.</span><span class="token function">Println</span><span class="token punctuation">(</span><span class="token string">"j="</span><span class="token punctuation">,</span>j<span class="token punctuation">)</span>
+ fmt<span class="token punctuation">.</span><span class="token function">Println</span><span class="token punctuation">(</span><span class="token string">"k="</span><span class="token punctuation">,</span>k<span class="token punctuation">)</span>
+ fmt<span class="token punctuation">.</span><span class="token function">Println</span><span class="token punctuation">(</span><span class="token string">"l="</span><span class="token punctuation">,</span>l<span class="token punctuation">)</span> <span class="token punctuation">}</span>
+ <span class="token comment" spellcheck="true">//打印输出结果：i= 1 j= 6 k= 12 l= 24</span>
+</code></pre>
+<ol start="6">
+<li>示例⼆</li>
+</ol>
+<pre class=" language-go"><code class="language-go"><span class="token keyword">const</span> <span class="token punctuation">(</span>
+ a1 <span class="token operator">=</span> <span class="token string">'⼀'</span>
+ b1
+ c1 <span class="token operator">=</span> <span class="token boolean">iota</span>
+ d1
+ <span class="token punctuation">)</span>
+
+ <span class="token keyword">func</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  fmt<span class="token punctuation">.</span><span class="token function">Println</span><span class="token punctuation">(</span>a1<span class="token punctuation">,</span> b1<span class="token punctuation">,</span> c1<span class="token punctuation">,</span> d1<span class="token punctuation">)</span> 
+  <span class="token punctuation">}</span>
+  <span class="token comment" spellcheck="true">//打印输出结果：19968 19968 2 3</span>
+</code></pre>
+<h4 id="六、类型别名（Type-Alias）"><a href="#六、类型别名（Type-Alias）" class="headerlink" title="六、类型别名（Type Alias）"></a>六、类型别名（<strong>Type</strong> <strong>Alias</strong>）</h4><h5 id="（⼀）、概要"><a href="#（⼀）、概要" class="headerlink" title="（⼀）、概要"></a>（⼀）、概要</h5><p>​    类型别名是Go1.9版本添加的新功能。主要⽤于代码升级、迁移中类型的兼容性 问题。在Go1.9版本前内建类型定义的代码是：</p>
+<ul>
+<li><p>type byte uint8</p>
+</li>
+<li><p>type rune int32</p>
+<p>⽽在Go1.9版本之后变更为：type byte = uint8  type rune = int32</p>
+</li>
+</ul>
+<h5 id="（⼆）、类型别名与类型定义"><a href="#（⼆）、类型别名与类型定义" class="headerlink" title="（⼆）、类型别名与类型定义"></a>（⼆）、类型别名与类型定义</h5><ol>
+<li><p>类型别名的语法格式：</p>
+<ul>
+<li>type 类型别名 = 类型</li>
+</ul>
+</li>
+<li><p>定义类型的语法格式：</p>
+<ul>
+<li><p>type 新的类型名 类型</p>
+<p>例如：</p>
+<ul>
+<li>type NewString string</li>
+</ul>
+<p>该语句是将NewString定义为string类型。通过type关键字，NewString会形 成⼀种新的类型。NewString本身依然具备string的特性。</p>
+<ul>
+<li>type StringAlias = string</li>
+</ul>
+<p>该语句是将StringAlias定义为string的⼀个别名。使⽤StringAlias与string等效。别名类型只会在代码中存在，编译完成时，不会有别名类型。</p>
+</li>
+</ul>
+</li>
+</ol>
+<h5 id="（三）、⾮本地类型不能定义⽅法"><a href="#（三）、⾮本地类型不能定义⽅法" class="headerlink" title="（三）、⾮本地类型不能定义⽅法"></a>（三）、⾮本地类型不能定义⽅法</h5><p><code>不能为不在同⼀个包中的类型定义⽅法。package main  improt &quot;time&quot;</code></p>
+<h4 id="七、出于性能考虑的最佳实践和建议"><a href="#七、出于性能考虑的最佳实践和建议" class="headerlink" title="七、出于性能考虑的最佳实践和建议"></a>七、出于性能考虑的最佳实践和建议</h4><ol>
+<li>尽可能的使⽤ := 去初始化声明⼀个变量（在函数内部）；</li>
+<li>尽可能的使⽤字符代替字符串；</li>
+<li>尽可能的使⽤切⽚代替数组；</li>
+<li>尽可能的使⽤数组和切⽚代替map；</li>
+<li>如果只想获取切⽚中某项值，不需要值的索引，尽可能的使⽤for range去遍历切⽚，这⽐必须查询切⽚中的每个元素要快⼀些；</li>
+<li>当数组元素是稀疏的（例如有很多0值或者空值nil），使⽤map会降低内存消耗；</li>
+<li>初始化map时指定其容量；</li>
+<li>当定义⼀个⽅法时，使⽤指针类型作为⽅法的接收者；</li>
+<li>在代码中使⽤常量或者标志提取常量的值；</li>
+<li>尽可能在需要分配⼤量内存时使⽤缓存；</li>
+<li>使⽤缓存模板。</li>
+</ol>
+<h5 id=""><a href="#" class="headerlink" title=" "></a> </h5>
             </div>
             <hr>
 
