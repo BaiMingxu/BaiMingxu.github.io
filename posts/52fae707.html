@@ -507,7 +507,8 @@ fmt<span class="token punctuation">.</span><span class="token function">Println<
 <span class="token comment" spellcheck="true">//61e02258c1060bd47d0271bcfda158d6734f92d6616f95bcf2b382c25ff9e2cc</span>
 <span class="token comment" spellcheck="true">//将交易易拼接在⼀一起</span>
 a <span class="token operator">:=</span>
-<span class="token string">"5f2f6723b49e840c7f35181c8fdd6fc0628100e41dcbb274239c4dcb42ebf01661e02258c1060bd47d0271bcfda158d6734f92d6616f95bcf2b382c25ff9e2cc"</span>
+<span class="token string">"5f2f6723b49e840c7f35181c8fdd6fc0628100e41dcbb274239c4dcb42ebf0166"</span>
+<span class="token operator">+</span><span class="token string">"1e02258c1060bd47d0271bcfda158d6734f92d6616f95bcf2b382c25ff9e2cc"</span>
 str <span class="token operator">:=</span> cryptotool<span class="token punctuation">.</span><span class="token function">SHA256Double</span><span class="token punctuation">(</span>a<span class="token punctuation">,</span> <span class="token boolean">true</span><span class="token punctuation">)</span> 
 <span class="token comment" spellcheck="true">//转成⼤大端排序格式</span>
 fmt<span class="token punctuation">.</span><span class="token function">Println</span><span class="token punctuation">(</span><span class="token string">"默克尔根:"</span> <span class="token punctuation">,</span> cryptotool<span class="token punctuation">.</span><span class="token function">ReverseHexString</span><span class="token punctuation">(</span>str<span class="token punctuation">)</span><span class="token punctuation">)</span> 
