@@ -33,7 +33,7 @@ body {
     color: #34495e;
 }
 
-.box6:before{
+#artDetail .card:before{
     content:'';    
     width: 25px;
     height: 20px;
@@ -48,7 +48,7 @@ body {
     translate(-13px,-13px);
 }
 
-.box6:after{
+#artDetail .card:after{
     content: '';
     z-index: -10;
     width: 100px;
