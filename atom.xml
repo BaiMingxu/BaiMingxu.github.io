@@ -155,11 +155,42 @@
   </entry>
   
   <entry>
+    <title>Go实现加密算法</title>
+    <link href="https://nlbsn.com/posts/6b392a9d.html"/>
+    <id>https://nlbsn.com/posts/6b392a9d.html</id>
+    <published>2017-08-10T14:55:37.000Z</published>
+    <updated>2018-11-30T05:27:16.870Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;Go语⾔实现加密算法&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;⼀、哈希算法&quot;&gt;&lt;a href=&quot;#⼀、哈希算法&quot; class=&quot;headerlink&quot; title=&quot;⼀、哈希算法&quot;&gt;&lt;/a&gt;⼀、哈希算法&lt;/h4&gt;&lt;h5
+        
+      
+    
+    </summary>
+    
+      <category term="密码学" scheme="https://nlbsn.com/categories/%E5%AF%86%E7%A0%81%E5%AD%A6/"/>
+    
+    
+      <category term="GoLang" scheme="https://nlbsn.com/tags/GoLang/"/>
+    
+      <category term="加密算法" scheme="https://nlbsn.com/tags/%E5%8A%A0%E5%AF%86%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Go—运算符</title>
     <link href="https://nlbsn.com/posts/d3d8daef.html"/>
     <id>https://nlbsn.com/posts/d3d8daef.html</id>
     <published>2017-08-09T13:15:12.000Z</published>
-    <updated>2018-11-30T04:33:26.079Z</updated>
+    <updated>2018-11-30T04:33:35.230Z</updated>
     
     <summary type="html">
     
@@ -188,7 +219,7 @@
     <link href="https://nlbsn.com/posts/251c8c15.html"/>
     <id>https://nlbsn.com/posts/251c8c15.html</id>
     <published>2017-08-07T09:18:48.000Z</published>
-    <updated>2018-11-30T03:14:11.087Z</updated>
+    <updated>2018-11-30T04:36:49.671Z</updated>
     
     <summary type="html">
     
