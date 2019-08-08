@@ -5,9 +5,9 @@
   <subtitle>寻梦空间</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https:/BaiMingxu.github.io/"/>
+  <link href="https:/baimingxu.github.io/"/>
   <updated>2018-11-30T09:14:16.000Z</updated>
-  <id>https:/BaiMingxu.github.io/</id>
+  <id>https:/baimingxu.github.io/</id>
   
   <author>
     <name>michel</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>比特币地址的生成算法</title>
-    <link href="https:/BaiMingxu.github.io/posts/52fae707.html"/>
-    <id>https:/BaiMingxu.github.io/posts/52fae707.html</id>
+    <link href="https:/baimingxu.github.io/posts/52fae707.html"/>
+    <id>https:/baimingxu.github.io/posts/52fae707.html</id>
     <published>2018-11-30T05:39:31.000Z</published>
     <updated>2018-11-30T09:14:16.000Z</updated>
     
@@ -38,21 +38,21 @@
     
     </summary>
     
-      <category term="区块链" scheme="https:/BaiMingxu.github.io/categories/%E5%8C%BA%E5%9D%97%E9%93%BE/"/>
+      <category term="区块链" scheme="https:/baimingxu.github.io/categories/%E5%8C%BA%E5%9D%97%E9%93%BE/"/>
     
-      <category term="密码学" scheme="https:/BaiMingxu.github.io/categories/%E5%8C%BA%E5%9D%97%E9%93%BE/%E5%AF%86%E7%A0%81%E5%AD%A6/"/>
+      <category term="密码学" scheme="https:/baimingxu.github.io/categories/%E5%8C%BA%E5%9D%97%E9%93%BE/%E5%AF%86%E7%A0%81%E5%AD%A6/"/>
     
     
-      <category term="加密算法" scheme="https:/BaiMingxu.github.io/tags/%E5%8A%A0%E5%AF%86%E7%AE%97%E6%B3%95/"/>
+      <category term="加密算法" scheme="https:/baimingxu.github.io/tags/%E5%8A%A0%E5%AF%86%E7%AE%97%E6%B3%95/"/>
     
-      <category term="比特币" scheme="https:/BaiMingxu.github.io/tags/%E6%AF%94%E7%89%B9%E5%B8%81/"/>
+      <category term="比特币" scheme="https:/baimingxu.github.io/tags/%E6%AF%94%E7%89%B9%E5%B8%81/"/>
     
   </entry>
   
   <entry>
     <title>初识Go</title>
-    <link href="https:/BaiMingxu.github.io/posts/3e321210.html"/>
-    <id>https:/BaiMingxu.github.io/posts/3e321210.html</id>
+    <link href="https:/baimingxu.github.io/posts/3e321210.html"/>
+    <id>https:/baimingxu.github.io/posts/3e321210.html</id>
     <published>2018-08-05T04:45:41.000Z</published>
     <updated>2018-11-30T09:12:00.000Z</updated>
     
@@ -71,17 +71,17 @@
     
     </summary>
     
-      <category term="后端" scheme="https:/BaiMingxu.github.io/categories/%E5%90%8E%E7%AB%AF/"/>
+      <category term="后端" scheme="https:/baimingxu.github.io/categories/%E5%90%8E%E7%AB%AF/"/>
     
     
-      <category term="GoLang" scheme="https:/BaiMingxu.github.io/tags/GoLang/"/>
+      <category term="GoLang" scheme="https:/baimingxu.github.io/tags/GoLang/"/>
     
   </entry>
   
   <entry>
     <title>比特币客户端Bitcoin Core及Bitcoin-cli命令</title>
-    <link href="https:/BaiMingxu.github.io/posts/f69008c9.html"/>
-    <id>https:/BaiMingxu.github.io/posts/f69008c9.html</id>
+    <link href="https:/baimingxu.github.io/posts/f69008c9.html"/>
+    <id>https:/baimingxu.github.io/posts/f69008c9.html</id>
     <published>2017-11-02T05:26:38.000Z</published>
     <updated>2018-11-30T05:49:57.000Z</updated>
     
@@ -97,17 +97,17 @@
     
     </summary>
     
-      <category term="区块链" scheme="https:/BaiMingxu.github.io/categories/%E5%8C%BA%E5%9D%97%E9%93%BE/"/>
+      <category term="区块链" scheme="https:/baimingxu.github.io/categories/%E5%8C%BA%E5%9D%97%E9%93%BE/"/>
     
     
-      <category term="比特币" scheme="https:/BaiMingxu.github.io/tags/%E6%AF%94%E7%89%B9%E5%B8%81/"/>
+      <category term="比特币" scheme="https:/baimingxu.github.io/tags/%E6%AF%94%E7%89%B9%E5%B8%81/"/>
     
   </entry>
   
   <entry>
     <title>比特币及区块链中常见问题</title>
-    <link href="https:/BaiMingxu.github.io/posts/6a013406.html"/>
-    <id>https:/BaiMingxu.github.io/posts/6a013406.html</id>
+    <link href="https:/baimingxu.github.io/posts/6a013406.html"/>
+    <id>https:/baimingxu.github.io/posts/6a013406.html</id>
     <published>2017-10-30T13:41:21.000Z</published>
     <updated>2018-11-30T05:53:52.000Z</updated>
     
@@ -123,19 +123,19 @@
     
     </summary>
     
-      <category term="区块链" scheme="https:/BaiMingxu.github.io/categories/%E5%8C%BA%E5%9D%97%E9%93%BE/"/>
+      <category term="区块链" scheme="https:/baimingxu.github.io/categories/%E5%8C%BA%E5%9D%97%E9%93%BE/"/>
     
     
-      <category term="比特币" scheme="https:/BaiMingxu.github.io/tags/%E6%AF%94%E7%89%B9%E5%B8%81/"/>
+      <category term="比特币" scheme="https:/baimingxu.github.io/tags/%E6%AF%94%E7%89%B9%E5%B8%81/"/>
     
-      <category term="blockchain" scheme="https:/BaiMingxu.github.io/tags/blockchain/"/>
+      <category term="blockchain" scheme="https:/baimingxu.github.io/tags/blockchain/"/>
     
   </entry>
   
   <entry>
     <title>初识区块链家族</title>
-    <link href="https:/BaiMingxu.github.io/posts/24d6384d.html"/>
-    <id>https:/BaiMingxu.github.io/posts/24d6384d.html</id>
+    <link href="https:/baimingxu.github.io/posts/24d6384d.html"/>
+    <id>https:/baimingxu.github.io/posts/24d6384d.html</id>
     <published>2017-10-29T06:13:45.000Z</published>
     <updated>2018-11-30T05:53:34.000Z</updated>
     
@@ -152,17 +152,17 @@
     
     </summary>
     
-      <category term="区块链" scheme="https:/BaiMingxu.github.io/categories/%E5%8C%BA%E5%9D%97%E9%93%BE/"/>
+      <category term="区块链" scheme="https:/baimingxu.github.io/categories/%E5%8C%BA%E5%9D%97%E9%93%BE/"/>
     
     
-      <category term="blockchain" scheme="https:/BaiMingxu.github.io/tags/blockchain/"/>
+      <category term="blockchain" scheme="https:/baimingxu.github.io/tags/blockchain/"/>
     
   </entry>
   
   <entry>
     <title>Go语言发展历史</title>
-    <link href="https:/BaiMingxu.github.io/posts/d8c1eece.html"/>
-    <id>https:/BaiMingxu.github.io/posts/d8c1eece.html</id>
+    <link href="https:/baimingxu.github.io/posts/d8c1eece.html"/>
+    <id>https:/baimingxu.github.io/posts/d8c1eece.html</id>
     <published>2017-10-26T08:22:53.000Z</published>
     <updated>2018-11-30T05:58:17.000Z</updated>
     
@@ -178,17 +178,17 @@
     
     </summary>
     
-      <category term="后端" scheme="https:/BaiMingxu.github.io/categories/%E5%90%8E%E7%AB%AF/"/>
+      <category term="后端" scheme="https:/baimingxu.github.io/categories/%E5%90%8E%E7%AB%AF/"/>
     
     
-      <category term="GoLang" scheme="https:/BaiMingxu.github.io/tags/GoLang/"/>
+      <category term="GoLang" scheme="https:/baimingxu.github.io/tags/GoLang/"/>
     
   </entry>
   
   <entry>
     <title>IRIS-Web框架</title>
-    <link href="https:/BaiMingxu.github.io/posts/166128a5.html"/>
-    <id>https:/BaiMingxu.github.io/posts/166128a5.html</id>
+    <link href="https:/baimingxu.github.io/posts/166128a5.html"/>
+    <id>https:/baimingxu.github.io/posts/166128a5.html</id>
     <published>2017-08-14T10:19:28.000Z</published>
     <updated>2018-12-04T11:33:00.000Z</updated>
     
@@ -207,19 +207,19 @@
     
     </summary>
     
-      <category term="后端" scheme="https:/BaiMingxu.github.io/categories/%E5%90%8E%E7%AB%AF/"/>
+      <category term="后端" scheme="https:/baimingxu.github.io/categories/%E5%90%8E%E7%AB%AF/"/>
     
     
-      <category term="GoLang" scheme="https:/BaiMingxu.github.io/tags/GoLang/"/>
+      <category term="GoLang" scheme="https:/baimingxu.github.io/tags/GoLang/"/>
     
-      <category term="IRIS" scheme="https:/BaiMingxu.github.io/tags/IRIS/"/>
+      <category term="IRIS" scheme="https:/baimingxu.github.io/tags/IRIS/"/>
     
   </entry>
   
   <entry>
     <title>Go实现加密算法</title>
-    <link href="https:/BaiMingxu.github.io/posts/6b392a9d.html"/>
-    <id>https:/BaiMingxu.github.io/posts/6b392a9d.html</id>
+    <link href="https:/baimingxu.github.io/posts/6b392a9d.html"/>
+    <id>https:/baimingxu.github.io/posts/6b392a9d.html</id>
     <published>2017-08-10T14:55:37.000Z</published>
     <updated>2018-11-30T05:57:52.000Z</updated>
     
@@ -238,19 +238,19 @@
     
     </summary>
     
-      <category term="密码学" scheme="https:/BaiMingxu.github.io/categories/%E5%AF%86%E7%A0%81%E5%AD%A6/"/>
+      <category term="密码学" scheme="https:/baimingxu.github.io/categories/%E5%AF%86%E7%A0%81%E5%AD%A6/"/>
     
     
-      <category term="GoLang" scheme="https:/BaiMingxu.github.io/tags/GoLang/"/>
+      <category term="GoLang" scheme="https:/baimingxu.github.io/tags/GoLang/"/>
     
-      <category term="加密算法" scheme="https:/BaiMingxu.github.io/tags/%E5%8A%A0%E5%AF%86%E7%AE%97%E6%B3%95/"/>
+      <category term="加密算法" scheme="https:/baimingxu.github.io/tags/%E5%8A%A0%E5%AF%86%E7%AE%97%E6%B3%95/"/>
     
   </entry>
   
   <entry>
     <title>Go—运算符</title>
-    <link href="https:/BaiMingxu.github.io/posts/d3d8daef.html"/>
-    <id>https:/BaiMingxu.github.io/posts/d3d8daef.html</id>
+    <link href="https:/baimingxu.github.io/posts/d3d8daef.html"/>
+    <id>https:/baimingxu.github.io/posts/d3d8daef.html</id>
     <published>2017-08-09T13:15:12.000Z</published>
     <updated>2018-11-30T05:57:01.000Z</updated>
     
@@ -269,17 +269,17 @@
     
     </summary>
     
-      <category term="后端" scheme="https:/BaiMingxu.github.io/categories/%E5%90%8E%E7%AB%AF/"/>
+      <category term="后端" scheme="https:/baimingxu.github.io/categories/%E5%90%8E%E7%AB%AF/"/>
     
     
-      <category term="GoLang" scheme="https:/BaiMingxu.github.io/tags/GoLang/"/>
+      <category term="GoLang" scheme="https:/baimingxu.github.io/tags/GoLang/"/>
     
   </entry>
   
   <entry>
     <title>Go—变量量及常量量</title>
-    <link href="https:/BaiMingxu.github.io/posts/251c8c15.html"/>
-    <id>https:/BaiMingxu.github.io/posts/251c8c15.html</id>
+    <link href="https:/baimingxu.github.io/posts/251c8c15.html"/>
+    <id>https:/baimingxu.github.io/posts/251c8c15.html</id>
     <published>2017-08-07T09:18:48.000Z</published>
     <updated>2018-11-30T05:56:32.000Z</updated>
     
@@ -298,17 +298,17 @@
     
     </summary>
     
-      <category term="后端" scheme="https:/BaiMingxu.github.io/categories/%E5%90%8E%E7%AB%AF/"/>
+      <category term="后端" scheme="https:/baimingxu.github.io/categories/%E5%90%8E%E7%AB%AF/"/>
     
     
-      <category term="GoLang" scheme="https:/BaiMingxu.github.io/tags/GoLang/"/>
+      <category term="GoLang" scheme="https:/baimingxu.github.io/tags/GoLang/"/>
     
   </entry>
   
   <entry>
     <title>Golang安装和配置</title>
-    <link href="https:/BaiMingxu.github.io/posts/883f59cd.html"/>
-    <id>https:/BaiMingxu.github.io/posts/883f59cd.html</id>
+    <link href="https:/baimingxu.github.io/posts/883f59cd.html"/>
+    <id>https:/baimingxu.github.io/posts/883f59cd.html</id>
     <published>2017-08-04T01:21:23.000Z</published>
     <updated>2018-11-30T06:00:36.000Z</updated>
     
@@ -327,19 +327,19 @@
     
     </summary>
     
-      <category term="后端" scheme="https:/BaiMingxu.github.io/categories/%E5%90%8E%E7%AB%AF/"/>
+      <category term="后端" scheme="https:/baimingxu.github.io/categories/%E5%90%8E%E7%AB%AF/"/>
     
     
-      <category term="开发环境" scheme="https:/BaiMingxu.github.io/tags/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/"/>
+      <category term="开发环境" scheme="https:/baimingxu.github.io/tags/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/"/>
     
-      <category term="Golang" scheme="https:/BaiMingxu.github.io/tags/Golang/"/>
+      <category term="Golang" scheme="https:/baimingxu.github.io/tags/Golang/"/>
     
   </entry>
   
   <entry>
     <title>Goland安装和配置</title>
-    <link href="https:/BaiMingxu.github.io/posts/a1f7ed3f.html"/>
-    <id>https:/BaiMingxu.github.io/posts/a1f7ed3f.html</id>
+    <link href="https:/baimingxu.github.io/posts/a1f7ed3f.html"/>
+    <id>https:/baimingxu.github.io/posts/a1f7ed3f.html</id>
     <published>2017-08-03T03:08:03.000Z</published>
     <updated>2019-03-25T08:18:58.563Z</updated>
     
@@ -359,19 +359,19 @@
     
     </summary>
     
-      <category term="后端" scheme="https:/BaiMingxu.github.io/categories/%E5%90%8E%E7%AB%AF/"/>
+      <category term="后端" scheme="https:/baimingxu.github.io/categories/%E5%90%8E%E7%AB%AF/"/>
     
     
-      <category term="Goland" scheme="https:/BaiMingxu.github.io/tags/Goland/"/>
+      <category term="Goland" scheme="https:/baimingxu.github.io/tags/Goland/"/>
     
-      <category term="开发工具" scheme="https:/BaiMingxu.github.io/tags/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/"/>
+      <category term="开发工具" scheme="https:/baimingxu.github.io/tags/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/"/>
     
   </entry>
   
   <entry>
     <title>字符集和字符编码问题</title>
-    <link href="https:/BaiMingxu.github.io/posts/ef82378d.html"/>
-    <id>https:/BaiMingxu.github.io/posts/ef82378d.html</id>
+    <link href="https:/baimingxu.github.io/posts/ef82378d.html"/>
+    <id>https:/baimingxu.github.io/posts/ef82378d.html</id>
     <published>2016-08-07T04:40:49.000Z</published>
     <updated>2019-03-25T08:19:35.729Z</updated>
     
@@ -390,12 +390,12 @@
     
     </summary>
     
-      <category term="计算机基础" scheme="https:/BaiMingxu.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/"/>
+      <category term="计算机基础" scheme="https:/baimingxu.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/"/>
     
     
-      <category term="字符集" scheme="https:/BaiMingxu.github.io/tags/%E5%AD%97%E7%AC%A6%E9%9B%86/"/>
+      <category term="字符集" scheme="https:/baimingxu.github.io/tags/%E5%AD%97%E7%AC%A6%E9%9B%86/"/>
     
-      <category term="字符编码" scheme="https:/BaiMingxu.github.io/tags/%E5%AD%97%E7%AC%A6%E7%BC%96%E7%A0%81/"/>
+      <category term="字符编码" scheme="https:/baimingxu.github.io/tags/%E5%AD%97%E7%AC%A6%E7%BC%96%E7%A0%81/"/>
     
   </entry>
   
